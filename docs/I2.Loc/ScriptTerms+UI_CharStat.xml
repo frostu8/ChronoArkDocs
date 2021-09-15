@@ -1,0 +1,273 @@
+<Type Name="ScriptTerms+UI_CharStat" FullName="I2.Loc.ScriptTerms+UI_CharStat">
+  <TypeSignature Language="C#" Value="public static class ScriptTerms.UI_CharStat" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract sealed beforefieldinit ScriptTerms/UI_CharStat extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ArkPart">
+      <MemberSignature Language="C#" Value="public const string ArkPart;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ArkPart" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lucy_Name">
+      <MemberSignature Language="C#" Value="public const string Lucy_Name;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Lucy_Name" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LucySkill_Main">
+      <MemberSignature Language="C#" Value="public const string LucySkill_Main;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string LucySkill_Main" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyStat_Draw">
+      <MemberSignature Language="C#" Value="public const string PartyStat_Draw;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyStat_Draw" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyStat_Main">
+      <MemberSignature Language="C#" Value="public const string PartyStat_Main;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyStat_Main" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyStat_MP">
+      <MemberSignature Language="C#" Value="public const string PartyStat_MP;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyStat_MP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyStat_MPSpeedDraw">
+      <MemberSignature Language="C#" Value="public const string PartyStat_MPSpeedDraw;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyStat_MPSpeedDraw" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyStat_Speed">
+      <MemberSignature Language="C#" Value="public const string PartyStat_Speed;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyStat_Speed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyState">
+      <MemberSignature Language="C#" Value="public const string PartyState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyUpgrade">
+      <MemberSignature Language="C#" Value="public const string PartyUpgrade;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyUpgrade" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyUpgrade_Draw">
+      <MemberSignature Language="C#" Value="public const string PartyUpgrade_Draw;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyUpgrade_Draw" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyUpgrade_Main">
+      <MemberSignature Language="C#" Value="public const string PartyUpgrade_Main;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyUpgrade_Main" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartyUpgrade_MP">
+      <MemberSignature Language="C#" Value="public const string PartyUpgrade_MP;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PartyUpgrade_MP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tooltip_Draw">
+      <MemberSignature Language="C#" Value="public const string Tooltip_Draw;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Tooltip_Draw" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tooltip_Esc">
+      <MemberSignature Language="C#" Value="public const string Tooltip_Esc;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Tooltip_Esc" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tooltip_MP">
+      <MemberSignature Language="C#" Value="public const string Tooltip_MP;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Tooltip_MP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tooltip_Speed">
+      <MemberSignature Language="C#" Value="public const string Tooltip_Speed;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Tooltip_Speed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

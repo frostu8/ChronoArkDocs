@@ -1,0 +1,87 @@
+<Type Name="S_Queen_0_1" FullName="S_Queen_0_1">
+  <TypeSignature Language="C#" Value="public class S_Queen_0_1 : Skill_Extended" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit S_Queen_0_1 extends " />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Skill_Extended</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public S_Queen_0_1 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DescExtended">
+      <MemberSignature Language="C#" Value="public override string DescExtended (string desc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string DescExtended(string desc) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="desc" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="desc">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillUseSingle">
+      <MemberSignature Language="C#" Value="public override void SkillUseSingle (Skill SkillD, System.Collections.Generic.List&lt;BattleChar&gt; Targets);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SkillUseSingle(Skill SkillD, class System.Collections.Generic.List`1&lt;BattleChar&gt; Targets) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SkillD" Type="Skill" />
+        <Parameter Name="Targets" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="SkillD">To be added.</param>
+        <param name="Targets">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Targetsave">
+      <MemberSignature Language="C#" Value="public BattleChar Targetsave;" />
+      <MemberSignature Language="ILAsm" Value=".field public BattleChar Targetsave" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

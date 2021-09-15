@@ -1,0 +1,179 @@
+<Type Name="SoftMaskScript" FullName="UnityEngine.UI.Extensions.SoftMaskScript">
+  <TypeSignature Language="C#" Value="public class SoftMaskScript : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SoftMaskScript extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.AddComponentMenu("UI/Effects/Extensions/SoftMaskScript")]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.ExecuteInEditMode]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SoftMaskScript ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AlphaMask">
+      <MemberSignature Language="C#" Value="public UnityEngine.Texture AlphaMask;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Texture AlphaMask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Texture to be used to do the soft alpha")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CutOff">
+      <MemberSignature Language="C#" Value="public float CutOff;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 CutOff" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0, 1)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("At what point to apply the alpha min range 0-1")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DontClipMaskScalingRect">
+      <MemberSignature Language="C#" Value="public bool DontClipMaskScalingRect;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool DontClipMaskScalingRect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("If a different Mask Scaling Rect is given, and this value is true, the area around the mask will not be clipped")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlipAlphaMask">
+      <MemberSignature Language="C#" Value="public bool FlipAlphaMask;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool FlipAlphaMask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Flip the masks alpha value")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCanvasRect">
+      <MemberSignature Language="C#" Value="public UnityEngine.Rect GetCanvasRect ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype UnityEngine.Rect GetCanvasRect() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HardBlend">
+      <MemberSignature Language="C#" Value="public bool HardBlend;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool HardBlend" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Implement a hard blend based on the Cutoff")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaskArea">
+      <MemberSignature Language="C#" Value="public UnityEngine.RectTransform MaskArea;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.RectTransform MaskArea" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("The area that is to be used as the container.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RectTransform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

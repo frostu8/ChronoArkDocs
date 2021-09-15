@@ -1,0 +1,475 @@
+<Type Name="SkillToolTip" FullName="SkillToolTip">
+  <TypeSignature Language="C#" Value="public class SkillToolTip : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SkillToolTip extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SkillToolTip ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorChange">
+      <MemberSignature Language="C#" Value="public static string ColorChange (string ColorCode, string Num);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ColorChange(string ColorCode, string Num) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ColorCode" Type="System.String" />
+        <Parameter Name="Num" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ColorCode">To be added.</param>
+        <param name="Num">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultSkillLine">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite DefaultSkillLine;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite DefaultSkillLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Desc">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI Desc;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI Desc" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnemyTarget">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite EnemyTarget;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite EnemyTarget" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceManaView">
+      <MemberSignature Language="C#" Value="public bool ForceManaView;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool ForceManaView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IllustEdge">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image IllustEdge;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image IllustEdge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Input">
+      <MemberSignature Language="C#" Value="public void Input (Skill Skill, Stat _stat, ToolTipWindow.SkillTooltipValues skillvalues, bool View = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Input(Skill Skill, Stat _stat, ToolTipWindow/SkillTooltipValues skillvalues, bool View) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Skill" Type="Skill" />
+        <Parameter Name="_stat" Type="Stat" />
+        <Parameter Name="skillvalues" Type="ToolTipWindow+SkillTooltipValues" />
+        <Parameter Name="View" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Skill">To be added.</param>
+        <param name="_stat">To be added.</param>
+        <param name="skillvalues">To be added.</param>
+        <param name="View">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MainString">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.VerticalLayoutGroup MainString;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.VerticalLayoutGroup MainString" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.VerticalLayoutGroup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MainTooltip">
+      <MemberSignature Language="C#" Value="public UnityEngine.RectTransform MainTooltip;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.RectTransform MainTooltip" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RectTransform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MP">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI MP;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI MP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MP2">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Text MP2;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Text MP2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Text</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MpIcon">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image MpIcon;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image MpIcon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MPIconObject">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject MPIconObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject MPIconObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI Name;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI Name" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlusSkillView">
+      <MemberSignature Language="C#" Value="public Skill PlusSkillView;" />
+      <MemberSignature Language="ILAsm" Value=".field public Skill PlusSkillView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlusTooltip">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform PlusTooltip;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform PlusTooltip" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlusTooltipsView">
+      <MemberSignature Language="C#" Value="public void PlusTooltipsView (SKILLOPTION so);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PlusTooltipsView(SKILLOPTION so) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="so" Type="SKILLOPTION" />
+      </Parameters>
+      <Docs>
+        <param name="so">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlusTooltipsView">
+      <MemberSignature Language="C#" Value="public void PlusTooltipsView (string Name, string Desc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PlusTooltipsView(string Name, string Desc) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Desc" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="Desc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RareSkillLine">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite RareSkillLine;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite RareSkillLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SEPos">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform SEPos;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform SEPos" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillClassImage">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image SkillClassImage;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image SkillClassImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillImage">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image SkillImage;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image SkillImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillTarget">
+      <MemberSignature Language="C#" Value="public static string SkillTarget (GameDataEditor.GDEs_targettypeData TargetType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SkillTarget(class GameDataEditor.GDEs_targettypeData TargetType) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TargetType" Type="GameDataEditor.GDEs_targettypeData" />
+      </Parameters>
+      <Docs>
+        <param name="TargetType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetType">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI TargetType;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI TargetType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetTypeBack">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image TargetTypeBack;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image TargetTypeBack" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Values">
+      <MemberSignature Language="C#" Value="public ToolTipWindow.SkillTooltipValues Values;" />
+      <MemberSignature Language="ILAsm" Value=".field public ToolTipWindow/SkillTooltipValues Values" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ToolTipWindow+SkillTooltipValues</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewBuffs">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Buff&gt; ViewBuffs (System.Collections.Generic.List&lt;BuffTag&gt; SkillBuffs, BattleChar Master);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.List`1&lt;Buff&gt; ViewBuffs(class System.Collections.Generic.List`1&lt;BuffTag&gt; SkillBuffs, BattleChar Master) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Buff&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SkillBuffs" Type="System.Collections.Generic.List&lt;BuffTag&gt;" />
+        <Parameter Name="Master" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="SkillBuffs">To be added.</param>
+        <param name="Master">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

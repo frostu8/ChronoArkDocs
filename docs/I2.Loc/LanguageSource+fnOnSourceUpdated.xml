@@ -1,0 +1,26 @@
+<Type Name="LanguageSource+fnOnSourceUpdated" FullName="I2.Loc.LanguageSource+fnOnSourceUpdated">
+  <TypeSignature Language="C#" Value="public delegate void LanguageSource.fnOnSourceUpdated(LanguageSourceData source, bool ReceivedNewData, string errorMsg);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed LanguageSource/fnOnSourceUpdated extends System.MulticastDelegate" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="source" Type="I2.Loc.LanguageSourceData" />
+    <Parameter Name="ReceivedNewData" Type="System.Boolean" />
+    <Parameter Name="errorMsg" Type="System.String" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="source">To be added.</param>
+    <param name="ReceivedNewData">To be added.</param>
+    <param name="errorMsg">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

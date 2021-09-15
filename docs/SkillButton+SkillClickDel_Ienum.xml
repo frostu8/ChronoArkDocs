@@ -1,0 +1,23 @@
+<Type Name="SkillButton+SkillClickDel_Ienum" FullName="SkillButton+SkillClickDel_Ienum">
+  <TypeSignature Language="C#" Value="public delegate System.Collections.IEnumerator SkillButton.SkillClickDel_Ienum(SkillButton Mybutton);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed SkillButton/SkillClickDel_Ienum extends System.MulticastDelegate" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="Mybutton" Type="SkillButton" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Collections.IEnumerator</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Mybutton">To be added.</param>
+    <summary>To be added.</summary>
+    <returns>To be added.</returns>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

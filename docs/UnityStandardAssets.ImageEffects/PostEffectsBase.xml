@@ -1,0 +1,290 @@
+<Type Name="PostEffectsBase" FullName="UnityStandardAssets.ImageEffects.PostEffectsBase">
+  <TypeSignature Language="C#" Value="public class PostEffectsBase : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PostEffectsBase extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.ExecuteInEditMode]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.RequireComponent(typeof(UnityEngine.Camera))]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PostEffectsBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckResources">
+      <MemberSignature Language="C#" Value="public virtual bool CheckResources ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CheckResources() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckShaderAndCreateMaterial">
+      <MemberSignature Language="C#" Value="protected UnityEngine.Material CheckShaderAndCreateMaterial (UnityEngine.Shader s, UnityEngine.Material m2Create);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class UnityEngine.Material CheckShaderAndCreateMaterial(class UnityEngine.Shader s, class UnityEngine.Material m2Create) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="s" Type="UnityEngine.Shader" />
+        <Parameter Name="m2Create" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="s">To be added.</param>
+        <param name="m2Create">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckSupport">
+      <MemberSignature Language="C#" Value="protected bool CheckSupport ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool CheckSupport() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckSupport">
+      <MemberSignature Language="C#" Value="protected bool CheckSupport (bool needDepth);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool CheckSupport(bool needDepth) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="needDepth" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="needDepth">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckSupport">
+      <MemberSignature Language="C#" Value="protected bool CheckSupport (bool needDepth, bool needHdr);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool CheckSupport(bool needDepth, bool needHdr) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="needDepth" Type="System.Boolean" />
+        <Parameter Name="needHdr" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="needDepth">To be added.</param>
+        <param name="needHdr">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateMaterial">
+      <MemberSignature Language="C#" Value="protected UnityEngine.Material CreateMaterial (UnityEngine.Shader s, UnityEngine.Material m2Create);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class UnityEngine.Material CreateMaterial(class UnityEngine.Shader s, class UnityEngine.Material m2Create) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="s" Type="UnityEngine.Shader" />
+        <Parameter Name="m2Create" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="s">To be added.</param>
+        <param name="m2Create">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawBorder">
+      <MemberSignature Language="C#" Value="protected void DrawBorder (UnityEngine.RenderTexture dest, UnityEngine.Material material);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void DrawBorder(class UnityEngine.RenderTexture dest, class UnityEngine.Material material) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dest" Type="UnityEngine.RenderTexture" />
+        <Parameter Name="material" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="dest">To be added.</param>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dx11Support">
+      <MemberSignature Language="C#" Value="public bool Dx11Support ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Dx11Support() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isSupported">
+      <MemberSignature Language="C#" Value="protected bool isSupported;" />
+      <MemberSignature Language="ILAsm" Value=".field family bool isSupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSupported">
+      <MemberSignature Language="C#" Value="protected void NotSupported ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void NotSupported() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReportAutoDisable">
+      <MemberSignature Language="C#" Value="protected void ReportAutoDisable ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void ReportAutoDisable() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="protected void Start ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void Start() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="supportDX11">
+      <MemberSignature Language="C#" Value="protected bool supportDX11;" />
+      <MemberSignature Language="ILAsm" Value=".field family bool supportDX11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="supportHDRTextures">
+      <MemberSignature Language="C#" Value="protected bool supportHDRTextures;" />
+      <MemberSignature Language="ILAsm" Value=".field family bool supportHDRTextures" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,92 @@
+<Type Name="CameraMotionBlur+MotionBlurFilter" FullName="UnityStandardAssets.ImageEffects.CameraMotionBlur+MotionBlurFilter">
+  <TypeSignature Language="C#" Value="public enum CameraMotionBlur.MotionBlurFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed CameraMotionBlur/MotionBlurFilter extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CameraMotion">
+      <MemberSignature Language="C#" Value="CameraMotion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.CameraMotionBlur/MotionBlurFilter CameraMotion = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.CameraMotionBlur+MotionBlurFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalBlur">
+      <MemberSignature Language="C#" Value="LocalBlur" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.CameraMotionBlur/MotionBlurFilter LocalBlur = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.CameraMotionBlur+MotionBlurFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reconstruction">
+      <MemberSignature Language="C#" Value="Reconstruction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.CameraMotionBlur/MotionBlurFilter Reconstruction = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.CameraMotionBlur+MotionBlurFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReconstructionDisc">
+      <MemberSignature Language="C#" Value="ReconstructionDisc" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.CameraMotionBlur/MotionBlurFilter ReconstructionDisc = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.CameraMotionBlur+MotionBlurFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReconstructionDX11">
+      <MemberSignature Language="C#" Value="ReconstructionDX11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.CameraMotionBlur/MotionBlurFilter ReconstructionDX11 = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.CameraMotionBlur+MotionBlurFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,92 @@
+<Type Name="ScreenOverlay+OverlayBlendMode" FullName="UnityStandardAssets.ImageEffects.ScreenOverlay+OverlayBlendMode">
+  <TypeSignature Language="C#" Value="public enum ScreenOverlay.OverlayBlendMode" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed ScreenOverlay/OverlayBlendMode extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Additive">
+      <MemberSignature Language="C#" Value="Additive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.ScreenOverlay/OverlayBlendMode Additive = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.ScreenOverlay+OverlayBlendMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AlphaBlend">
+      <MemberSignature Language="C#" Value="AlphaBlend" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.ScreenOverlay/OverlayBlendMode AlphaBlend = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.ScreenOverlay+OverlayBlendMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Multiply">
+      <MemberSignature Language="C#" Value="Multiply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.ScreenOverlay/OverlayBlendMode Multiply = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.ScreenOverlay+OverlayBlendMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Overlay">
+      <MemberSignature Language="C#" Value="Overlay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.ScreenOverlay/OverlayBlendMode Overlay = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.ScreenOverlay+OverlayBlendMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ScreenBlend">
+      <MemberSignature Language="C#" Value="ScreenBlend" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.ScreenOverlay/OverlayBlendMode ScreenBlend = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.ScreenOverlay+OverlayBlendMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

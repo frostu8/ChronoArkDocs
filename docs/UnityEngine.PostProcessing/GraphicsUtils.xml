@@ -1,0 +1,167 @@
+<Type Name="GraphicsUtils" FullName="UnityEngine.PostProcessing.GraphicsUtils">
+  <TypeSignature Language="C#" Value="public static class GraphicsUtils" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GraphicsUtils extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Blit">
+      <MemberSignature Language="C#" Value="public static void Blit (UnityEngine.Material material, int pass);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Blit(class UnityEngine.Material material, int32 pass) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.Material" />
+        <Parameter Name="pass" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="pass">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAndBlit">
+      <MemberSignature Language="C#" Value="public static void ClearAndBlit (UnityEngine.Texture source, UnityEngine.RenderTexture destination, UnityEngine.Material material, int pass, bool clearColor = true, bool clearDepth = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ClearAndBlit(class UnityEngine.Texture source, class UnityEngine.RenderTexture destination, class UnityEngine.Material material, int32 pass, bool clearColor, bool clearDepth) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.Texture" />
+        <Parameter Name="destination" Type="UnityEngine.RenderTexture" />
+        <Parameter Name="material" Type="UnityEngine.Material" />
+        <Parameter Name="pass" Type="System.Int32" />
+        <Parameter Name="clearColor" Type="System.Boolean" />
+        <Parameter Name="clearDepth" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="destination">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="pass">To be added.</param>
+        <param name="clearColor">To be added.</param>
+        <param name="clearDepth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Destroy">
+      <MemberSignature Language="C#" Value="public static void Destroy (UnityEngine.Object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Destroy(class UnityEngine.Object obj) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="UnityEngine.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public static void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Dispose() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isLinearColorSpace">
+      <MemberSignature Language="C#" Value="public static bool isLinearColorSpace { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property bool isLinearColorSpace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="quad">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Mesh quad { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class UnityEngine.Mesh quad" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Mesh</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="supportsDX11">
+      <MemberSignature Language="C#" Value="public static bool supportsDX11 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property bool supportsDX11" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="whiteTexture">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Texture2D whiteTexture { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class UnityEngine.Texture2D whiteTexture" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,47 @@
+<Type Name="Bloom+BloomScreenBlendMode" FullName="UnityStandardAssets.ImageEffects.Bloom+BloomScreenBlendMode">
+  <TypeSignature Language="C#" Value="public enum Bloom.BloomScreenBlendMode" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed Bloom/BloomScreenBlendMode extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="Add" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.Bloom/BloomScreenBlendMode Add = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Bloom+BloomScreenBlendMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Screen">
+      <MemberSignature Language="C#" Value="Screen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.Bloom/BloomScreenBlendMode Screen = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Bloom+BloomScreenBlendMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

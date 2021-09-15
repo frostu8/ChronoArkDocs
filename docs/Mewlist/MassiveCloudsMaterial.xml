@@ -1,0 +1,304 @@
+<Type Name="MassiveCloudsMaterial" FullName="Mewlist.MassiveCloudsMaterial">
+  <TypeSignature Language="C#" Value="public class MassiveCloudsMaterial" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MassiveCloudsMaterial extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MassiveCloudsMaterial ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloudMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material CloudMaterial { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class UnityEngine.Material CloudMaterial" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeightFogMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material HeightFogMaterial { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class UnityEngine.Material HeightFogMaterial" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MixMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material MixMaterial { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class UnityEngine.Material MixMaterial" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBaseColor">
+      <MemberSignature Language="C#" Value="public void SetBaseColor (UnityEngine.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBaseColor(valuetype UnityEngine.Color color) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="color">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDirectionalLight">
+      <MemberSignature Language="C#" Value="public void SetDirectionalLight (Mewlist.MassiveCloudsLight light, float scale);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetDirectionalLight(class Mewlist.MassiveCloudsLight light, float32 scale) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="light" Type="Mewlist.MassiveCloudsLight" />
+        <Parameter Name="scale" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="light">To be added.</param>
+        <param name="scale">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFade">
+      <MemberSignature Language="C#" Value="public void SetFade (float v);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetFade(float32 v) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="v" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="v">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFogColor">
+      <MemberSignature Language="C#" Value="public void SetFogColor (UnityEngine.Color color, UnityEngine.Color topColor);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetFogColor(valuetype UnityEngine.Color color, valuetype UnityEngine.Color topColor) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="topColor" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="color">To be added.</param>
+        <param name="topColor">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetNightLight">
+      <MemberSignature Language="C#" Value="public void SetNightLight (Mewlist.MassiveCloudsLight light, float scale);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetNightLight(class Mewlist.MassiveCloudsLight light, float32 scale) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="light" Type="Mewlist.MassiveCloudsLight" />
+        <Parameter Name="scale" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="light">To be added.</param>
+        <param name="scale">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetParameter">
+      <MemberSignature Language="C#" Value="public void SetParameter (Mewlist.MassiveCloudsParameter parameter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetParameter(valuetype Mewlist.MassiveCloudsParameter parameter) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameter" Type="Mewlist.MassiveCloudsParameter" />
+      </Parameters>
+      <Docs>
+        <param name="parameter">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProfile">
+      <MemberSignature Language="C#" Value="public void SetProfile (Mewlist.MassiveCloudsProfile profile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetProfile(class Mewlist.MassiveCloudsProfile profile) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profile" Type="Mewlist.MassiveCloudsProfile" />
+      </Parameters>
+      <Docs>
+        <param name="profile">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetScrollOffset">
+      <MemberSignature Language="C#" Value="public void SetScrollOffset (UnityEngine.Vector3 offset);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetScrollOffset(valuetype UnityEngine.Vector3 offset) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="offset">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShaodwColor">
+      <MemberSignature Language="C#" Value="public void SetShaodwColor (UnityEngine.Color color);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetShaodwColor(valuetype UnityEngine.Color color) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="color" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="color">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShadowMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material ShadowMaterial { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class UnityEngine.Material ShadowMaterial" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VolumetricShadowMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material VolumetricShadowMaterial { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class UnityEngine.Material VolumetricShadowMaterial" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VolumetricShadowMixMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material VolumetricShadowMixMaterial { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class UnityEngine.Material VolumetricShadowMixMaterial" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

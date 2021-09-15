@@ -1,0 +1,220 @@
+<Type Name="DialogueStandingObject" FullName="DialogueStandingObject">
+  <TypeSignature Language="C#" Value="public class DialogueStandingObject : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DialogueStandingObject extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DialogueStandingObject ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CamPos">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform CamPos;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform CamPos" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeSprite">
+      <MemberSignature Language="C#" Value="public void ChangeSprite (UnityEngine.Sprite ChangeSprite);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ChangeSprite(class UnityEngine.Sprite ChangeSprite) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ChangeSprite" Type="UnityEngine.Sprite" />
+      </Parameters>
+      <Docs>
+        <param name="ChangeSprite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CharStandingInfo">
+      <MemberSignature Language="C#" Value="public StandingInfo CharStandingInfo;" />
+      <MemberSignature Language="ILAsm" Value=".field public StandingInfo CharStandingInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>StandingInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public void Init (UnityEngine.Sprite DefultSprite);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Init(class UnityEngine.Sprite DefultSprite) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="DefultSprite" Type="UnityEngine.Sprite" />
+      </Parameters>
+      <Docs>
+        <param name="DefultSprite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MainAni">
+      <MemberSignature Language="C#" Value="public UnityEngine.Animator MainAni;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Animator MainAni" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Animator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="shake">
+      <MemberSignature Language="C#" Value="public Shake shake;" />
+      <MemberSignature Language="ILAsm" Value=".field public Shake shake" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Shake</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpriteChangeAniEnd">
+      <MemberSignature Language="C#" Value="public void SpriteChangeAniEnd ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SpriteChangeAniEnd() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standing1">
+      <MemberSignature Language="C#" Value="public UnityEngine.SpriteRenderer Standing1;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.SpriteRenderer Standing1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SpriteRenderer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standing1Back">
+      <MemberSignature Language="C#" Value="public UnityEngine.SpriteRenderer Standing1Back;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.SpriteRenderer Standing1Back" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SpriteRenderer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standing2">
+      <MemberSignature Language="C#" Value="public UnityEngine.SpriteRenderer Standing2;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.SpriteRenderer Standing2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SpriteRenderer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standing2Back">
+      <MemberSignature Language="C#" Value="public UnityEngine.SpriteRenderer Standing2Back;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.SpriteRenderer Standing2Back" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SpriteRenderer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandingEffect">
+      <MemberSignature Language="C#" Value="public UnityEngine.SpriteRenderer StandingEffect;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.SpriteRenderer StandingEffect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SpriteRenderer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

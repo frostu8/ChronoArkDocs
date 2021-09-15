@@ -1,0 +1,35 @@
+<Type Name="ILocalizationParamsManager" FullName="I2.Loc.ILocalizationParamsManager">
+  <TypeSignature Language="C#" Value="public interface ILocalizationParamsManager" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILocalizationParamsManager" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetParameterValue">
+      <MemberSignature Language="C#" Value="public string GetParameterValue (string Param);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetParameterValue(string Param) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Param" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Param">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

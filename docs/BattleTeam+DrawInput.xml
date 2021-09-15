@@ -1,0 +1,22 @@
+<Type Name="BattleTeam+DrawInput" FullName="BattleTeam+DrawInput">
+  <TypeSignature Language="C#" Value="public delegate void BattleTeam.DrawInput(Skill skill);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BattleTeam/DrawInput extends System.MulticastDelegate" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="skill" Type="Skill" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="skill">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,32 @@
+<Type Name="IP_Getstat" FullName="IP_Getstat">
+  <TypeSignature Language="C#" Value="public interface IP_Getstat" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IP_Getstat" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PlusGetStat">
+      <MemberSignature Language="C#" Value="public Stat PlusGetStat ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance Stat PlusGetStat() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Stat</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

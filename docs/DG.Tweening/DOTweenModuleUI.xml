@@ -1,0 +1,1046 @@
+<Type Name="DOTweenModuleUI" FullName="DG.Tweening.DOTweenModuleUI">
+  <TypeSignature Language="C#" Value="public static class DOTweenModuleUI" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DOTweenModuleUI extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DOAnchorMax">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorMax (this UnityEngine.RectTransform target, UnityEngine.Vector2 endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorMax(class UnityEngine.RectTransform target, valuetype UnityEngine.Vector2 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOAnchorMin">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorMin (this UnityEngine.RectTransform target, UnityEngine.Vector2 endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorMin(class UnityEngine.RectTransform target, valuetype UnityEngine.Vector2 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOAnchorPos">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos (this UnityEngine.RectTransform target, UnityEngine.Vector2 endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos(class UnityEngine.RectTransform target, valuetype UnityEngine.Vector2 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOAnchorPos3D">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos3D (this UnityEngine.RectTransform target, UnityEngine.Vector3 endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector3, valuetype UnityEngine.Vector3, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos3D(class UnityEngine.RectTransform target, valuetype UnityEngine.Vector3 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector3" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOAnchorPos3DX">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos3DX (this UnityEngine.RectTransform target, float endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector3, valuetype UnityEngine.Vector3, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos3DX(class UnityEngine.RectTransform target, float32 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOAnchorPos3DY">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos3DY (this UnityEngine.RectTransform target, float endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector3, valuetype UnityEngine.Vector3, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos3DY(class UnityEngine.RectTransform target, float32 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOAnchorPos3DZ">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos3DZ (this UnityEngine.RectTransform target, float endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector3, valuetype UnityEngine.Vector3, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPos3DZ(class UnityEngine.RectTransform target, float32 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOAnchorPosX">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPosX (this UnityEngine.RectTransform target, float endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPosX(class UnityEngine.RectTransform target, float32 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOAnchorPosY">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPosY (this UnityEngine.RectTransform target, float endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOAnchorPosY(class UnityEngine.RectTransform target, float32 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOBlendableColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DOBlendableColor (this UnityEngine.UI.Graphic target, UnityEngine.Color endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DOBlendableColor(class UnityEngine.UI.Graphic target, valuetype UnityEngine.Color endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Graphic" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Color" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOBlendableColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DOBlendableColor (this UnityEngine.UI.Image target, UnityEngine.Color endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DOBlendableColor(class UnityEngine.UI.Image target, valuetype UnityEngine.Color endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Image" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Color" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOBlendableColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DOBlendableColor (this UnityEngine.UI.Text target, UnityEngine.Color endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DOBlendableColor(class UnityEngine.UI.Text target, valuetype UnityEngine.Color endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Text" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Color" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor (this UnityEngine.UI.Graphic target, UnityEngine.Color endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor(class UnityEngine.UI.Graphic target, valuetype UnityEngine.Color endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Graphic" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Color" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor (this UnityEngine.UI.Image target, UnityEngine.Color endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor(class UnityEngine.UI.Image target, valuetype UnityEngine.Color endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Image" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Color" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor (this UnityEngine.UI.Outline target, UnityEngine.Color endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor(class UnityEngine.UI.Outline target, valuetype UnityEngine.Color endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Outline" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Color" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor (this UnityEngine.UI.Text target, UnityEngine.Color endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor(class UnityEngine.UI.Text target, valuetype UnityEngine.Color endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Text" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Color" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFade">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;float,float,DG.Tweening.Plugins.Options.FloatOptions&gt; DOFade (this UnityEngine.CanvasGroup target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;float32, float32, valuetype DG.Tweening.Plugins.Options.FloatOptions&gt; DOFade(class UnityEngine.CanvasGroup target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.CanvasGroup" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFade">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade (this UnityEngine.UI.Graphic target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade(class UnityEngine.UI.Graphic target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Graphic" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFade">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade (this UnityEngine.UI.Image target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade(class UnityEngine.UI.Image target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Image" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFade">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade (this UnityEngine.UI.Outline target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade(class UnityEngine.UI.Outline target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Outline" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFade">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade (this UnityEngine.UI.Text target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade(class UnityEngine.UI.Text target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Text" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFillAmount">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;float,float,DG.Tweening.Plugins.Options.FloatOptions&gt; DOFillAmount (this UnityEngine.UI.Image target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;float32, float32, valuetype DG.Tweening.Plugins.Options.FloatOptions&gt; DOFillAmount(class UnityEngine.UI.Image target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Image" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFlexibleSize">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOFlexibleSize (this UnityEngine.UI.LayoutElement target, UnityEngine.Vector2 endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOFlexibleSize(class UnityEngine.UI.LayoutElement target, valuetype UnityEngine.Vector2 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.LayoutElement" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOGradientColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Sequence DOGradientColor (this UnityEngine.UI.Image target, UnityEngine.Gradient gradient, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Sequence DOGradientColor(class UnityEngine.UI.Image target, class UnityEngine.Gradient gradient, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Sequence</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Image" RefType="this" />
+        <Parameter Name="gradient" Type="UnityEngine.Gradient" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="gradient">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOHorizontalNormalizedPos">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DOHorizontalNormalizedPos (this UnityEngine.UI.ScrollRect target, float endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DOHorizontalNormalizedPos(class UnityEngine.UI.ScrollRect target, float32 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.ScrollRect" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOJumpAnchorPos">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Sequence DOJumpAnchorPos (this UnityEngine.RectTransform target, UnityEngine.Vector2 endValue, float jumpPower, int numJumps, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Sequence DOJumpAnchorPos(class UnityEngine.RectTransform target, valuetype UnityEngine.Vector2 endValue, float32 jumpPower, int32 numJumps, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Sequence</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="jumpPower" Type="System.Single" />
+        <Parameter Name="numJumps" Type="System.Int32" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="jumpPower">To be added.</param>
+        <param name="numJumps">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOMinSize">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOMinSize (this UnityEngine.UI.LayoutElement target, UnityEngine.Vector2 endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOMinSize(class UnityEngine.UI.LayoutElement target, valuetype UnityEngine.Vector2 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.LayoutElement" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DONormalizedPos">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DONormalizedPos (this UnityEngine.UI.ScrollRect target, UnityEngine.Vector2 endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DONormalizedPos(class UnityEngine.UI.ScrollRect target, valuetype UnityEngine.Vector2 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.ScrollRect" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPivot">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOPivot (this UnityEngine.RectTransform target, UnityEngine.Vector2 endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOPivot(class UnityEngine.RectTransform target, valuetype UnityEngine.Vector2 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPivotX">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOPivotX (this UnityEngine.RectTransform target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOPivotX(class UnityEngine.RectTransform target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPivotY">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOPivotY (this UnityEngine.RectTransform target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOPivotY(class UnityEngine.RectTransform target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPreferredSize">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOPreferredSize (this UnityEngine.UI.LayoutElement target, UnityEngine.Vector2 endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOPreferredSize(class UnityEngine.UI.LayoutElement target, valuetype UnityEngine.Vector2 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.LayoutElement" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPunchAnchorPos">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DOPunchAnchorPos (this UnityEngine.RectTransform target, UnityEngine.Vector2 punch, float duration, int vibrato = 10, float elasticity = 1, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DOPunchAnchorPos(class UnityEngine.RectTransform target, valuetype UnityEngine.Vector2 punch, float32 duration, int32 vibrato, float32 elasticity, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="punch" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="vibrato" Type="System.Int32" />
+        <Parameter Name="elasticity" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="punch">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="vibrato">To be added.</param>
+        <param name="elasticity">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOScale">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOScale (this UnityEngine.UI.Outline target, UnityEngine.Vector2 endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOScale(class UnityEngine.UI.Outline target, valuetype UnityEngine.Vector2 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Outline" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOShakeAnchorPos">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DOShakeAnchorPos (this UnityEngine.RectTransform target, float duration, float strength = 100, int vibrato = 10, float randomness = 90, bool snapping = false, bool fadeOut = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DOShakeAnchorPos(class UnityEngine.RectTransform target, float32 duration, float32 strength, int32 vibrato, float32 randomness, bool snapping, bool fadeOut) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="strength" Type="System.Single" />
+        <Parameter Name="vibrato" Type="System.Int32" />
+        <Parameter Name="randomness" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+        <Parameter Name="fadeOut" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="strength">To be added.</param>
+        <param name="vibrato">To be added.</param>
+        <param name="randomness">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <param name="fadeOut">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOShakeAnchorPos">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DOShakeAnchorPos (this UnityEngine.RectTransform target, float duration, UnityEngine.Vector2 strength, int vibrato = 10, float randomness = 90, bool snapping = false, bool fadeOut = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DOShakeAnchorPos(class UnityEngine.RectTransform target, float32 duration, valuetype UnityEngine.Vector2 strength, int32 vibrato, float32 randomness, bool snapping, bool fadeOut) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="strength" Type="UnityEngine.Vector2" />
+        <Parameter Name="vibrato" Type="System.Int32" />
+        <Parameter Name="randomness" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+        <Parameter Name="fadeOut" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="strength">To be added.</param>
+        <param name="vibrato">To be added.</param>
+        <param name="randomness">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <param name="fadeOut">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOSizeDelta">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOSizeDelta (this UnityEngine.RectTransform target, UnityEngine.Vector2 endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOSizeDelta(class UnityEngine.RectTransform target, valuetype UnityEngine.Vector2 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.RectTransform" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOText">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;string,string,DG.Tweening.Plugins.Options.StringOptions&gt; DOText (this UnityEngine.UI.Text target, string endValue, float duration, bool richTextEnabled = true, DG.Tweening.ScrambleMode scrambleMode = DG.Tweening.ScrambleMode.None, string scrambleChars = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;string, string, valuetype DG.Tweening.Plugins.Options.StringOptions&gt; DOText(class UnityEngine.UI.Text target, string endValue, float32 duration, bool richTextEnabled, valuetype DG.Tweening.ScrambleMode scrambleMode, string scrambleChars) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;System.String,System.String,DG.Tweening.Plugins.Options.StringOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Text" RefType="this" />
+        <Parameter Name="endValue" Type="System.String" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="richTextEnabled" Type="System.Boolean" />
+        <Parameter Name="scrambleMode" Type="DG.Tweening.ScrambleMode" />
+        <Parameter Name="scrambleChars" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="richTextEnabled">To be added.</param>
+        <param name="scrambleMode">To be added.</param>
+        <param name="scrambleChars">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOValue">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;float,float,DG.Tweening.Plugins.Options.FloatOptions&gt; DOValue (this UnityEngine.UI.Slider target, float endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;float32, float32, valuetype DG.Tweening.Plugins.Options.FloatOptions&gt; DOValue(class UnityEngine.UI.Slider target, float32 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.Slider" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOVerticalNormalizedPos">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DOVerticalNormalizedPos (this UnityEngine.UI.ScrollRect target, float endValue, float duration, bool snapping = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DOVerticalNormalizedPos(class UnityEngine.UI.ScrollRect target, float32 endValue, float32 duration, bool snapping) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.UI.ScrollRect" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+        <Parameter Name="snapping" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <param name="snapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

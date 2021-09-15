@@ -1,0 +1,47 @@
+<Type Name="ColorGradingModel+ColorWheelMode" FullName="UnityEngine.PostProcessing.ColorGradingModel+ColorWheelMode">
+  <TypeSignature Language="C#" Value="public enum ColorGradingModel.ColorWheelMode" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed ColorGradingModel/ColorWheelMode extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Linear">
+      <MemberSignature Language="C#" Value="Linear" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.ColorGradingModel/ColorWheelMode Linear = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ColorGradingModel+ColorWheelMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Log">
+      <MemberSignature Language="C#" Value="Log" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.ColorGradingModel/ColorWheelMode Log = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ColorGradingModel+ColorWheelMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

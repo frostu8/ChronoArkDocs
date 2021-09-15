@@ -1,0 +1,295 @@
+<Type Name="HexGenerator" FullName="HexGenerator">
+  <TypeSignature Language="C#" Value="public class HexGenerator : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HexGenerator extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HexGenerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddEventPos">
+      <MemberSignature Language="C#" Value="public void AddEventPos (HexMap map, UnityEngine.Vector2Int pos, TileType type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddEventPos(HexMap map, valuetype UnityEngine.Vector2Int pos, TileType type) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="map" Type="HexMap" />
+        <Parameter Name="pos" Type="UnityEngine.Vector2Int" />
+        <Parameter Name="type" Type="TileType" />
+      </Parameters>
+      <Docs>
+        <param name="map">To be added.</param>
+        <param name="pos">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Again">
+      <MemberSignature Language="C#" Value="public bool Again;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Again" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Camp">
+      <MemberSignature Language="C#" Value="public HexMap Camp (string key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance HexMap Camp(string key) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>HexMap</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinalMap">
+      <MemberSignature Language="C#" Value="public HexMap FinalMap ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance HexMap FinalMap() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>HexMap</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenAster">
+      <MemberSignature Language="C#" Value="public AStar GenAster;" />
+      <MemberSignature Language="ILAsm" Value=".field public AStar GenAster" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>AStar</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GeneratorMap">
+      <MemberSignature Language="C#" Value="public HexMap GeneratorMap (GameDataEditor.GDEStageData StageData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance HexMap GeneratorMap(class GameDataEditor.GDEStageData StageData) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>HexMap</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="StageData" Type="GameDataEditor.GDEStageData" />
+      </Parameters>
+      <Docs>
+        <param name="StageData">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntroMap">
+      <MemberSignature Language="C#" Value="public HexMap IntroMap ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance HexMap IntroMap() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>HexMap</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntroMap2">
+      <MemberSignature Language="C#" Value="public HexMap IntroMap2 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance HexMap IntroMap2() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>HexMap</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoopCheck">
+      <MemberSignature Language="C#" Value="public int LoopCheck;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 LoopCheck" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NullMap">
+      <MemberSignature Language="C#" Value="public HexMap NullMap (string key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance HexMap NullMap(string key) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>HexMap</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public static bool Path (UnityEngine.Vector2 Start, UnityEngine.Vector2 End, HexMap TempMap);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Path(valuetype UnityEngine.Vector2 Start, valuetype UnityEngine.Vector2 End, HexMap TempMap) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="UnityEngine.Vector2" />
+        <Parameter Name="End" Type="UnityEngine.Vector2" />
+        <Parameter Name="TempMap" Type="HexMap" />
+      </Parameters>
+      <Docs>
+        <param name="Start">To be added.</param>
+        <param name="End">To be added.</param>
+        <param name="TempMap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PathAuto">
+      <MemberSignature Language="C#" Value="public void PathAuto (TileType Type, ref HexMap TempMap);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PathAuto(TileType Type, HexMap&amp; TempMap) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="TileType" />
+        <Parameter Name="TempMap" Type="HexMap" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Type">To be added.</param>
+        <param name="TempMap">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PathCreate">
+      <MemberSignature Language="C#" Value="public static void PathCreate (UnityEngine.Vector2 Start, UnityEngine.Vector2 End, ref HexMap TempMap);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void PathCreate(valuetype UnityEngine.Vector2 Start, valuetype UnityEngine.Vector2 End, HexMap&amp; TempMap) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="UnityEngine.Vector2" />
+        <Parameter Name="End" Type="UnityEngine.Vector2" />
+        <Parameter Name="TempMap" Type="HexMap" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Start">To be added.</param>
+        <param name="End">To be added.</param>
+        <param name="TempMap">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TutorialMap">
+      <MemberSignature Language="C#" Value="public HexMap TutorialMap ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance HexMap TutorialMap() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>HexMap</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

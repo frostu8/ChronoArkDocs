@@ -1,0 +1,1308 @@
+<Type Name="Skill" FullName="Skill">
+  <TypeSignature Language="C#" Value="public class Skill" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Skill extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Skill ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_AP">
+      <MemberSignature Language="C#" Value="public int _AP;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 _AP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Counting">
+      <MemberSignature Language="C#" Value="public int _Counting;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 _Counting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllExtendeds">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Skill_Extended&gt; AllExtendeds;" />
+      <MemberSignature Language="ILAsm" Value=".field public class System.Collections.Generic.List`1&lt;Skill_Extended&gt; AllExtendeds" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Skill_Extended&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AP">
+      <MemberSignature Language="C#" Value="public int AP { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AP" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="APChange">
+      <MemberSignature Language="C#" Value="public int APChange;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 APChange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoDelete">
+      <MemberSignature Language="C#" Value="public int AutoDelete;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 AutoDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasicOption">
+      <MemberSignature Language="C#" Value="public bool BasicOption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BasicOption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasicSkill">
+      <MemberSignature Language="C#" Value="public bool BasicSkill;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool BasicSkill" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasicSkillButton">
+      <MemberSignature Language="C#" Value="public BasicSkill BasicSkillButton;" />
+      <MemberSignature Language="ILAsm" Value=".field public BasicSkill BasicSkillButton" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BasicSkill</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CharToSkills">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;Skill&gt; CharToSkills (BattleChar Input, BattleTeam Team);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;Skill&gt; CharToSkills(BattleChar Input, BattleTeam Team) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Skill&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Input" Type="BattleChar" />
+        <Parameter Name="Team" Type="BattleTeam" />
+      </Parameters>
+      <Docs>
+        <param name="Input">To be added.</param>
+        <param name="Team">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChoiceSkillList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Skill&gt; ChoiceSkillList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;Skill&gt; ChoiceSkillList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Skill&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChoiceSkillListCheck">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; ChoiceSkillListCheck { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;string&gt; ChoiceSkillListCheck" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloneSkill">
+      <MemberSignature Language="C#" Value="public Skill CloneSkill (bool Perfect = false, BattleChar User = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Skill CloneSkill(bool Perfect, BattleChar User) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Perfect" Type="System.Boolean" />
+        <Parameter Name="User" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="Perfect">To be added.</param>
+        <param name="User">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CounterEnable">
+      <MemberSignature Language="C#" Value="public bool CounterEnable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CounterEnable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Counting">
+      <MemberSignature Language="C#" Value="public int Counting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Counting" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delay">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator Delay (bool Use);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator Delay(bool Use) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Use" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Use">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (bool ClickWaste = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(bool ClickWaste) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClickWaste" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ClickWaste">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteCheck">
+      <MemberSignature Language="C#" Value="public bool DeleteCheck ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool DeleteCheck() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteData">
+      <MemberSignature Language="C#" Value="public void DeleteData (bool Useskill);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteData(bool Useskill) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Useskill" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Useskill">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelObj">
+      <MemberSignature Language="C#" Value="public object DelObj;" />
+      <MemberSignature Language="ILAsm" Value=".field public object DelObj" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Disposable">
+      <MemberSignature Language="C#" Value="public bool Disposable;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Disposable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Except">
+      <MemberSignature Language="C#" Value="public void Except ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Except() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedAdd">
+      <MemberSignature Language="C#" Value="public Skill_Extended ExtendedAdd (Skill_Extended Extended);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Skill_Extended ExtendedAdd(Skill_Extended Extended) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill_Extended</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Extended" Type="Skill_Extended" />
+      </Parameters>
+      <Docs>
+        <param name="Extended">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedAdd_Battle">
+      <MemberSignature Language="C#" Value="public Skill_Extended ExtendedAdd_Battle (Skill_Extended Extended);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Skill_Extended ExtendedAdd_Battle(Skill_Extended Extended) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill_Extended</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Extended" Type="Skill_Extended" />
+      </Parameters>
+      <Docs>
+        <param name="Extended">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedClone">
+      <MemberSignature Language="C#" Value="public Skill_Extended ExtendedClone (BattleChar User, Skill_Extended MainEx, Skill MainSkill);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Skill_Extended ExtendedClone(BattleChar User, Skill_Extended MainEx, Skill MainSkill) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill_Extended</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="MainEx" Type="Skill_Extended" />
+        <Parameter Name="MainSkill" Type="Skill" />
+      </Parameters>
+      <Docs>
+        <param name="User">To be added.</param>
+        <param name="MainEx">To be added.</param>
+        <param name="MainSkill">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedDelete">
+      <MemberSignature Language="C#" Value="public Skill ExtendedDelete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Skill ExtendedDelete() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedFind">
+      <MemberSignature Language="C#" Value="public Skill_Extended ExtendedFind (string ExtendedName, bool NoError = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Skill_Extended ExtendedFind(string ExtendedName, bool NoError) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill_Extended</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ExtendedName" Type="System.String" />
+        <Parameter Name="NoError" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ExtendedName">To be added.</param>
+        <param name="NoError">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedFind_DataName">
+      <MemberSignature Language="C#" Value="public Skill_Extended ExtendedFind_DataName (string GDEExName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Skill_Extended ExtendedFind_DataName(string GDEExName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill_Extended</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="GDEExName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="GDEExName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedInit">
+      <MemberSignature Language="C#" Value="public Skill_Extended ExtendedInit (Skill_Extended Extended, bool Battle);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Skill_Extended ExtendedInit(Skill_Extended Extended, bool Battle) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill_Extended</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Extended" Type="Skill_Extended" />
+        <Parameter Name="Battle" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Extended">To be added.</param>
+        <param name="Battle">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fatal">
+      <MemberSignature Language="C#" Value="public bool Fatal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Fatal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FieldInfoSkill">
+      <MemberSignature Language="C#" Value="public static Skill FieldInfoSkill (string Key, Character Input, BattleTeam Team);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig Skill FieldInfoSkill(string Key, Character Input, BattleTeam Team) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Key" Type="System.String" />
+        <Parameter Name="Input" Type="Character" />
+        <Parameter Name="Team" Type="BattleTeam" />
+      </Parameters>
+      <Docs>
+        <param name="Key">To be added.</param>
+        <param name="Input">To be added.</param>
+        <param name="Team">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceAction">
+      <MemberSignature Language="C#" Value="public bool ForceAction;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool ForceAction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeUse">
+      <MemberSignature Language="C#" Value="public bool FreeUse;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool FreeUse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCriPer">
+      <MemberSignature Language="C#" Value="public int GetCriPer (BattleChar Target, int Plus = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 GetCriPer(BattleChar Target, int32 Plus) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="BattleChar" />
+        <Parameter Name="Plus" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <param name="Plus">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLock">
+      <MemberSignature Language="C#" Value="public static bool GetLock (string SkillKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetLock(string SkillKey) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SkillKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="SkillKey">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreTaunt">
+      <MemberSignature Language="C#" Value="public bool IgnoreTaunt { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IgnoreTaunt" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Image_Basic">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite Image_Basic;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite Image_Basic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Image_Button">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite Image_Button;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite Image_Button" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Image_Skill">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite Image_Skill;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite Image_Skill" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public void Init (GameDataEditor.GDESkillData Skilldata, BattleChar Input = default, BattleTeam Team = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Init(class GameDataEditor.GDESkillData Skilldata, BattleChar Input, BattleTeam Team) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Skilldata" Type="GameDataEditor.GDESkillData" />
+        <Parameter Name="Input" Type="BattleChar" />
+        <Parameter Name="Team" Type="BattleTeam" />
+      </Parameters>
+      <Docs>
+        <param name="Skilldata">To be added.</param>
+        <param name="Input">To be added.</param>
+        <param name="Team">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="initField">
+      <MemberSignature Language="C#" Value="public void initField (GameDataEditor.GDESkillData Skilldata);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void initField(class GameDataEditor.GDESkillData Skilldata) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Skilldata" Type="GameDataEditor.GDESkillData" />
+      </Parameters>
+      <Docs>
+        <param name="Skilldata">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IReturn&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;T&gt; IReturn&lt;T&gt; () where T : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.List`1&lt;!!T&gt; IReturn&lt;class T&gt;() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters />
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDamage">
+      <MemberSignature Language="C#" Value="public bool IsDamage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDamage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isExcept">
+      <MemberSignature Language="C#" Value="public bool isExcept;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool isExcept" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHeal">
+      <MemberSignature Language="C#" Value="public bool IsHeal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsHeal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNowCasting">
+      <MemberSignature Language="C#" Value="public bool IsNowCasting;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool IsNowCasting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNowCounting">
+      <MemberSignature Language="C#" Value="public bool IsNowCounting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNowCounting" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTargetSkill">
+      <MemberSignature Language="C#" Value="public bool IsTargetSkill { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTargetSkill" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWaste">
+      <MemberSignature Language="C#" Value="public bool IsWaste;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool IsWaste" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Master">
+      <MemberSignature Language="C#" Value="public BattleChar Master;" />
+      <MemberSignature Language="ILAsm" Value=".field public BattleChar Master" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyButton">
+      <MemberSignature Language="C#" Value="public SkillButton MyButton;" />
+      <MemberSignature Language="ILAsm" Value=".field public SkillButton MyButton" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkillButton</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MySkill">
+      <MemberSignature Language="C#" Value="public GameDataEditor.GDESkillData MySkill;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GameDataEditor.GDESkillData MySkill" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GameDataEditor.GDESkillData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyTeam">
+      <MemberSignature Language="C#" Value="public BattleTeam MyTeam;" />
+      <MemberSignature Language="ILAsm" Value=".field public BattleTeam MyTeam" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleTeam</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotAvailable">
+      <MemberSignature Language="C#" Value="public bool NotAvailable;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool NotAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotChuck">
+      <MemberSignature Language="C#" Value="public bool NotChuck;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool NotChuck" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotCount">
+      <MemberSignature Language="C#" Value="public bool NotCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NotCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalSelectSkill">
+      <MemberSignature Language="C#" Value="public Skill OriginalSelectSkill;" />
+      <MemberSignature Language="ILAsm" Value=".field public Skill OriginalSelectSkill" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlusHit">
+      <MemberSignature Language="C#" Value="public bool PlusHit;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool PlusHit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlusSkillBaseStat">
+      <MemberSignature Language="C#" Value="public SkillBasestat PlusSkillBaseStat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance SkillBasestat PlusSkillBaseStat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkillBasestat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlusSkillBaseStatPreview">
+      <MemberSignature Language="C#" Value="public SkillBasestat PlusSkillBaseStatPreview { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance SkillBasestat PlusSkillBaseStatPreview" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SkillBasestat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlusSkillPerStat">
+      <MemberSignature Language="C#" Value="public PerStat PlusSkillPerStat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance PerStat PlusSkillPerStat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>PerStat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlusSkillStat">
+      <MemberSignature Language="C#" Value="public Stat PlusSkillStat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance Stat PlusSkillStat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Stat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillExtendedImage">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite SkillExtendedImage;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite SkillExtendedImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetChainHeal">
+      <MemberSignature Language="C#" Value="public bool TargetChainHeal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TargetChainHeal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetDamage">
+      <MemberSignature Language="C#" Value="public int TargetDamage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TargetDamage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetDamageOriginal">
+      <MemberSignature Language="C#" Value="public int TargetDamageOriginal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TargetDamageOriginal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetDamageView">
+      <MemberSignature Language="C#" Value="public int TargetDamageView { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TargetDamageView" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetForceHeal">
+      <MemberSignature Language="C#" Value="public bool TargetForceHeal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TargetForceHeal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetHeal">
+      <MemberSignature Language="C#" Value="public int TargetHeal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TargetHeal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetHealOriginal">
+      <MemberSignature Language="C#" Value="public int TargetHealOriginal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TargetHealOriginal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TeamAttack">
+      <MemberSignature Language="C#" Value="public bool TeamAttack;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool TeamAttack" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TempSkill">
+      <MemberSignature Language="C#" Value="public static Skill TempSkill (string Key);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig Skill TempSkill(string Key) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TempSkill">
+      <MemberSignature Language="C#" Value="public static Skill TempSkill (string Key, BattleChar input = default, BattleTeam team = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig Skill TempSkill(string Key, BattleChar input, BattleTeam team) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Key" Type="System.String" />
+        <Parameter Name="input" Type="BattleChar" />
+        <Parameter Name="team" Type="BattleTeam" />
+      </Parameters>
+      <Docs>
+        <param name="Key">To be added.</param>
+        <param name="input">To be added.</param>
+        <param name="team">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Track">
+      <MemberSignature Language="C#" Value="public bool Track { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Track" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsedApNum">
+      <MemberSignature Language="C#" Value="public int UsedApNum;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 UsedApNum" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

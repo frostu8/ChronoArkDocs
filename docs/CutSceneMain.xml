@@ -1,0 +1,706 @@
+<Type Name="CutSceneMain" FullName="CutSceneMain">
+  <TypeSignature Language="C#" Value="public class CutSceneMain : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CutSceneMain extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CutSceneMain ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_CutSceneEndFade">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator _CutSceneEndFade ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator _CutSceneEndFade() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_FadeIn">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator _FadeIn (float Speed);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator _FadeIn(float32 Speed) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Speed" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Speed">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AniChange">
+      <MemberSignature Language="C#" Value="public void AniChange (UnityEngine.AnimationEvent MyEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AniChange(class UnityEngine.AnimationEvent MyEvent) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MyEvent" Type="UnityEngine.AnimationEvent" />
+      </Parameters>
+      <Docs>
+        <param name="MyEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AniChangeafStand">
+      <MemberSignature Language="C#" Value="public void AniChangeafStand (UnityEngine.AnimationEvent MyEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AniChangeafStand(class UnityEngine.AnimationEvent MyEvent) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MyEvent" Type="UnityEngine.AnimationEvent" />
+      </Parameters>
+      <Docs>
+        <param name="MyEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BGMEnd">
+      <MemberSignature Language="C#" Value="public void BGMEnd ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BGMEnd() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bubbleEmojis">
+      <MemberSignature Language="C#" Value="public BubbleEmoji[] bubbleEmojis;" />
+      <MemberSignature Language="ILAsm" Value=".field public BubbleEmoji[] bubbleEmojis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BubbleEmoji[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BubbleOff">
+      <MemberSignature Language="C#" Value="public void BubbleOff (int Num);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BubbleOff(int32 Num) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Num" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Num">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BubbleOn">
+      <MemberSignature Language="C#" Value="public void BubbleOn (int Num);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BubbleOn(int32 Num) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Num" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Num">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CameraPos">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform CameraPos;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform CameraPos" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CharSkeletons">
+      <MemberSignature Language="C#" Value="public Spine.Unity.SkeletonAnimation[] CharSkeletons;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Spine.Unity.SkeletonAnimation[] CharSkeletons" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Spine.Unity.SkeletonAnimation[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CutSceneEnd">
+      <MemberSignature Language="C#" Value="public void CutSceneEnd ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CutSceneEnd() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CutSceneEndAniplay">
+      <MemberSignature Language="C#" Value="public void CutSceneEndAniplay ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CutSceneEndAniplay() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CutSceneEndFade">
+      <MemberSignature Language="C#" Value="public void CutSceneEndFade ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CutSceneEndFade() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CutSceneEndSort">
+      <MemberSignature Language="C#" Value="public void CutSceneEndSort ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CutSceneEndSort() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndEvent">
+      <MemberSignature Language="C#" Value="public UnityEngine.Events.UnityEvent EndEvent;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Events.UnityEvent EndEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Events.UnityEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventOut">
+      <MemberSignature Language="C#" Value="public void EventOut (int num);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EventOut(int32 num) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="num" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="num">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventTemp">
+      <MemberSignature Language="C#" Value="public UnityEngine.Events.UnityEvent[] EventTemp;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Events.UnityEvent[] EventTemp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Events.UnityEvent[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FadeBlack">
+      <MemberSignature Language="C#" Value="public void FadeBlack (float Speed);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void FadeBlack(float32 Speed) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Speed" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Speed">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FadeIn">
+      <MemberSignature Language="C#" Value="public void FadeIn (float Speed);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void FadeIn(float32 Speed) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Speed" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Speed">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastPos">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform LastPos;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform LastPos" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MainAni">
+      <MemberSignature Language="C#" Value="public UnityEngine.Animator MainAni;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Animator MainAni" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Animator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapFadeBlack">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator MapFadeBlack (float Speed);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator MapFadeBlack(float32 Speed) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Speed" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Speed">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyDial">
+      <MemberSignature Language="C#" Value="public Dialogue MyDial;" />
+      <MemberSignature Language="ILAsm" Value=".field public Dialogue MyDial" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Dialogue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDisable">
+      <MemberSignature Language="C#" Value="public void OnDisable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OnDisable() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrthoSize">
+      <MemberSignature Language="C#" Value="public void OrthoSize (float SizeNum);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OrthoSize(float32 SizeNum) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SizeNum" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="SizeNum">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pause">
+      <MemberSignature Language="C#" Value="public bool Pause;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Pause" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PauseDialogue">
+      <MemberSignature Language="C#" Value="public void PauseDialogue ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PauseDialogue() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public void Play ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Play() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayDialogue">
+      <MemberSignature Language="C#" Value="public void PlayDialogue ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PlayDialogue() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Player">
+      <MemberSignature Language="C#" Value="public Spine.Unity.SkeletonAnimation Player;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Spine.Unity.SkeletonAnimation Player" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.HideInInspector]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Spine.Unity.SkeletonAnimation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayerAniChageafStand">
+      <MemberSignature Language="C#" Value="public void PlayerAniChageafStand (UnityEngine.AnimationEvent MyEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PlayerAniChageafStand(class UnityEngine.AnimationEvent MyEvent) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MyEvent" Type="UnityEngine.AnimationEvent" />
+      </Parameters>
+      <Docs>
+        <param name="MyEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayerAniChange">
+      <MemberSignature Language="C#" Value="public void PlayerAniChange (UnityEngine.AnimationEvent MyEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PlayerAniChange(class UnityEngine.AnimationEvent MyEvent) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MyEvent" Type="UnityEngine.AnimationEvent" />
+      </Parameters>
+      <Docs>
+        <param name="MyEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayerPos">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform PlayerPos;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform PlayerPos" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayerPosNull">
+      <MemberSignature Language="C#" Value="public void PlayerPosNull ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PlayerPosNull() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayertimescaleChange">
+      <MemberSignature Language="C#" Value="public void PlayertimescaleChange (float timescale);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PlayertimescaleChange(float32 timescale) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timescale" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="timescale">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pstop">
+      <MemberSignature Language="C#" Value="public PlayerStop Pstop;" />
+      <MemberSignature Language="ILAsm" Value=".field public PlayerStop Pstop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>PlayerStop</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QuickFadeIn">
+      <MemberSignature Language="C#" Value="public void QuickFadeIn ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QuickFadeIn() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QuickFadeOut">
+      <MemberSignature Language="C#" Value="public void QuickFadeOut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void QuickFadeOut() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimplePause">
+      <MemberSignature Language="C#" Value="public void SimplePause ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SimplePause() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimplePlay">
+      <MemberSignature Language="C#" Value="public void SimplePlay ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SimplePlay() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

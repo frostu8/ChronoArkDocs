@@ -1,0 +1,84 @@
+<Type Name="ScreenSpaceReflectionModel+Settings" FullName="UnityEngine.PostProcessing.ScreenSpaceReflectionModel+Settings">
+  <TypeSignature Language="C#" Value="public struct ScreenSpaceReflectionModel.Settings" />
+  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi serializable sealed beforefieldinit ScreenSpaceReflectionModel/Settings extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="defaultSettings">
+      <MemberSignature Language="C#" Value="public static UnityEngine.PostProcessing.ScreenSpaceReflectionModel.Settings defaultSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype UnityEngine.PostProcessing.ScreenSpaceReflectionModel/Settings defaultSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ScreenSpaceReflectionModel+Settings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="intensity">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.ScreenSpaceReflectionModel.IntensitySettings intensity;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.PostProcessing.ScreenSpaceReflectionModel/IntensitySettings intensity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ScreenSpaceReflectionModel+IntensitySettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="reflection">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ReflectionSettings reflection;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.PostProcessing.ScreenSpaceReflectionModel/ReflectionSettings reflection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ScreenSpaceReflectionModel+ReflectionSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="screenEdgeMask">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.ScreenSpaceReflectionModel.ScreenEdgeMask screenEdgeMask;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.PostProcessing.ScreenSpaceReflectionModel/ScreenEdgeMask screenEdgeMask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ScreenSpaceReflectionModel+ScreenEdgeMask</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

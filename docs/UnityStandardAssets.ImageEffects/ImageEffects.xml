@@ -1,0 +1,119 @@
+<Type Name="ImageEffects" FullName="UnityStandardAssets.ImageEffects.ImageEffects">
+  <TypeSignature Language="C#" Value="public class ImageEffects" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImageEffects extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.AddComponentMenu("")]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImageEffects ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Blit">
+      <MemberSignature Language="C#" Value="public static void Blit (UnityEngine.RenderTexture source, UnityEngine.RenderTexture dest);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Blit(class UnityEngine.RenderTexture source, class UnityEngine.RenderTexture dest) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("Use Graphics.Blit(source,dest) instead")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.RenderTexture" />
+        <Parameter Name="dest" Type="UnityEngine.RenderTexture" />
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="dest">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlitWithMaterial">
+      <MemberSignature Language="C#" Value="public static void BlitWithMaterial (UnityEngine.Material material, UnityEngine.RenderTexture source, UnityEngine.RenderTexture dest);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BlitWithMaterial(class UnityEngine.Material material, class UnityEngine.RenderTexture source, class UnityEngine.RenderTexture dest) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("Use Graphics.Blit(source, destination, material) instead")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.Material" />
+        <Parameter Name="source" Type="UnityEngine.RenderTexture" />
+        <Parameter Name="dest" Type="UnityEngine.RenderTexture" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="dest">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderDistortion">
+      <MemberSignature Language="C#" Value="public static void RenderDistortion (UnityEngine.Material material, UnityEngine.RenderTexture source, UnityEngine.RenderTexture destination, float angle, UnityEngine.Vector2 center, UnityEngine.Vector2 radius);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RenderDistortion(class UnityEngine.Material material, class UnityEngine.RenderTexture source, class UnityEngine.RenderTexture destination, float32 angle, valuetype UnityEngine.Vector2 center, valuetype UnityEngine.Vector2 radius) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.Material" />
+        <Parameter Name="source" Type="UnityEngine.RenderTexture" />
+        <Parameter Name="destination" Type="UnityEngine.RenderTexture" />
+        <Parameter Name="angle" Type="System.Single" />
+        <Parameter Name="center" Type="UnityEngine.Vector2" />
+        <Parameter Name="radius" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="destination">To be added.</param>
+        <param name="angle">To be added.</param>
+        <param name="center">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

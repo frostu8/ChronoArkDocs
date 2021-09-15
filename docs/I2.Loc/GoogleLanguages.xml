@@ -1,0 +1,289 @@
+<Type Name="GoogleLanguages" FullName="I2.Loc.GoogleLanguages">
+  <TypeSignature Language="C#" Value="public static class GoogleLanguages" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GoogleLanguages extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAllInternationalCodes">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;string&gt; GetAllInternationalCodes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;string&gt; GetAllInternationalCodes() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCodedLanguage">
+      <MemberSignature Language="C#" Value="public static string GetCodedLanguage (string Language, string code);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCodedLanguage(string Language, string code) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Language" Type="System.String" />
+        <Parameter Name="code" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Language">To be added.</param>
+        <param name="code">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFormatedLanguageName">
+      <MemberSignature Language="C#" Value="public static string GetFormatedLanguageName (string Language);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetFormatedLanguageName(string Language) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Language" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Language">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGoogleLanguageCode">
+      <MemberSignature Language="C#" Value="public static string GetGoogleLanguageCode (string InternationalCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetGoogleLanguageCode(string InternationalCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="InternationalCode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="InternationalCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLanguageCode">
+      <MemberSignature Language="C#" Value="public static string GetLanguageCode (string Filter, bool ShowWarnings = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetLanguageCode(string Filter, bool ShowWarnings) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+        <Parameter Name="ShowWarnings" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">To be added.</param>
+        <param name="ShowWarnings">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLanguageName">
+      <MemberSignature Language="C#" Value="public static string GetLanguageName (string code, bool useParenthesesForRegion = false, bool allowDiscardRegion = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetLanguageName(string code, bool useParenthesesForRegion, bool allowDiscardRegion) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="code" Type="System.String" />
+        <Parameter Name="useParenthesesForRegion" Type="System.Boolean" />
+        <Parameter Name="allowDiscardRegion" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="code">To be added.</param>
+        <param name="useParenthesesForRegion">To be added.</param>
+        <param name="allowDiscardRegion">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLanguagesForDropdown">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;string&gt; GetLanguagesForDropdown (string Filter, string CodesToExclude);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;string&gt; GetLanguagesForDropdown(string Filter, string CodesToExclude) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+        <Parameter Name="CodesToExclude" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">To be added.</param>
+        <param name="CodesToExclude">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPluralTestNumber">
+      <MemberSignature Language="C#" Value="public static int GetPluralTestNumber (string langCode, I2.Loc.ePluralType pluralType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetPluralTestNumber(string langCode, valuetype I2.Loc.ePluralType pluralType) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="langCode" Type="System.String" />
+        <Parameter Name="pluralType" Type="I2.Loc.ePluralType" />
+      </Parameters>
+      <Docs>
+        <param name="langCode">To be added.</param>
+        <param name="pluralType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPluralType">
+      <MemberSignature Language="C#" Value="public static I2.Loc.ePluralType GetPluralType (string langCode, int n);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype I2.Loc.ePluralType GetPluralType(string langCode, int32 n) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.ePluralType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="langCode" Type="System.String" />
+        <Parameter Name="n" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="langCode">To be added.</param>
+        <param name="n">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageCode_HasJoinedWord">
+      <MemberSignature Language="C#" Value="public static bool LanguageCode_HasJoinedWord (string languageCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool LanguageCode_HasJoinedWord(string languageCode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="languageCode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="languageCode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageHasPluralType">
+      <MemberSignature Language="C#" Value="public static bool LanguageHasPluralType (string langCode, string pluralType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool LanguageHasPluralType(string langCode, string pluralType) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="langCode" Type="System.String" />
+        <Parameter Name="pluralType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="langCode">To be added.</param>
+        <param name="pluralType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="mLanguageDef">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,I2.Loc.GoogleLanguages.LanguageCodeDef&gt; mLanguageDef;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.GoogleLanguages/LanguageCodeDef&gt; mLanguageDef" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.GoogleLanguages+LanguageCodeDef&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnPackCodeFromLanguageName">
+      <MemberSignature Language="C#" Value="public static void UnPackCodeFromLanguageName (string CodedLanguage, out string Language, out string code);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UnPackCodeFromLanguageName(string CodedLanguage, [out] string&amp; Language, [out] string&amp; code) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="CodedLanguage" Type="System.String" />
+        <Parameter Name="Language" Type="System.String" RefType="out" />
+        <Parameter Name="code" Type="System.String" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="CodedLanguage">To be added.</param>
+        <param name="Language">To be added.</param>
+        <param name="code">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

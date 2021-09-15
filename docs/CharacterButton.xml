@@ -1,0 +1,629 @@
+<Type Name="CharacterButton" FullName="CharacterButton">
+  <TypeSignature Language="C#" Value="public class CharacterButton : UnityEngine.MonoBehaviour, UnityEngine.EventSystems.IPointerClickHandler, UnityEngine.EventSystems.IPointerEnterHandler, UnityEngine.EventSystems.IPointerExitHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CharacterButton extends UnityEngine.MonoBehaviour implements class UnityEngine.EventSystems.IEventSystemHandler, class UnityEngine.EventSystems.IPointerClickHandler, class UnityEngine.EventSystems.IPointerEnterHandler, class UnityEngine.EventSystems.IPointerExitHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>UnityEngine.EventSystems.IEventSystemHandler</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>UnityEngine.EventSystems.IPointerClickHandler</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>UnityEngine.EventSystems.IPointerEnterHandler</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>UnityEngine.EventSystems.IPointerExitHandler</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CharacterButton ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BG">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject BG;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject BG" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CasualClear">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite CasualClear;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite CasualClear" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CharName">
+      <MemberSignature Language="C#" Value="public string CharName;" />
+      <MemberSignature Language="ILAsm" Value=".field public string CharName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAura">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image ClearAura;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image ClearAura" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearEffect">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image ClearEffect;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image ClearEffect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public void Click ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Click() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpertClear_0">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite ExpertClear_0;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite ExpertClear_0" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpertClear_1">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite ExpertClear_1;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite ExpertClear_1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpertClearEffect">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite ExpertClearEffect;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite ExpertClearEffect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Face">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform Face;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform Face" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FaceTrans">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform FaceTrans;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform FaceTrans" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FG">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject FG;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject FG" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 Index" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public void Init (StartPartySelect Main, GameDataEditor.GDECharacterData CharData, int MyInt);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Init(StartPartySelect Main, class GameDataEditor.GDECharacterData CharData, int32 MyInt) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Main" Type="StartPartySelect" />
+        <Parameter Name="CharData" Type="GameDataEditor.GDECharacterData" />
+        <Parameter Name="MyInt" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Main">To be added.</param>
+        <param name="CharData">To be added.</param>
+        <param name="MyInt">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LevelupObject">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject LevelupObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject LevelupObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lock">
+      <MemberSignature Language="C#" Value="public bool Lock;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Lock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockBG">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject LockBG;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject LockBG" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockImage">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image LockImage;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image LockImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockObject">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject LockObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject LockObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="main">
+      <MemberSignature Language="C#" Value="public StartPartySelect main;" />
+      <MemberSignature Language="ILAsm" Value=".field public StartPartySelect main" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>StartPartySelect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MainFrame">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image MainFrame;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image MainFrame" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseLeftBG">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite MouseLeftBG;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite MouseLeftBG" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseLeftLine">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite MouseLeftLine;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite MouseLeftLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseOverBG">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite MouseOverBG;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite MouseOverBG" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseRightLine">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite MouseRightLine;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite MouseRightLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalBG">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite NormalBG;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite NormalBG" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalClear_0">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite NormalClear_0;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite NormalClear_0" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalClear_1">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite NormalClear_1;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite NormalClear_1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalClearEffect">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite NormalClearEffect;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite NormalClearEffect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalLine">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite NormalLine;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite NormalLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPointerClick">
+      <MemberSignature Language="C#" Value="public void OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnPointerClick(class UnityEngine.EventSystems.PointerEventData eventData) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:UnityEngine.EventSystems.IPointerClickHandler.OnPointerClick(UnityEngine.EventSystems.PointerEventData)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventData" Type="UnityEngine.EventSystems.PointerEventData" />
+      </Parameters>
+      <Docs>
+        <param name="eventData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPointerEnter">
+      <MemberSignature Language="C#" Value="public void OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnPointerEnter(class UnityEngine.EventSystems.PointerEventData eventData) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventData" Type="UnityEngine.EventSystems.PointerEventData" />
+      </Parameters>
+      <Docs>
+        <param name="eventData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPointerExit">
+      <MemberSignature Language="C#" Value="public void OnPointerExit (UnityEngine.EventSystems.PointerEventData eventData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnPointerExit(class UnityEngine.EventSystems.PointerEventData eventData) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:UnityEngine.EventSystems.IPointerExitHandler.OnPointerExit(UnityEngine.EventSystems.PointerEventData)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventData" Type="UnityEngine.EventSystems.PointerEventData" />
+      </Parameters>
+      <Docs>
+        <param name="eventData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginFrame">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite OriginFrame;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite OriginFrame" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Role">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image Role;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image Role" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectObject">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject SelectObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject SelectObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknow">
+      <MemberSignature Language="C#" Value="public bool Unknow;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Unknow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,198 @@
+<Type Name="ScreenSpaceReflectionModel+ReflectionSettings" FullName="UnityEngine.PostProcessing.ScreenSpaceReflectionModel+ReflectionSettings">
+  <TypeSignature Language="C#" Value="public struct ScreenSpaceReflectionModel.ReflectionSettings" />
+  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi serializable sealed beforefieldinit ScreenSpaceReflectionModel/ReflectionSettings extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="blendType">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.ScreenSpaceReflectionModel.SSRReflectionBlendType blendType;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.PostProcessing.ScreenSpaceReflectionModel/SSRReflectionBlendType blendType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("How the reflections are blended into the render.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ScreenSpaceReflectionModel+SSRReflectionBlendType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="iterationCount">
+      <MemberSignature Language="C#" Value="public int iterationCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 iterationCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(16, 1024)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Max raytracing length.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="maxDistance">
+      <MemberSignature Language="C#" Value="public float maxDistance;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 maxDistance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0.1, 300)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Maximum reflection distance in world units.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="reflectBackfaces">
+      <MemberSignature Language="C#" Value="public bool reflectBackfaces;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool reflectBackfaces" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Disable for a performance gain in scenes where most glossy objects are horizontal, like floors, water, and tables. Leave on for scenes with glossy vertical objects.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="reflectionBlur">
+      <MemberSignature Language="C#" Value="public float reflectionBlur;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 reflectionBlur" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0.1, 8)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Blurriness of reflections.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="reflectionQuality">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.ScreenSpaceReflectionModel.SSRResolution reflectionQuality;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.PostProcessing.ScreenSpaceReflectionModel/SSRResolution reflectionQuality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Half resolution SSRR is much faster, but less accurate.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ScreenSpaceReflectionModel+SSRResolution</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="stepSize">
+      <MemberSignature Language="C#" Value="public int stepSize;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 stepSize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(1, 16)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Log base 2 of ray tracing coarse step size. Higher traces farther, lower gives better quality silhouettes.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="widthModifier">
+      <MemberSignature Language="C#" Value="public float widthModifier;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 widthModifier" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0.01, 10)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Typical thickness of columns, walls, furniture, and other objects that reflection rays might pass behind.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

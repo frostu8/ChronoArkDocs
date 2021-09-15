@@ -1,0 +1,62 @@
+<Type Name="eLanguageDataFlags" FullName="I2.Loc.eLanguageDataFlags">
+  <TypeSignature Language="C#" Value="public enum eLanguageDataFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed eLanguageDataFlags extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DISABLED">
+      <MemberSignature Language="C#" Value="DISABLED" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.eLanguageDataFlags DISABLED = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.eLanguageDataFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="KEEP_LOADED">
+      <MemberSignature Language="C#" Value="KEEP_LOADED" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.eLanguageDataFlags KEEP_LOADED = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.eLanguageDataFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NOT_LOADED">
+      <MemberSignature Language="C#" Value="NOT_LOADED" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.eLanguageDataFlags NOT_LOADED = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.eLanguageDataFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

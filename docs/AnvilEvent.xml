@@ -1,0 +1,381 @@
+<Type Name="AnvilEvent" FullName="AnvilEvent">
+  <TypeSignature Language="C#" Value="public class AnvilEvent : InventoryManager" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AnvilEvent extends " />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>InventoryManager</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AnvilEvent ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AfterFirstConvert">
+      <MemberSignature Language="C#" Value="public void AfterFirstConvert ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AfterFirstConvert() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="B1Fuc">
+      <MemberSignature Language="C#" Value="public void B1Fuc ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void B1Fuc() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="B2Fuc">
+      <MemberSignature Language="C#" Value="public void B2Fuc ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void B2Fuc() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ButtonsUI">
+      <MemberSignature Language="C#" Value="public SelectButtons ButtonsUI;" />
+      <MemberSignature Language="ILAsm" Value=".field public SelectButtons ButtonsUI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>SelectButtons</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeType">
+      <MemberSignature Language="C#" Value="public void ChangeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ChangeType() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CombineBtn">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Button CombineBtn;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Button CombineBtn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Button</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CombineInfoText">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI CombineInfoText;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI CombineInfoText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CombinePerText">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI CombinePerText;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI CombinePerText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertBtn">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Button ConvertBtn;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Button ConvertBtn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Button</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertText">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI ConvertText;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI ConvertText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiscountImage">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image DiscountImage;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image DiscountImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ESC">
+      <MemberSignature Language="C#" Value="public void ESC ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ESC() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Eventobj">
+      <MemberSignature Language="C#" Value="public EventObject Eventobj;" />
+      <MemberSignature Language="ILAsm" Value=".field public EventObject Eventobj" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>EventObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstUseText">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI FirstUseText;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI FirstUseText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoldText">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI GoldText;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI GoldText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public void Init (EventObject Evo, AnvilObject MainAnvil);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Init(EventObject Evo, AnvilObject MainAnvil) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Evo" Type="EventObject" />
+        <Parameter Name="MainAnvil" Type="AnvilObject" />
+      </Parameters>
+      <Docs>
+        <param name="Evo">To be added.</param>
+        <param name="MainAnvil">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Inven">
+      <MemberSignature Language="C#" Value="public InventoryManager Inven;" />
+      <MemberSignature Language="ILAsm" Value=".field public InventoryManager Inven" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>InventoryManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCombine">
+      <MemberSignature Language="C#" Value="public bool IsCombine;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool IsCombine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsConvert">
+      <MemberSignature Language="C#" Value="public bool IsConvert;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool IsConvert" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRedice">
+      <MemberSignature Language="C#" Value="public void IsRedice (ItemBase inputitem);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void IsRedice(ItemBase inputitem) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputitem" Type="ItemBase" />
+      </Parameters>
+      <Docs>
+        <param name="inputitem">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDropSlot">
+      <MemberSignature Language="C#" Value="public override bool OnDropSlot (ItemBase inputitem);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool OnDropSlot(ItemBase inputitem) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputitem" Type="ItemBase" />
+      </Parameters>
+      <Docs>
+        <param name="inputitem">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Price">
+      <MemberSignature Language="C#" Value="public int Price;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 Price" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,234 @@
+<Type Name="VignetteModel+Settings" FullName="UnityEngine.PostProcessing.VignetteModel+Settings">
+  <TypeSignature Language="C#" Value="public struct VignetteModel.Settings" />
+  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi serializable sealed beforefieldinit VignetteModel/Settings extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="center">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 center;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Vector2 center" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Sets the vignette center point (screen center is [0.5,0.5]).")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="color">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color color;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Color color" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.ColorUsage(false)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Vignette color. Use the alpha channel for transparency.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="defaultSettings">
+      <MemberSignature Language="C#" Value="public static UnityEngine.PostProcessing.VignetteModel.Settings defaultSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype UnityEngine.PostProcessing.VignetteModel/Settings defaultSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.VignetteModel+Settings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="intensity">
+      <MemberSignature Language="C#" Value="public float intensity;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 intensity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0, 1)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Amount of vignetting on screen.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="mask">
+      <MemberSignature Language="C#" Value="public UnityEngine.Texture mask;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Texture mask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("A black and white mask to use as a vignette.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="mode">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.VignetteModel.Mode mode;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.PostProcessing.VignetteModel/Mode mode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Use the "Classic" mode for parametric controls. Use the "Masked" mode to use your own texture mask.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.VignetteModel+Mode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="opacity">
+      <MemberSignature Language="C#" Value="public float opacity;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 opacity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0, 1)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Mask opacity.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="rounded">
+      <MemberSignature Language="C#" Value="public bool rounded;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool rounded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Should the vignette be perfectly round or be dependent on the current aspect ratio?")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="roundness">
+      <MemberSignature Language="C#" Value="public float roundness;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 roundness" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0, 1)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Lower values will make a square-ish vignette.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="smoothness">
+      <MemberSignature Language="C#" Value="public float smoothness;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 smoothness" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0.01, 1)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Smoothness of the vignette borders.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

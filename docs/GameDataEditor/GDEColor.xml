@@ -1,0 +1,145 @@
+<Type Name="GDEColor" FullName="GameDataEditor.GDEColor">
+  <TypeSignature Language="C#" Value="public struct GDEColor" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi serializable sealed beforefieldinit GDEColor extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GDEColor (float pr, float pg, float pb, float pa);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float32 pr, float32 pg, float32 pb, float32 pa) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pr" Type="System.Single" />
+        <Parameter Name="pg" Type="System.Single" />
+        <Parameter Name="pb" Type="System.Single" />
+        <Parameter Name="pa" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="pr">To be added.</param>
+        <param name="pg">To be added.</param>
+        <param name="pb">To be added.</param>
+        <param name="pa">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="a">
+      <MemberSignature Language="C#" Value="public float a;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 a" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="b">
+      <MemberSignature Language="C#" Value="public float b;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 b" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="g">
+      <MemberSignature Language="C#" Value="public float g;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 g" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator UnityEngine.Color (GameDataEditor.GDEColor pCol);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype UnityEngine.Color op_Implicit(valuetype GameDataEditor.GDEColor pCol) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pCol" Type="GameDataEditor.GDEColor" />
+      </Parameters>
+      <Docs>
+        <param name="pCol">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator GameDataEditor.GDEColor (UnityEngine.Color pCol);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype GameDataEditor.GDEColor op_Implicit(valuetype UnityEngine.Color pCol) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GameDataEditor.GDEColor</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pCol" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="pCol">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="r">
+      <MemberSignature Language="C#" Value="public float r;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 r" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,202 @@
+<Type Name="IsoMap" FullName="IsoMap">
+  <TypeSignature Language="C#" Value="public class IsoMap" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IsoMap extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsoMap ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HexPosToIso">
+      <MemberSignature Language="C#" Value="public MapTile_Iso HexPosToIso (UnityEngine.Vector2 Pos);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance MapTile_Iso HexPosToIso(valuetype UnityEngine.Vector2 Pos) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MapTile_Iso</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HexToIso">
+      <MemberSignature Language="C#" Value="public static IsoMap HexToIso (HexMap HexMapData);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig IsoMap HexToIso(HexMap HexMapData) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>IsoMap</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HexMapData" Type="HexMap" />
+      </Parameters>
+      <Docs>
+        <param name="HexMapData">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HexToIsoPos">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 HexToIsoPos (UnityEngine.Vector2 Pos);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype UnityEngine.Vector2 HexToIsoPos(valuetype UnityEngine.Vector2 Pos) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InputType">
+      <MemberSignature Language="C#" Value="public static void InputType (ref IsoMap Map, UnityEngine.Vector2 vector, TileType_Iso Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void InputType(IsoMap&amp; Map, valuetype UnityEngine.Vector2 vector, TileType_Iso Type) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Map" Type="IsoMap" RefType="ref" />
+        <Parameter Name="vector" Type="UnityEngine.Vector2" />
+        <Parameter Name="Type" Type="TileType_Iso" />
+      </Parameters>
+      <Docs>
+        <param name="Map">To be added.</param>
+        <param name="vector">To be added.</param>
+        <param name="Type">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InputType">
+      <MemberSignature Language="C#" Value="public static void InputType (ref IsoMap Map, int x, int y, TileType_Iso Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void InputType(IsoMap&amp; Map, int32 x, int32 y, TileType_Iso Type) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Map" Type="IsoMap" RefType="ref" />
+        <Parameter Name="x" Type="System.Int32" />
+        <Parameter Name="y" Type="System.Int32" />
+        <Parameter Name="Type" Type="TileType_Iso" />
+      </Parameters>
+      <Docs>
+        <param name="Map">To be added.</param>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="Type">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapObject">
+      <MemberSignature Language="C#" Value="public MapTile_Iso[,] MapObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public MapTile_Iso[,] MapObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MapTile_Iso[,]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="rect">
+      <MemberSignature Language="C#" Value="public UnityEngine.Rect rect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype UnityEngine.Rect rect" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Set">
+      <MemberSignature Language="C#" Value="public void Set ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Set() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype UnityEngine.Vector2 Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

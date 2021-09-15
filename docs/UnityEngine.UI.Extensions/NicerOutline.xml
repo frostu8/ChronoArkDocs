@@ -1,0 +1,161 @@
+<Type Name="NicerOutline" FullName="UnityEngine.UI.Extensions.NicerOutline">
+  <TypeSignature Language="C#" Value="public class NicerOutline : UnityEngine.UI.BaseMeshEffect" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NicerOutline extends UnityEngine.UI.BaseMeshEffect" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.UI.BaseMeshEffect</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.AddComponentMenu("UI/Effects/Extensions/Nicer Outline")]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NicerOutline ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyShadow">
+      <MemberSignature Language="C#" Value="protected void ApplyShadow (System.Collections.Generic.List&lt;UnityEngine.UIVertex&gt; verts, UnityEngine.Color32 color, int start, int end, float x, float y);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void ApplyShadow(class System.Collections.Generic.List`1&lt;valuetype UnityEngine.UIVertex&gt; verts, valuetype UnityEngine.Color32 color, int32 start, int32 end, float32 x, float32 y) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verts" Type="System.Collections.Generic.List&lt;UnityEngine.UIVertex&gt;" />
+        <Parameter Name="color" Type="UnityEngine.Color32" />
+        <Parameter Name="start" Type="System.Int32" />
+        <Parameter Name="end" Type="System.Int32" />
+        <Parameter Name="x" Type="System.Single" />
+        <Parameter Name="y" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="verts">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyShadowZeroAlloc">
+      <MemberSignature Language="C#" Value="protected void ApplyShadowZeroAlloc (System.Collections.Generic.List&lt;UnityEngine.UIVertex&gt; verts, UnityEngine.Color32 color, int start, int end, float x, float y);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void ApplyShadowZeroAlloc(class System.Collections.Generic.List`1&lt;valuetype UnityEngine.UIVertex&gt; verts, valuetype UnityEngine.Color32 color, int32 start, int32 end, float32 x, float32 y) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verts" Type="System.Collections.Generic.List&lt;UnityEngine.UIVertex&gt;" />
+        <Parameter Name="color" Type="UnityEngine.Color32" />
+        <Parameter Name="start" Type="System.Int32" />
+        <Parameter Name="end" Type="System.Int32" />
+        <Parameter Name="x" Type="System.Single" />
+        <Parameter Name="y" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="verts">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="effectColor">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color effectColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype UnityEngine.Color effectColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="effectDistance">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 effectDistance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype UnityEngine.Vector2 effectDistance" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifyMesh">
+      <MemberSignature Language="C#" Value="public override void ModifyMesh (UnityEngine.UI.VertexHelper vh);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ModifyMesh(class UnityEngine.UI.VertexHelper vh) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vh" Type="UnityEngine.UI.VertexHelper" />
+      </Parameters>
+      <Docs>
+        <param name="vh">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="useGraphicAlpha">
+      <MemberSignature Language="C#" Value="public bool useGraphicAlpha { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool useGraphicAlpha" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

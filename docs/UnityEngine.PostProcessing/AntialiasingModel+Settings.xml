@@ -1,0 +1,84 @@
+<Type Name="AntialiasingModel+Settings" FullName="UnityEngine.PostProcessing.AntialiasingModel+Settings">
+  <TypeSignature Language="C#" Value="public struct AntialiasingModel.Settings" />
+  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi serializable sealed beforefieldinit AntialiasingModel/Settings extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="defaultSettings">
+      <MemberSignature Language="C#" Value="public static UnityEngine.PostProcessing.AntialiasingModel.Settings defaultSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype UnityEngine.PostProcessing.AntialiasingModel/Settings defaultSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.AntialiasingModel+Settings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="fxaaSettings">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.AntialiasingModel.FxaaSettings fxaaSettings;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.PostProcessing.AntialiasingModel/FxaaSettings fxaaSettings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.AntialiasingModel+FxaaSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="method">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.AntialiasingModel.Method method;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.PostProcessing.AntialiasingModel/Method method" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.AntialiasingModel+Method</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="taaSettings">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.AntialiasingModel.TaaSettings taaSettings;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.PostProcessing.AntialiasingModel/TaaSettings taaSettings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.AntialiasingModel+TaaSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

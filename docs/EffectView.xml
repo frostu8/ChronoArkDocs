@@ -1,0 +1,464 @@
+<Type Name="EffectView" FullName="EffectView">
+  <TypeSignature Language="C#" Value="public class EffectView : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EffectView extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EffectView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ally">
+      <MemberSignature Language="C#" Value="public bool Ally;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Ally" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CriImage">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Image CriImage;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Image CriImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Image</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CritDamageFont">
+      <MemberSignature Language="C#" Value="public UnityEngine.Font CritDamageFont;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Font CritDamageFont" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CritDamageSprite">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite CritDamageSprite;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite CritDamageSprite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CriText">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Text CriText;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Text CriText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Text</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CritHealFont">
+      <MemberSignature Language="C#" Value="public UnityEngine.Font CritHealFont;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Font CritHealFont" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CritPainDamageSprite">
+      <MemberSignature Language="C#" Value="public UnityEngine.Sprite CritPainDamageSprite;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Sprite CritPainDamageSprite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Sprite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DamageFont">
+      <MemberSignature Language="C#" Value="public UnityEngine.Font DamageFont;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Font DamageFont" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dodge">
+      <MemberSignature Language="C#" Value="public void Dodge (bool ally);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Dodge(bool ally) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ally" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ally">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Heal">
+      <MemberSignature Language="C#" Value="public void Heal (int HealNum, bool cri, bool ally);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Heal(int32 HealNum, bool cri, bool ally) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HealNum" Type="System.Int32" />
+        <Parameter Name="cri" Type="System.Boolean" />
+        <Parameter Name="ally" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="HealNum">To be added.</param>
+        <param name="cri">To be added.</param>
+        <param name="ally">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HealFont">
+      <MemberSignature Language="C#" Value="public UnityEngine.Font HealFont;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Font HealFont" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeldOut">
+      <MemberSignature Language="C#" Value="public void HeldOut (bool ally);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void HeldOut(bool ally) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ally" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ally">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="init">
+      <MemberSignature Language="C#" Value="public void init (bool isally);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void init(bool isally) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isally" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isally">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InputDamage">
+      <MemberSignature Language="C#" Value="public void InputDamage (int Dmg, bool Cri, bool ally, bool Pain);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void InputDamage(int32 Dmg, bool Cri, bool ally, bool Pain) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Dmg" Type="System.Int32" />
+        <Parameter Name="Cri" Type="System.Boolean" />
+        <Parameter Name="ally" Type="System.Boolean" />
+        <Parameter Name="Pain" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Dmg">To be added.</param>
+        <param name="Cri">To be added.</param>
+        <param name="ally">To be added.</param>
+        <param name="Pain">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyText">
+      <MemberSignature Language="C#" Value="public UnityEngine.UI.Text MyText;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.UI.Text MyText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UI.Text</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PainDamageFont">
+      <MemberSignature Language="C#" Value="public UnityEngine.Font PainDamageFont;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Font PainDamageFont" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PainDamageIcon">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject PainDamageIcon;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject PainDamageIcon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelfDestroy">
+      <MemberSignature Language="C#" Value="public void SelfDestroy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SelfDestroy() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimpleTextout">
+      <MemberSignature Language="C#" Value="public static void SimpleTextout (UnityEngine.Vector3 Pos, string Text, bool Localposition, float Size = 1, bool UI3d = false, float speed = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SimpleTextout(valuetype UnityEngine.Vector3 Pos, string Text, bool Localposition, float32 Size, bool UI3d, float32 speed) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Vector3" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Localposition" Type="System.Boolean" />
+        <Parameter Name="Size" Type="System.Single" />
+        <Parameter Name="UI3d" Type="System.Boolean" />
+        <Parameter Name="speed" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Localposition">To be added.</param>
+        <param name="Size">To be added.</param>
+        <param name="UI3d">To be added.</param>
+        <param name="speed">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TagDelete">
+      <MemberSignature Language="C#" Value="public void TagDelete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void TagDelete() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text2">
+      <MemberSignature Language="C#" Value="public TMPro.TextMeshProUGUI Text2;" />
+      <MemberSignature Language="ILAsm" Value=".field public class TMPro.TextMeshProUGUI Text2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMPro.TextMeshProUGUI</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFont">
+      <MemberSignature Language="C#" Value="public UnityEngine.Font TextFont;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Font TextFont" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextOut">
+      <MemberSignature Language="C#" Value="public void TextOut (bool ally, string Textt);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void TextOut(bool ally, string Textt) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ally" Type="System.Boolean" />
+        <Parameter Name="Textt" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ally">To be added.</param>
+        <param name="Textt">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextOutSimple">
+      <MemberSignature Language="C#" Value="public static void TextOutSimple (BattleChar Main, string Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TextOutSimple(BattleChar Main, string Text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Main" Type="BattleChar" />
+        <Parameter Name="Text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Main">To be added.</param>
+        <param name="Text">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XRand">
+      <MemberSignature Language="C#" Value="public float XRand;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 XRand" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

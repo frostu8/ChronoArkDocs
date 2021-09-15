@@ -1,0 +1,192 @@
+<Type Name="ILocalizeTarget" FullName="I2.Loc.ILocalizeTarget">
+  <TypeSignature Language="C#" Value="public abstract class ILocalizeTarget : UnityEngine.ScriptableObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ILocalizeTarget extends UnityEngine.ScriptableObject" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.ScriptableObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ILocalizeTarget ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowMainTermToBeRTL">
+      <MemberSignature Language="C#" Value="public abstract bool AllowMainTermToBeRTL ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool AllowMainTermToBeRTL() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowSecondTermToBeRTL">
+      <MemberSignature Language="C#" Value="public abstract bool AllowSecondTermToBeRTL ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool AllowSecondTermToBeRTL() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanUseSecondaryTerm">
+      <MemberSignature Language="C#" Value="public abstract bool CanUseSecondaryTerm ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CanUseSecondaryTerm() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoLocalize">
+      <MemberSignature Language="C#" Value="public abstract void DoLocalize (I2.Loc.Localize cmp, string mainTranslation, string secondaryTranslation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DoLocalize(class I2.Loc.Localize cmp, string mainTranslation, string secondaryTranslation) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cmp" Type="I2.Loc.Localize" />
+        <Parameter Name="mainTranslation" Type="System.String" />
+        <Parameter Name="secondaryTranslation" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="cmp">To be added.</param>
+        <param name="mainTranslation">To be added.</param>
+        <param name="secondaryTranslation">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFinalTerms">
+      <MemberSignature Language="C#" Value="public abstract void GetFinalTerms (I2.Loc.Localize cmp, string Main, string Secondary, out string primaryTerm, out string secondaryTerm);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetFinalTerms(class I2.Loc.Localize cmp, string Main, string Secondary, [out] string&amp; primaryTerm, [out] string&amp; secondaryTerm) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cmp" Type="I2.Loc.Localize" />
+        <Parameter Name="Main" Type="System.String" />
+        <Parameter Name="Secondary" Type="System.String" />
+        <Parameter Name="primaryTerm" Type="System.String" RefType="out" />
+        <Parameter Name="secondaryTerm" Type="System.String" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="cmp">To be added.</param>
+        <param name="Main">To be added.</param>
+        <param name="Secondary">To be added.</param>
+        <param name="primaryTerm">To be added.</param>
+        <param name="secondaryTerm">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrimaryTermType">
+      <MemberSignature Language="C#" Value="public abstract I2.Loc.eTermType GetPrimaryTermType (I2.Loc.Localize cmp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype I2.Loc.eTermType GetPrimaryTermType(class I2.Loc.Localize cmp) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.eTermType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cmp" Type="I2.Loc.Localize" />
+      </Parameters>
+      <Docs>
+        <param name="cmp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSecondaryTermType">
+      <MemberSignature Language="C#" Value="public abstract I2.Loc.eTermType GetSecondaryTermType (I2.Loc.Localize cmp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype I2.Loc.eTermType GetSecondaryTermType(class I2.Loc.Localize cmp) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.eTermType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cmp" Type="I2.Loc.Localize" />
+      </Parameters>
+      <Docs>
+        <param name="cmp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValid">
+      <MemberSignature Language="C#" Value="public abstract bool IsValid (I2.Loc.Localize cmp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsValid(class I2.Loc.Localize cmp) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cmp" Type="I2.Loc.Localize" />
+      </Parameters>
+      <Docs>
+        <param name="cmp">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

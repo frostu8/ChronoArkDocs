@@ -1,0 +1,114 @@
+<Type Name="DOTweenModuleSprite" FullName="DG.Tweening.DOTweenModuleSprite">
+  <TypeSignature Language="C#" Value="public static class DOTweenModuleSprite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DOTweenModuleSprite extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DOBlendableColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Tweener DOBlendableColor (this UnityEngine.SpriteRenderer target, UnityEngine.Color endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Tweener DOBlendableColor(class UnityEngine.SpriteRenderer target, valuetype UnityEngine.Color endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Tweener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.SpriteRenderer" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Color" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor (this UnityEngine.SpriteRenderer target, UnityEngine.Color endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOColor(class UnityEngine.SpriteRenderer target, valuetype UnityEngine.Color endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.SpriteRenderer" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Color" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFade">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade (this UnityEngine.SpriteRenderer target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Color, valuetype UnityEngine.Color, valuetype DG.Tweening.Plugins.Options.ColorOptions&gt; DOFade(class UnityEngine.SpriteRenderer target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.SpriteRenderer" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOGradientColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Sequence DOGradientColor (this UnityEngine.SpriteRenderer target, UnityEngine.Gradient gradient, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Sequence DOGradientColor(class UnityEngine.SpriteRenderer target, class UnityEngine.Gradient gradient, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Sequence</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.SpriteRenderer" RefType="this" />
+        <Parameter Name="gradient" Type="UnityEngine.Gradient" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="gradient">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

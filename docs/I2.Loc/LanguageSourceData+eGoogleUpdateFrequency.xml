@@ -1,0 +1,122 @@
+<Type Name="LanguageSourceData+eGoogleUpdateFrequency" FullName="I2.Loc.LanguageSourceData+eGoogleUpdateFrequency">
+  <TypeSignature Language="C#" Value="public enum LanguageSourceData.eGoogleUpdateFrequency" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed LanguageSourceData/eGoogleUpdateFrequency extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Always">
+      <MemberSignature Language="C#" Value="Always" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eGoogleUpdateFrequency Always = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eGoogleUpdateFrequency</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Daily">
+      <MemberSignature Language="C#" Value="Daily" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eGoogleUpdateFrequency Daily = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eGoogleUpdateFrequency</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EveryOtherDay">
+      <MemberSignature Language="C#" Value="EveryOtherDay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eGoogleUpdateFrequency EveryOtherDay = int32(6)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eGoogleUpdateFrequency</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Monthly">
+      <MemberSignature Language="C#" Value="Monthly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eGoogleUpdateFrequency Monthly = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eGoogleUpdateFrequency</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Never">
+      <MemberSignature Language="C#" Value="Never" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eGoogleUpdateFrequency Never = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eGoogleUpdateFrequency</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlyOnce">
+      <MemberSignature Language="C#" Value="OnlyOnce" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eGoogleUpdateFrequency OnlyOnce = int32(5)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eGoogleUpdateFrequency</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Weekly">
+      <MemberSignature Language="C#" Value="Weekly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eGoogleUpdateFrequency Weekly = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eGoogleUpdateFrequency</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,455 @@
+<Type Name="Bloom" FullName="UnityStandardAssets.ImageEffects.Bloom">
+  <TypeSignature Language="C#" Value="public class Bloom : UnityStandardAssets.ImageEffects.PostEffectsBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Bloom extends UnityStandardAssets.ImageEffects.PostEffectsBase" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityStandardAssets.ImageEffects.PostEffectsBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.AddComponentMenu("Image Effects/Bloom and Glow/Bloom")]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.ExecuteInEditMode]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.RequireComponent(typeof(UnityEngine.Camera))]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Bloom ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bloomBlurIterations">
+      <MemberSignature Language="C#" Value="public int bloomBlurIterations;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 bloomBlurIterations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bloomIntensity">
+      <MemberSignature Language="C#" Value="public float bloomIntensity;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 bloomIntensity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bloomThreshold">
+      <MemberSignature Language="C#" Value="public float bloomThreshold;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 bloomThreshold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bloomThresholdColor">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color bloomThresholdColor;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Color bloomThresholdColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="blurAndFlaresShader">
+      <MemberSignature Language="C#" Value="public UnityEngine.Shader blurAndFlaresShader;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Shader blurAndFlaresShader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Shader</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="brightPassFilterShader">
+      <MemberSignature Language="C#" Value="public UnityEngine.Shader brightPassFilterShader;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Shader brightPassFilterShader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Shader</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckResources">
+      <MemberSignature Language="C#" Value="public override bool CheckResources ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool CheckResources() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="flareColorA">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color flareColorA;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Color flareColorA" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="flareColorB">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color flareColorB;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Color flareColorB" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="flareColorC">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color flareColorC;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Color flareColorC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="flareColorD">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color flareColorD;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Color flareColorD" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="flareRotation">
+      <MemberSignature Language="C#" Value="public float flareRotation;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 flareRotation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="hdr">
+      <MemberSignature Language="C#" Value="public UnityStandardAssets.ImageEffects.Bloom.HDRBloomMode hdr;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityStandardAssets.ImageEffects.Bloom/HDRBloomMode hdr" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Bloom+HDRBloomMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="hollyStretchWidth">
+      <MemberSignature Language="C#" Value="public float hollyStretchWidth;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 hollyStretchWidth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="hollywoodFlareBlurIterations">
+      <MemberSignature Language="C#" Value="public int hollywoodFlareBlurIterations;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 hollywoodFlareBlurIterations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lensflareIntensity">
+      <MemberSignature Language="C#" Value="public float lensflareIntensity;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 lensflareIntensity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lensflareMode">
+      <MemberSignature Language="C#" Value="public UnityStandardAssets.ImageEffects.Bloom.LensFlareStyle lensflareMode;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityStandardAssets.ImageEffects.Bloom/LensFlareStyle lensflareMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Bloom+LensFlareStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lensFlareSaturation">
+      <MemberSignature Language="C#" Value="public float lensFlareSaturation;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 lensFlareSaturation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lensFlareShader">
+      <MemberSignature Language="C#" Value="public UnityEngine.Shader lensFlareShader;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Shader lensFlareShader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Shader</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lensflareThreshold">
+      <MemberSignature Language="C#" Value="public float lensflareThreshold;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 lensflareThreshold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lensFlareVignetteMask">
+      <MemberSignature Language="C#" Value="public UnityEngine.Texture2D lensFlareVignetteMask;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Texture2D lensFlareVignetteMask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnRenderImage">
+      <MemberSignature Language="C#" Value="public void OnRenderImage (UnityEngine.RenderTexture source, UnityEngine.RenderTexture destination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OnRenderImage(class UnityEngine.RenderTexture source, class UnityEngine.RenderTexture destination) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.RenderTexture" />
+        <Parameter Name="destination" Type="UnityEngine.RenderTexture" />
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="destination">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="quality">
+      <MemberSignature Language="C#" Value="public UnityStandardAssets.ImageEffects.Bloom.BloomQuality quality;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityStandardAssets.ImageEffects.Bloom/BloomQuality quality" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Bloom+BloomQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="screenBlendMode">
+      <MemberSignature Language="C#" Value="public UnityStandardAssets.ImageEffects.Bloom.BloomScreenBlendMode screenBlendMode;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityStandardAssets.ImageEffects.Bloom/BloomScreenBlendMode screenBlendMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Bloom+BloomScreenBlendMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="screenBlendShader">
+      <MemberSignature Language="C#" Value="public UnityEngine.Shader screenBlendShader;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Shader screenBlendShader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Shader</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="sepBlurSpread">
+      <MemberSignature Language="C#" Value="public float sepBlurSpread;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 sepBlurSpread" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="tweakMode">
+      <MemberSignature Language="C#" Value="public UnityStandardAssets.ImageEffects.Bloom.TweakMode tweakMode;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityStandardAssets.ImageEffects.Bloom/TweakMode tweakMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Bloom+TweakMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

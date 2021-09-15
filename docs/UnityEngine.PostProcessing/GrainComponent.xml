@@ -1,0 +1,85 @@
+<Type Name="GrainComponent" FullName="UnityEngine.PostProcessing.GrainComponent">
+  <TypeSignature Language="C#" Value="public sealed class GrainComponent : UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt;UnityEngine.PostProcessing.GrainModel&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GrainComponent extends UnityEngine.PostProcessing.PostProcessingComponentRenderTexture`1&lt;class UnityEngine.PostProcessing.GrainModel&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt;UnityEngine.PostProcessing.GrainModel&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">UnityEngine.PostProcessing.GrainModel</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GrainComponent ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="active">
+      <MemberSignature Language="C#" Value="public override bool active { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool active" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDisable">
+      <MemberSignature Language="C#" Value="public override void OnDisable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnDisable() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Prepare">
+      <MemberSignature Language="C#" Value="public override void Prepare (UnityEngine.Material uberMaterial);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Prepare(class UnityEngine.Material uberMaterial) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uberMaterial" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="uberMaterial">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

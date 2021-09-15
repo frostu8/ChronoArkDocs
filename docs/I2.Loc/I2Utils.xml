@@ -1,0 +1,383 @@
+<Type Name="I2Utils" FullName="I2.Loc.I2Utils">
+  <TypeSignature Language="C#" Value="public static class I2Utils" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit I2Utils extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FindInParents&lt;H&gt;">
+      <MemberSignature Language="C#" Value="public static H FindInParents&lt;H&gt; (UnityEngine.Transform tr) where H : UnityEngine.Component;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!H FindInParents&lt;(class UnityEngine.Component) H&gt;(class UnityEngine.Transform tr) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>H</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="H">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Component</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="tr" Type="UnityEngine.Transform" />
+      </Parameters>
+      <Docs>
+        <typeparam name="H">To be added.</typeparam>
+        <param name="tr">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNextTag">
+      <MemberSignature Language="C#" Value="public static bool FindNextTag (string line, int iStart, out int tagStart, out int tagEnd);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool FindNextTag(string line, int32 iStart, [out] int32&amp; tagStart, [out] int32&amp; tagEnd) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="line" Type="System.String" />
+        <Parameter Name="iStart" Type="System.Int32" />
+        <Parameter Name="tagStart" Type="System.Int32" RefType="out" />
+        <Parameter Name="tagEnd" Type="System.Int32" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="line">To be added.</param>
+        <param name="iStart">To be added.</param>
+        <param name="tagStart">To be added.</param>
+        <param name="tagEnd">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindObject">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Transform FindObject (string objectPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.Transform FindObject(string objectPath) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="objectPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="objectPath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindObject">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Transform FindObject (UnityEngine.SceneManagement.Scene scene, string objectPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.Transform FindObject(valuetype UnityEngine.SceneManagement.Scene scene, string objectPath) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scene" Type="UnityEngine.SceneManagement.Scene" />
+        <Parameter Name="objectPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="scene">To be added.</param>
+        <param name="objectPath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindObject">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Transform FindObject (UnityEngine.Transform root, string objectPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.Transform FindObject(class UnityEngine.Transform root, string objectPath) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="root" Type="UnityEngine.Transform" />
+        <Parameter Name="objectPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="root">To be added.</param>
+        <param name="objectPath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCaptureMatch">
+      <MemberSignature Language="C#" Value="public static string GetCaptureMatch (System.Text.RegularExpressions.Match match);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCaptureMatch(class System.Text.RegularExpressions.Match match) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="match" Type="System.Text.RegularExpressions.Match" />
+      </Parameters>
+      <Docs>
+        <param name="match">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPath">
+      <MemberSignature Language="C#" Value="public static string GetPath (this UnityEngine.Transform tr);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetPath(class UnityEngine.Transform tr) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tr" Type="UnityEngine.Transform" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="tr">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValidTermName">
+      <MemberSignature Language="C#" Value="public static string GetValidTermName (string text, bool allowCategory = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetValidTermName(string text, bool allowCategory) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="allowCategory" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="allowCategory">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPlaying">
+      <MemberSignature Language="C#" Value="public static bool IsPlaying ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsPlaying() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberChars">
+      <MemberSignature Language="C#" Value="public const string NumberChars;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string NumberChars" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveNonASCII">
+      <MemberSignature Language="C#" Value="public static string RemoveNonASCII (string text, bool allowCategory = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string RemoveNonASCII(string text, bool allowCategory) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="allowCategory" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="allowCategory">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveResourcesPath">
+      <MemberSignature Language="C#" Value="public static bool RemoveResourcesPath (ref string sPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool RemoveResourcesPath(string&amp; sPath) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sPath" Type="System.String" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="sPath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveTags">
+      <MemberSignature Language="C#" Value="public static string RemoveTags (string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string RemoveTags(string text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReverseText">
+      <MemberSignature Language="C#" Value="public static string ReverseText (string source);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ReverseText(string source) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendWebRequest">
+      <MemberSignature Language="C#" Value="public static void SendWebRequest (UnityEngine.Networking.UnityWebRequest www);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SendWebRequest(class UnityEngine.Networking.UnityWebRequest www) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="www" Type="UnityEngine.Networking.UnityWebRequest" />
+      </Parameters>
+      <Docs>
+        <param name="www">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SplitLine">
+      <MemberSignature Language="C#" Value="public static string SplitLine (string line, int maxCharacters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SplitLine(string line, int32 maxCharacters) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="line" Type="System.String" />
+        <Parameter Name="maxCharacters" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="line">To be added.</param>
+        <param name="maxCharacters">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidChars">
+      <MemberSignature Language="C#" Value="public const string ValidChars;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ValidChars" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidNameSymbols">
+      <MemberSignature Language="C#" Value="public const string ValidNameSymbols;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ValidNameSymbols" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

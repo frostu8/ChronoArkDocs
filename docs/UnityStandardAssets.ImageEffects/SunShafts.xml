@@ -1,0 +1,239 @@
+<Type Name="SunShafts" FullName="UnityStandardAssets.ImageEffects.SunShafts">
+  <TypeSignature Language="C#" Value="public class SunShafts : UnityStandardAssets.ImageEffects.PostEffectsBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SunShafts extends UnityStandardAssets.ImageEffects.PostEffectsBase" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityStandardAssets.ImageEffects.PostEffectsBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.AddComponentMenu("Image Effects/Rendering/Sun Shafts")]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.ExecuteInEditMode]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.RequireComponent(typeof(UnityEngine.Camera))]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SunShafts ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckResources">
+      <MemberSignature Language="C#" Value="public override bool CheckResources ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool CheckResources() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="maxRadius">
+      <MemberSignature Language="C#" Value="public float maxRadius;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 maxRadius" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="radialBlurIterations">
+      <MemberSignature Language="C#" Value="public int radialBlurIterations;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 radialBlurIterations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="resolution">
+      <MemberSignature Language="C#" Value="public UnityStandardAssets.ImageEffects.SunShafts.SunShaftsResolution resolution;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityStandardAssets.ImageEffects.SunShafts/SunShaftsResolution resolution" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.SunShafts+SunShaftsResolution</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="screenBlendMode">
+      <MemberSignature Language="C#" Value="public UnityStandardAssets.ImageEffects.SunShafts.ShaftsScreenBlendMode screenBlendMode;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityStandardAssets.ImageEffects.SunShafts/ShaftsScreenBlendMode screenBlendMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.SunShafts+ShaftsScreenBlendMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="simpleClearShader">
+      <MemberSignature Language="C#" Value="public UnityEngine.Shader simpleClearShader;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Shader simpleClearShader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Shader</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="sunColor">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color sunColor;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Color sunColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="sunShaftBlurRadius">
+      <MemberSignature Language="C#" Value="public float sunShaftBlurRadius;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 sunShaftBlurRadius" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="sunShaftIntensity">
+      <MemberSignature Language="C#" Value="public float sunShaftIntensity;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 sunShaftIntensity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="sunShaftsShader">
+      <MemberSignature Language="C#" Value="public UnityEngine.Shader sunShaftsShader;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Shader sunShaftsShader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Shader</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="sunThreshold">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color sunThreshold;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Color sunThreshold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="sunTransform">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform sunTransform;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform sunTransform" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="useDepthTexture">
+      <MemberSignature Language="C#" Value="public bool useDepthTexture;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool useDepthTexture" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,37 @@
+<Type Name="IResourceManager_Bundles" FullName="I2.Loc.IResourceManager_Bundles">
+  <TypeSignature Language="C#" Value="public interface IResourceManager_Bundles" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IResourceManager_Bundles" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LoadFromBundle">
+      <MemberSignature Language="C#" Value="public UnityEngine.Object LoadFromBundle (string path, Type assetType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class UnityEngine.Object LoadFromBundle(string path, class System.Type assetType) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="assetType" Type="System.Type" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="assetType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

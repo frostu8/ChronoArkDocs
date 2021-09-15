@@ -1,0 +1,22 @@
+<Type Name="SkillButton+SkillClickDel" FullName="SkillButton+SkillClickDel">
+  <TypeSignature Language="C#" Value="public delegate void SkillButton.SkillClickDel(SkillButton Mybutton);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed SkillButton/SkillClickDel extends System.MulticastDelegate" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="Mybutton" Type="SkillButton" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Mybutton">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

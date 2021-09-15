@@ -1,0 +1,264 @@
+<Type Name="JSONClass" FullName="I2.Loc.SimpleJSON.JSONClass">
+  <TypeSignature Language="C#" Value="public class JSONClass : I2.Loc.SimpleJSON.JSONNode, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JSONClass extends I2.Loc.SimpleJSON.JSONNode implements class System.Collections.IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>I2.Loc.SimpleJSON.JSONNode</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JSONClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public override void Add (string aKey, I2.Loc.SimpleJSON.JSONNode aItem);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Add(string aKey, class I2.Loc.SimpleJSON.JSONNode aItem) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aKey" Type="System.String" />
+        <Parameter Name="aItem" Type="I2.Loc.SimpleJSON.JSONNode" />
+      </Parameters>
+      <Docs>
+        <param name="aKey">To be added.</param>
+        <param name="aItem">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Childs">
+      <MemberSignature Language="C#" Value="public override System.Collections.Generic.IEnumerable&lt;I2.Loc.SimpleJSON.JSONNode&gt; Childs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class I2.Loc.SimpleJSON.JSONNode&gt; Childs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;I2.Loc.SimpleJSON.JSONNode&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public override int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public override I2.Loc.SimpleJSON.JSONNode this[int aIndex] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class I2.Loc.SimpleJSON.JSONNode Item(int32)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.SimpleJSON.JSONNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="aIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public override I2.Loc.SimpleJSON.JSONNode this[string aKey] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class I2.Loc.SimpleJSON.JSONNode Item(string)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.SimpleJSON.JSONNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="aKey">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public override I2.Loc.SimpleJSON.JSONNode Remove (I2.Loc.SimpleJSON.JSONNode aNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class I2.Loc.SimpleJSON.JSONNode Remove(class I2.Loc.SimpleJSON.JSONNode aNode) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.SimpleJSON.JSONNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aNode" Type="I2.Loc.SimpleJSON.JSONNode" />
+      </Parameters>
+      <Docs>
+        <param name="aNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public override I2.Loc.SimpleJSON.JSONNode Remove (int aIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class I2.Loc.SimpleJSON.JSONNode Remove(int32 aIndex) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.SimpleJSON.JSONNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="aIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public override I2.Loc.SimpleJSON.JSONNode Remove (string aKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class I2.Loc.SimpleJSON.JSONNode Remove(string aKey) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.SimpleJSON.JSONNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="aKey">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public override void Serialize (System.IO.BinaryWriter aWriter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Serialize(class System.IO.BinaryWriter aWriter) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aWriter" Type="System.IO.BinaryWriter" />
+      </Parameters>
+      <Docs>
+        <param name="aWriter">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString (string aPrefix);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString(string aPrefix) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aPrefix" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="aPrefix">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

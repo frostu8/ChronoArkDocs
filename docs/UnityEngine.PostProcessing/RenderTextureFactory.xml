@@ -1,0 +1,143 @@
+<Type Name="RenderTextureFactory" FullName="UnityEngine.PostProcessing.RenderTextureFactory">
+  <TypeSignature Language="C#" Value="public sealed class RenderTextureFactory : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RenderTextureFactory extends System.Object implements class System.IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RenderTextureFactory ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public UnityEngine.RenderTexture Get (UnityEngine.RenderTexture baseRenderTexture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class UnityEngine.RenderTexture Get(class UnityEngine.RenderTexture baseRenderTexture) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RenderTexture</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="baseRenderTexture" Type="UnityEngine.RenderTexture" />
+      </Parameters>
+      <Docs>
+        <param name="baseRenderTexture">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public UnityEngine.RenderTexture Get (int width, int height, int depthBuffer = 0, UnityEngine.RenderTextureFormat format = UnityEngine.RenderTextureFormat.ARGBHalf, UnityEngine.RenderTextureReadWrite rw = UnityEngine.RenderTextureReadWrite.Default, UnityEngine.FilterMode filterMode = UnityEngine.FilterMode.Bilinear, UnityEngine.TextureWrapMode wrapMode = UnityEngine.TextureWrapMode.Clamp, string name = &quot;FactoryTempTexture&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class UnityEngine.RenderTexture Get(int32 width, int32 height, int32 depthBuffer, valuetype UnityEngine.RenderTextureFormat format, valuetype UnityEngine.RenderTextureReadWrite rw, valuetype UnityEngine.FilterMode filterMode, valuetype UnityEngine.TextureWrapMode wrapMode, string name) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RenderTexture</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" />
+        <Parameter Name="depthBuffer" Type="System.Int32" />
+        <Parameter Name="format" Type="UnityEngine.RenderTextureFormat" />
+        <Parameter Name="rw" Type="UnityEngine.RenderTextureReadWrite" />
+        <Parameter Name="filterMode" Type="UnityEngine.FilterMode" />
+        <Parameter Name="wrapMode" Type="UnityEngine.TextureWrapMode" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <param name="depthBuffer">To be added.</param>
+        <param name="format">To be added.</param>
+        <param name="rw">To be added.</param>
+        <param name="filterMode">To be added.</param>
+        <param name="wrapMode">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Release">
+      <MemberSignature Language="C#" Value="public void Release (UnityEngine.RenderTexture rt);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Release(class UnityEngine.RenderTexture rt) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rt" Type="UnityEngine.RenderTexture" />
+      </Parameters>
+      <Docs>
+        <param name="rt">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReleaseAll">
+      <MemberSignature Language="C#" Value="public void ReleaseAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReleaseAll() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

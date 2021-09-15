@@ -1,0 +1,77 @@
+<Type Name="TUTORIALCLEARTYPE" FullName="TUTORIALCLEARTYPE">
+  <TypeSignature Language="C#" Value="public enum TUTORIALCLEARTYPE" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TUTORIALCLEARTYPE extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="INTERECT">
+      <MemberSignature Language="C#" Value="INTERECT" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal TUTORIALCLEARTYPE INTERECT = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TUTORIALCLEARTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MOVE">
+      <MemberSignature Language="C#" Value="MOVE" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal TUTORIALCLEARTYPE MOVE = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TUTORIALCLEARTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NULL">
+      <MemberSignature Language="C#" Value="NULL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal TUTORIALCLEARTYPE NULL = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TUTORIALCLEARTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OPENSTAT">
+      <MemberSignature Language="C#" Value="OPENSTAT" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal TUTORIALCLEARTYPE OPENSTAT = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TUTORIALCLEARTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

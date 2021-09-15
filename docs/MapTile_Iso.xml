@@ -1,0 +1,328 @@
+<Type Name="MapTile_Iso" FullName="MapTile_Iso">
+  <TypeSignature Language="C#" Value="public class MapTile_Iso" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MapTile_Iso extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MapTile_Iso ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockDirection">
+      <MemberSignature Language="C#" Value="public Direction BlockDirection;" />
+      <MemberSignature Language="ILAsm" Value=".field public Direction BlockDirection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Direction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockOptionflag">
+      <MemberSignature Language="C#" Value="public bool BlockOptionflag;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool BlockOptionflag" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public void Create (UnityEngine.GameObject Ob);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Create(class UnityEngine.GameObject Ob) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Ob" Type="UnityEngine.GameObject" />
+      </Parameters>
+      <Docs>
+        <param name="Ob">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DecoObject">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject DecoObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject DecoObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Edge">
+      <MemberSignature Language="C#" Value="public bool Edge;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Edge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="flipflag">
+      <MemberSignature Language="C#" Value="public bool flipflag;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool flipflag" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Info">
+      <MemberSignature Language="C#" Value="public TileInfo_Iso Info;" />
+      <MemberSignature Language="ILAsm" Value=".field public TileInfo_Iso Info" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TileInfo_Iso</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public void Init (UnityEngine.Vector2 Pos, IsoMap Map);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Init(valuetype UnityEngine.Vector2 Pos, IsoMap Map) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Vector2" />
+        <Parameter Name="Map" Type="IsoMap" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <param name="Map">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MainHexTile">
+      <MemberSignature Language="C#" Value="public MapTile MainHexTile;" />
+      <MemberSignature Language="ILAsm" Value=".field public MapTile MainHexTile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MapTile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyMap">
+      <MemberSignature Language="C#" Value="public IsoMap MyMap;" />
+      <MemberSignature Language="ILAsm" Value=".field public IsoMap MyMap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>IsoMap</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Neighbor">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 Neighbor (UnityEngine.Vector2 Tile, Direction direction);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype UnityEngine.Vector2 Neighbor(valuetype UnityEngine.Vector2 Tile, Direction direction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Tile" Type="UnityEngine.Vector2" />
+        <Parameter Name="direction" Type="Direction" />
+      </Parameters>
+      <Docs>
+        <param name="Tile">To be added.</param>
+        <param name="direction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NeighborTile">
+      <MemberSignature Language="C#" Value="public MapTile_Iso NeighborTile (Direction direction);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance MapTile_Iso NeighborTile(Direction direction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MapTile_Iso</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="direction" Type="Direction" />
+      </Parameters>
+      <Docs>
+        <param name="direction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoDeco">
+      <MemberSignature Language="C#" Value="public bool NoDeco;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool NoDeco" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pos">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 Pos { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype UnityEngine.Vector2 Pos" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpriteSet">
+      <MemberSignature Language="C#" Value="public void SpriteSet (StageIsoTile Tiles);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SpriteSet(StageIsoTile Tiles) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Tiles" Type="StageIsoTile" />
+      </Parameters>
+      <Docs>
+        <param name="Tiles">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuperBlock">
+      <MemberSignature Language="C#" Value="public bool SuperBlock;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool SuperBlock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TileComponent">
+      <MemberSignature Language="C#" Value="public IsoTile TileComponent;" />
+      <MemberSignature Language="ILAsm" Value=".field public IsoTile TileComponent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>IsoTile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TileObject">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject TileObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject TileObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

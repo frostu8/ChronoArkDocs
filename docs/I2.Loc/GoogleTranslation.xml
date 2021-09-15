@@ -1,0 +1,408 @@
+<Type Name="GoogleTranslation" FullName="I2.Loc.GoogleTranslation">
+  <TypeSignature Language="C#" Value="public static class GoogleTranslation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GoogleTranslation extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddQuery">
+      <MemberSignature Language="C#" Value="public static void AddQuery (string text, string LanguageCodeFrom, string LanguageCodeTo, System.Collections.Generic.Dictionary&lt;string,I2.Loc.TranslationQuery&gt; dict);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AddQuery(string text, string LanguageCodeFrom, string LanguageCodeTo, class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.TranslationQuery&gt; dict) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="LanguageCodeFrom" Type="System.String" />
+        <Parameter Name="LanguageCodeTo" Type="System.String" />
+        <Parameter Name="dict" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="LanguageCodeFrom">To be added.</param>
+        <param name="LanguageCodeTo">To be added.</param>
+        <param name="dict">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelCurrentGoogleTranslations">
+      <MemberSignature Language="C#" Value="public static void CancelCurrentGoogleTranslations ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CancelCurrentGoogleTranslations() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanTranslate">
+      <MemberSignature Language="C#" Value="public static bool CanTranslate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CanTranslate() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertTranslationRequest">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;string&gt; ConvertTranslationRequest (System.Collections.Generic.Dictionary&lt;string,I2.Loc.TranslationQuery&gt; requests, bool encodeGET);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;string&gt; ConvertTranslationRequest(class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.TranslationQuery&gt; requests, bool encodeGET) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="requests" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+        <Parameter Name="encodeGET" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="requests">To be added.</param>
+        <param name="encodeGET">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateQueries">
+      <MemberSignature Language="C#" Value="public static void CreateQueries (string text, string LanguageCodeFrom, string LanguageCodeTo, System.Collections.Generic.Dictionary&lt;string,I2.Loc.TranslationQuery&gt; dict);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CreateQueries(string text, string LanguageCodeFrom, string LanguageCodeTo, class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.TranslationQuery&gt; dict) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="LanguageCodeFrom" Type="System.String" />
+        <Parameter Name="LanguageCodeTo" Type="System.String" />
+        <Parameter Name="dict" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="LanguageCodeFrom">To be added.</param>
+        <param name="LanguageCodeTo">To be added.</param>
+        <param name="dict">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceTranslate">
+      <MemberSignature Language="C#" Value="public static bool ForceTranslate (System.Collections.Generic.Dictionary&lt;string,I2.Loc.TranslationQuery&gt; requests, bool usePOST = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ForceTranslate(class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.TranslationQuery&gt; requests, bool usePOST) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="requests" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+        <Parameter Name="usePOST" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="requests">To be added.</param>
+        <param name="usePOST">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceTranslate">
+      <MemberSignature Language="C#" Value="public static string ForceTranslate (string text, string LanguageCodeFrom, string LanguageCodeTo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ForceTranslate(string text, string LanguageCodeFrom, string LanguageCodeTo) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="LanguageCodeFrom" Type="System.String" />
+        <Parameter Name="LanguageCodeTo" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="LanguageCodeFrom">To be added.</param>
+        <param name="LanguageCodeTo">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPluralParameter">
+      <MemberSignature Language="C#" Value="public static string GetPluralParameter (string text, bool forceTag);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetPluralParameter(string text, bool forceTag) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="forceTag" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="forceTag">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPluralText">
+      <MemberSignature Language="C#" Value="public static string GetPluralText (string text, string pluralType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetPluralText(string text, string pluralType) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="pluralType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="pluralType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQueryResult">
+      <MemberSignature Language="C#" Value="public static string GetQueryResult (string text, string LanguageCodeTo, System.Collections.Generic.Dictionary&lt;string,I2.Loc.TranslationQuery&gt; dict);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetQueryResult(string text, string LanguageCodeTo, class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.TranslationQuery&gt; dict) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="LanguageCodeTo" Type="System.String" />
+        <Parameter Name="dict" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="LanguageCodeTo">To be added.</param>
+        <param name="dict">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasParameters">
+      <MemberSignature Language="C#" Value="public static bool HasParameters (string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool HasParameters(string text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTranslating">
+      <MemberSignature Language="C#" Value="public static bool IsTranslating ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsTranslating() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParseTranslationResult">
+      <MemberSignature Language="C#" Value="public static string ParseTranslationResult (string html, System.Collections.Generic.Dictionary&lt;string,I2.Loc.TranslationQuery&gt; requests);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ParseTranslationResult(string html, class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.TranslationQuery&gt; requests) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="html" Type="System.String" />
+        <Parameter Name="requests" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="html">To be added.</param>
+        <param name="requests">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RebuildTranslation">
+      <MemberSignature Language="C#" Value="public static string RebuildTranslation (string text, System.Collections.Generic.Dictionary&lt;string,I2.Loc.TranslationQuery&gt; dict, string LanguageCodeTo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string RebuildTranslation(string text, class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.TranslationQuery&gt; dict, string LanguageCodeTo) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="dict" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+        <Parameter Name="LanguageCodeTo" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="dict">To be added.</param>
+        <param name="LanguageCodeTo">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TitleCase">
+      <MemberSignature Language="C#" Value="public static string TitleCase (string s);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string TitleCase(string s) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="s" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="s">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public static void Translate (System.Collections.Generic.Dictionary&lt;string,I2.Loc.TranslationQuery&gt; requests, I2.Loc.GoogleTranslation.fnOnTranslationReady OnTranslationReady, bool usePOST = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Translate(class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.TranslationQuery&gt; requests, class I2.Loc.GoogleTranslation/fnOnTranslationReady OnTranslationReady, bool usePOST) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="requests" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+        <Parameter Name="OnTranslationReady" Type="I2.Loc.GoogleTranslation+fnOnTranslationReady" />
+        <Parameter Name="usePOST" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="requests">To be added.</param>
+        <param name="OnTranslationReady">To be added.</param>
+        <param name="usePOST">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public static void Translate (string text, string LanguageCodeFrom, string LanguageCodeTo, I2.Loc.GoogleTranslation.fnOnTranslated OnTranslationReady);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Translate(string text, string LanguageCodeFrom, string LanguageCodeTo, class I2.Loc.GoogleTranslation/fnOnTranslated OnTranslationReady) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="LanguageCodeFrom" Type="System.String" />
+        <Parameter Name="LanguageCodeTo" Type="System.String" />
+        <Parameter Name="OnTranslationReady" Type="I2.Loc.GoogleTranslation+fnOnTranslated" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="LanguageCodeFrom">To be added.</param>
+        <param name="LanguageCodeTo">To be added.</param>
+        <param name="OnTranslationReady">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UppercaseFirst">
+      <MemberSignature Language="C#" Value="public static string UppercaseFirst (string s);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UppercaseFirst(string s) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="s" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="s">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

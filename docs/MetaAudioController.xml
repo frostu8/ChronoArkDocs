@@ -1,0 +1,127 @@
+<Type Name="MetaAudioController" FullName="MetaAudioController">
+  <TypeSignature Language="C#" Value="public class MetaAudioController : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MetaAudioController extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MetaAudioController ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmitParticleExplosion">
+      <MemberSignature Language="C#" Value="public void EmitParticleExplosion (UnityEngine.Vector3 pos, bool big);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EmitParticleExplosion(valuetype UnityEngine.Vector3 pos, bool big) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pos" Type="UnityEngine.Vector3" />
+        <Parameter Name="big" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="pos">To be added.</param>
+        <param name="big">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="explosionSfxPregabs">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject[] explosionSfxPregabs;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject[] explosionSfxPregabs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="globalProgressSpeed">
+      <MemberSignature Language="C#" Value="public float globalProgressSpeed;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 globalProgressSpeed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="loopingSFX">
+      <MemberSignature Language="C#" Value="public UnityEngine.AudioSource loopingSFX;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.AudioSource loopingSFX" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="smallExplosionSfxPregabs">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject[] smallExplosionSfxPregabs;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject[] smallExplosionSfxPregabs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="waveSfxPrefabs">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject[] waveSfxPrefabs;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject[] waveSfxPrefabs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

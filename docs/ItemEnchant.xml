@@ -1,0 +1,161 @@
+<Type Name="ItemEnchant" FullName="ItemEnchant">
+  <TypeSignature Language="C#" Value="public class ItemEnchant" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ItemEnchant extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemEnchant ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurseEnchant">
+      <MemberSignature Language="C#" Value="public bool CurseEnchant;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool CurseEnchant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnchantData">
+      <MemberSignature Language="C#" Value="public EquipBase EnchantData;" />
+      <MemberSignature Language="ILAsm" Value=".field public EquipBase EnchantData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>EquipBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="public string Key;" />
+      <MemberSignature Language="ILAsm" Value=".field public string Key" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name;" />
+      <MemberSignature Language="ILAsm" Value=".field public string Name" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewEnchant">
+      <MemberSignature Language="C#" Value="public static ItemEnchant NewEnchant (Item_Equip MainItem, string EnKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig ItemEnchant NewEnchant(Item_Equip MainItem, string EnKey) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ItemEnchant</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MainItem" Type="Item_Equip" />
+        <Parameter Name="EnKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="MainItem">To be added.</param>
+        <param name="EnKey">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RandomCurseEnchant">
+      <MemberSignature Language="C#" Value="public static ItemEnchant RandomCurseEnchant (Item_Equip MainItem);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig ItemEnchant RandomCurseEnchant(Item_Equip MainItem) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ItemEnchant</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MainItem" Type="Item_Equip" />
+      </Parameters>
+      <Docs>
+        <param name="MainItem">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RandomEnchant">
+      <MemberSignature Language="C#" Value="public static void RandomEnchant (Item_Equip MainItem, string ExsistKey = &quot;&quot;, bool GoodEnchaents = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RandomEnchant(Item_Equip MainItem, string ExsistKey, bool GoodEnchaents) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MainItem" Type="Item_Equip" />
+        <Parameter Name="ExsistKey" Type="System.String" />
+        <Parameter Name="GoodEnchaents" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="MainItem">To be added.</param>
+        <param name="ExsistKey">To be added.</param>
+        <param name="GoodEnchaents">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

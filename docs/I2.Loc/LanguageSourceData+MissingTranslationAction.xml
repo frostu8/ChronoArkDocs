@@ -1,0 +1,77 @@
+<Type Name="LanguageSourceData+MissingTranslationAction" FullName="I2.Loc.LanguageSourceData+MissingTranslationAction">
+  <TypeSignature Language="C#" Value="public enum LanguageSourceData.MissingTranslationAction" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed LanguageSourceData/MissingTranslationAction extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Empty">
+      <MemberSignature Language="C#" Value="Empty" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/MissingTranslationAction Empty = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+MissingTranslationAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Fallback">
+      <MemberSignature Language="C#" Value="Fallback" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/MissingTranslationAction Fallback = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+MissingTranslationAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTerm">
+      <MemberSignature Language="C#" Value="ShowTerm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/MissingTranslationAction ShowTerm = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+MissingTranslationAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowWarning">
+      <MemberSignature Language="C#" Value="ShowWarning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/MissingTranslationAction ShowWarning = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+MissingTranslationAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

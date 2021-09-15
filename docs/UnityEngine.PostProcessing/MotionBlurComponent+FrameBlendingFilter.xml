@@ -1,0 +1,101 @@
+<Type Name="MotionBlurComponent+FrameBlendingFilter" FullName="UnityEngine.PostProcessing.MotionBlurComponent+FrameBlendingFilter">
+  <TypeSignature Language="C#" Value="public class MotionBlurComponent.FrameBlendingFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit MotionBlurComponent/FrameBlendingFilter extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FrameBlendingFilter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlendFrames">
+      <MemberSignature Language="C#" Value="public void BlendFrames (UnityEngine.Rendering.CommandBuffer cb, float strength, UnityEngine.Rendering.RenderTargetIdentifier source, UnityEngine.Rendering.RenderTargetIdentifier destination, UnityEngine.Material material);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BlendFrames(class UnityEngine.Rendering.CommandBuffer cb, float32 strength, valuetype UnityEngine.Rendering.RenderTargetIdentifier source, valuetype UnityEngine.Rendering.RenderTargetIdentifier destination, class UnityEngine.Material material) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cb" Type="UnityEngine.Rendering.CommandBuffer" />
+        <Parameter Name="strength" Type="System.Single" />
+        <Parameter Name="source" Type="UnityEngine.Rendering.RenderTargetIdentifier" />
+        <Parameter Name="destination" Type="UnityEngine.Rendering.RenderTargetIdentifier" />
+        <Parameter Name="material" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="cb">To be added.</param>
+        <param name="strength">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="destination">To be added.</param>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Dispose() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PushFrame">
+      <MemberSignature Language="C#" Value="public void PushFrame (UnityEngine.Rendering.CommandBuffer cb, UnityEngine.Rendering.RenderTargetIdentifier source, int width, int height, UnityEngine.Material material);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PushFrame(class UnityEngine.Rendering.CommandBuffer cb, valuetype UnityEngine.Rendering.RenderTargetIdentifier source, int32 width, int32 height, class UnityEngine.Material material) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cb" Type="UnityEngine.Rendering.CommandBuffer" />
+        <Parameter Name="source" Type="UnityEngine.Rendering.RenderTargetIdentifier" />
+        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" />
+        <Parameter Name="material" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="cb">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

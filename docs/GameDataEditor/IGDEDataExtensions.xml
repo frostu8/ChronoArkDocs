@@ -1,0 +1,102 @@
+<Type Name="IGDEDataExtensions" FullName="GameDataEditor.IGDEDataExtensions">
+  <TypeSignature Language="C#" Value="public static class IGDEDataExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit IGDEDataExtensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SchemaName&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static string SchemaName&lt;T&gt; (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;T&gt;&gt; variable) where T : GameDataEditor.IGDEData;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SchemaName&lt;(class GameDataEditor.IGDEData) T&gt;(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;!!T&gt;&gt; variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>GameDataEditor.IGDEData</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;T&gt;&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SchemaName&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static string SchemaName&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable) where T : GameDataEditor.IGDEData;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SchemaName&lt;(class GameDataEditor.IGDEData) T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>GameDataEditor.IGDEData</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SchemaName&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static string SchemaName&lt;T&gt; (this T variable) where T : GameDataEditor.IGDEData;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SchemaName&lt;(class GameDataEditor.IGDEData) T&gt;(!!T variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>GameDataEditor.IGDEData</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="T" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

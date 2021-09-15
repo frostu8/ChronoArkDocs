@@ -1,0 +1,408 @@
+<Type Name="TargetSelects" FullName="TargetSelects">
+  <TypeSignature Language="C#" Value="public class TargetSelects : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TargetSelects extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TargetSelects ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ControlTarget">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject _ControlTarget;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject _ControlTarget" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SkillTargetSelect">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject _SkillTargetSelect;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject _SkillTargetSelect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_TargetSelect">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject _TargetSelect;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject _TargetSelect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_TargetSelect3D">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject _TargetSelect3D;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject _TargetSelect3D" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public static void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Clear() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlOneTarget">
+      <MemberSignature Language="C#" Value="public static void ControlOneTarget (BattleChar Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ControlOneTarget(BattleChar Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlTarget">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GameObject ControlTarget;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class UnityEngine.GameObject ControlTarget" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlTargetClear">
+      <MemberSignature Language="C#" Value="public static void ControlTargetClear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ControlTargetClear() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlTargets">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;UnityEngine.GameObject&gt; ControlTargets;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class System.Collections.Generic.List`1&lt;class UnityEngine.GameObject&gt; ControlTargets" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;UnityEngine.GameObject&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FieldTarget">
+      <MemberSignature Language="C#" Value="public static void FieldTarget (AllyWindow Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FieldTarget(AllyWindow Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="AllyWindow" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemTarget">
+      <MemberSignature Language="C#" Value="public static void ItemTarget (ItemObject Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ItemTarget(ItemObject Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="ItemObject" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultySelect">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;TargetSelect&gt; MultySelect;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class System.Collections.Generic.List`1&lt;TargetSelect&gt; MultySelect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;TargetSelect&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultySkillTarget">
+      <MemberSignature Language="C#" Value="public static void MultySkillTarget ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MultySkillTarget() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultyTarget">
+      <MemberSignature Language="C#" Value="public static void MultyTarget ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MultyTarget() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultyTarget">
+      <MemberSignature Language="C#" Value="public static void MultyTarget (bool ally);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MultyTarget(bool ally) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ally" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ally">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultyTarget">
+      <MemberSignature Language="C#" Value="public static void MultyTarget (System.Collections.Generic.List&lt;BattleChar&gt; targets);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void MultyTarget(class System.Collections.Generic.List`1&lt;BattleChar&gt; targets) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targets" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="targets">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OneSelect">
+      <MemberSignature Language="C#" Value="public static TargetSelect OneSelect;" />
+      <MemberSignature Language="ILAsm" Value=".field public static TargetSelect OneSelect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TargetSelect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OneSkillTarget">
+      <MemberSignature Language="C#" Value="public static void OneSkillTarget (SkillButton Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void OneSkillTarget(SkillButton Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="SkillButton" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OneTarget">
+      <MemberSignature Language="C#" Value="public static void OneTarget (BattleChar Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void OneTarget(BattleChar Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillTargetObject">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GameObject SkillTargetObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class UnityEngine.GameObject SkillTargetObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetSelect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GameObject TargetSelect;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class UnityEngine.GameObject TargetSelect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetSelect3D">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GameObject TargetSelect3D;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class UnityEngine.GameObject TargetSelect3D" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThisObject">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GameObject ThisObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class UnityEngine.GameObject ThisObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

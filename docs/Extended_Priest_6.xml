@@ -1,0 +1,75 @@
+<Type Name="Extended_Priest_6" FullName="Extended_Priest_6">
+  <TypeSignature Language="C#" Value="public class Extended_Priest_6 : PriestPBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Extended_Priest_6 extends " />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>PriestPBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Extended_Priest_6 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttackEffectSingle">
+      <MemberSignature Language="C#" Value="public override void AttackEffectSingle (BattleChar hit, SkillParticle SP, int DMG, int Heal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void AttackEffectSingle(BattleChar hit, SkillParticle SP, int32 DMG, int32 Heal) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hit" Type="BattleChar" />
+        <Parameter Name="SP" Type="SkillParticle" />
+        <Parameter Name="DMG" Type="System.Int32" />
+        <Parameter Name="Heal" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="hit">To be added.</param>
+        <param name="SP">To be added.</param>
+        <param name="DMG">To be added.</param>
+        <param name="Heal">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Buffremove">
+      <MemberSignature Language="C#" Value="public static void Buffremove (BattleChar hit);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Buffremove(BattleChar hit) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hit" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="hit">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

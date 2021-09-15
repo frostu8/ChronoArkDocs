@@ -1,0 +1,397 @@
+<Type Name="BattleText" FullName="BattleText">
+  <TypeSignature Language="C#" Value="public class BattleText : UnityEngine.MonoBehaviour, UnityEngine.EventSystems.IPointerClickHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BattleText extends UnityEngine.MonoBehaviour implements class UnityEngine.EventSystems.IEventSystemHandler, class UnityEngine.EventSystems.IPointerClickHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>UnityEngine.EventSystems.IEventSystemHandler</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>UnityEngine.EventSystems.IPointerClickHandler</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BattleText ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ani">
+      <MemberSignature Language="C#" Value="public UnityEngine.Animator Ani;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Animator Ani" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Animator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BattleTextOut">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator BattleTextOut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator BattleTextOut() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public void Click ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Click() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomText">
+      <MemberSignature Language="C#" Value="public static BattleText CustomText (UnityEngine.Vector3 Pos, string Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig BattleText CustomText(valuetype UnityEngine.Vector3 Pos, string Text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleText</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Vector3" />
+        <Parameter Name="Text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <param name="Text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public void End ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void End() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstBattleText_Co">
+      <MemberSignature Language="C#" Value="public static System.Collections.IEnumerator InstBattleText_Co (UnityEngine.Vector3 Pos, string Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IEnumerator InstBattleText_Co(valuetype UnityEngine.Vector3 Pos, string Text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Vector3" />
+        <Parameter Name="Text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <param name="Text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstBattleText_Co">
+      <MemberSignature Language="C#" Value="public static System.Collections.IEnumerator InstBattleText_Co (BattleChar EnemyChar, string Text, bool targetlook = false, int PlusYPos = 0, float DelayTime = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IEnumerator InstBattleText_Co(BattleChar EnemyChar, string Text, bool targetlook, int32 PlusYPos, float32 DelayTime) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="EnemyChar" Type="BattleChar" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="targetlook" Type="System.Boolean" />
+        <Parameter Name="PlusYPos" Type="System.Int32" />
+        <Parameter Name="DelayTime" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="EnemyChar">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="targetlook">To be added.</param>
+        <param name="PlusYPos">To be added.</param>
+        <param name="DelayTime">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstBattleTextAlly_Co">
+      <MemberSignature Language="C#" Value="public static System.Collections.IEnumerator InstBattleTextAlly_Co (BattleChar Ally, string Text, bool Event = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IEnumerator InstBattleTextAlly_Co(BattleChar Ally, string Text, bool Event) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Ally" Type="BattleChar" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Event" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Ally">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Event">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstBattleTextAlly_Co">
+      <MemberSignature Language="C#" Value="public static System.Collections.IEnumerator InstBattleTextAlly_Co (UnityEngine.Vector3 Pos, string Text, bool Event = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IEnumerator InstBattleTextAlly_Co(valuetype UnityEngine.Vector3 Pos, string Text, bool Event) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Vector3" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="Event" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <param name="Text">To be added.</param>
+        <param name="Event">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstFieldText">
+      <MemberSignature Language="C#" Value="public static void InstFieldText (AllyWindow window, string Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void InstFieldText(AllyWindow window, string Text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="window" Type="AllyWindow" />
+        <Parameter Name="Text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="window">To be added.</param>
+        <param name="Text">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstFieldText">
+      <MemberSignature Language="C#" Value="public static void InstFieldText (UnityEngine.Transform Pos, string Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void InstFieldText(class UnityEngine.Transform Pos, string Text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Transform" />
+        <Parameter Name="Text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <param name="Text">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstFieldText_CO">
+      <MemberSignature Language="C#" Value="public static System.Collections.IEnumerator InstFieldText_CO (AllyWindow window, string Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IEnumerator InstFieldText_CO(AllyWindow window, string Text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="window" Type="AllyWindow" />
+        <Parameter Name="Text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="window">To be added.</param>
+        <param name="Text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstFieldText_CO">
+      <MemberSignature Language="C#" Value="public static System.Collections.IEnumerator InstFieldText_CO (UnityEngine.Transform Pos, string Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IEnumerator InstFieldText_CO(class UnityEngine.Transform Pos, string Text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Transform" />
+        <Parameter Name="Text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <param name="Text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPointerClick">
+      <MemberSignature Language="C#" Value="public void OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnPointerClick(class UnityEngine.EventSystems.PointerEventData eventData) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:UnityEngine.EventSystems.IPointerClickHandler.OnPointerClick(UnityEngine.EventSystems.PointerEventData)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventData" Type="UnityEngine.EventSystems.PointerEventData" />
+      </Parameters>
+      <Docs>
+        <param name="eventData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ptext">
+      <MemberSignature Language="C#" Value="public PrintText Ptext;" />
+      <MemberSignature Language="ILAsm" Value=".field public PrintText Ptext" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>PrintText</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelfDestroy">
+      <MemberSignature Language="C#" Value="public void SelfDestroy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SelfDestroy() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForSecondSkip">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator WaitForSecondSkip (float Second);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator WaitForSecondSkip(float32 Second) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Second" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Second">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,47 @@
+<Type Name="DE_AnimationType" FullName="Dialogical.DE_AnimationType">
+  <TypeSignature Language="C#" Value="public enum DE_AnimationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DE_AnimationType extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BOOLCHANGE">
+      <MemberSignature Language="C#" Value="BOOLCHANGE" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Dialogical.DE_AnimationType BOOLCHANGE = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Dialogical.DE_AnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="STRINGPLAY">
+      <MemberSignature Language="C#" Value="STRINGPLAY" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Dialogical.DE_AnimationType STRINGPLAY = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Dialogical.DE_AnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

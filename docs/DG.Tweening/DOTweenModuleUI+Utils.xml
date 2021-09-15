@@ -1,0 +1,40 @@
+<Type Name="DOTweenModuleUI+Utils" FullName="DG.Tweening.DOTweenModuleUI+Utils">
+  <TypeSignature Language="C#" Value="public static class DOTweenModuleUI.Utils" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract sealed beforefieldinit DOTweenModuleUI/Utils extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SwitchToRectTransform">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 SwitchToRectTransform (UnityEngine.RectTransform from, UnityEngine.RectTransform to);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype UnityEngine.Vector2 SwitchToRectTransform(class UnityEngine.RectTransform from, class UnityEngine.RectTransform to) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="from" Type="UnityEngine.RectTransform" />
+        <Parameter Name="to" Type="UnityEngine.RectTransform" />
+      </Parameters>
+      <Docs>
+        <param name="from">To be added.</param>
+        <param name="to">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

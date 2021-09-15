@@ -1,0 +1,340 @@
+<Type Name="DOTweenModuleAudio" FullName="DG.Tweening.DOTweenModuleAudio">
+  <TypeSignature Language="C#" Value="public static class DOTweenModuleAudio" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DOTweenModuleAudio extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DOComplete">
+      <MemberSignature Language="C#" Value="public static int DOComplete (this UnityEngine.Audio.AudioMixer target, bool withCallbacks = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOComplete(class UnityEngine.Audio.AudioMixer target, bool withCallbacks) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+        <Parameter Name="withCallbacks" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="withCallbacks">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFade">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;float,float,DG.Tweening.Plugins.Options.FloatOptions&gt; DOFade (this UnityEngine.AudioSource target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;float32, float32, valuetype DG.Tweening.Plugins.Options.FloatOptions&gt; DOFade(class UnityEngine.AudioSource target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.AudioSource" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOFlip">
+      <MemberSignature Language="C#" Value="public static int DOFlip (this UnityEngine.Audio.AudioMixer target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOFlip(class UnityEngine.Audio.AudioMixer target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOGoto">
+      <MemberSignature Language="C#" Value="public static int DOGoto (this UnityEngine.Audio.AudioMixer target, float to, bool andPlay = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOGoto(class UnityEngine.Audio.AudioMixer target, float32 to, bool andPlay) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+        <Parameter Name="to" Type="System.Single" />
+        <Parameter Name="andPlay" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="to">To be added.</param>
+        <param name="andPlay">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOKill">
+      <MemberSignature Language="C#" Value="public static int DOKill (this UnityEngine.Audio.AudioMixer target, bool complete = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOKill(class UnityEngine.Audio.AudioMixer target, bool complete) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+        <Parameter Name="complete" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="complete">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPause">
+      <MemberSignature Language="C#" Value="public static int DOPause (this UnityEngine.Audio.AudioMixer target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOPause(class UnityEngine.Audio.AudioMixer target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPitch">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;float,float,DG.Tweening.Plugins.Options.FloatOptions&gt; DOPitch (this UnityEngine.AudioSource target, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;float32, float32, valuetype DG.Tweening.Plugins.Options.FloatOptions&gt; DOPitch(class UnityEngine.AudioSource target, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.AudioSource" RefType="this" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPlay">
+      <MemberSignature Language="C#" Value="public static int DOPlay (this UnityEngine.Audio.AudioMixer target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOPlay(class UnityEngine.Audio.AudioMixer target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPlayBackwards">
+      <MemberSignature Language="C#" Value="public static int DOPlayBackwards (this UnityEngine.Audio.AudioMixer target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOPlayBackwards(class UnityEngine.Audio.AudioMixer target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOPlayForward">
+      <MemberSignature Language="C#" Value="public static int DOPlayForward (this UnityEngine.Audio.AudioMixer target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOPlayForward(class UnityEngine.Audio.AudioMixer target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DORestart">
+      <MemberSignature Language="C#" Value="public static int DORestart (this UnityEngine.Audio.AudioMixer target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DORestart(class UnityEngine.Audio.AudioMixer target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DORewind">
+      <MemberSignature Language="C#" Value="public static int DORewind (this UnityEngine.Audio.AudioMixer target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DORewind(class UnityEngine.Audio.AudioMixer target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOSetFloat">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;float,float,DG.Tweening.Plugins.Options.FloatOptions&gt; DOSetFloat (this UnityEngine.Audio.AudioMixer target, string floatName, float endValue, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;float32, float32, valuetype DG.Tweening.Plugins.Options.FloatOptions&gt; DOSetFloat(class UnityEngine.Audio.AudioMixer target, string floatName, float32 endValue, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+        <Parameter Name="floatName" Type="System.String" />
+        <Parameter Name="endValue" Type="System.Single" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="floatName">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOSmoothRewind">
+      <MemberSignature Language="C#" Value="public static int DOSmoothRewind (this UnityEngine.Audio.AudioMixer target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOSmoothRewind(class UnityEngine.Audio.AudioMixer target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOTogglePause">
+      <MemberSignature Language="C#" Value="public static int DOTogglePause (this UnityEngine.Audio.AudioMixer target);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 DOTogglePause(class UnityEngine.Audio.AudioMixer target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Audio.AudioMixer" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

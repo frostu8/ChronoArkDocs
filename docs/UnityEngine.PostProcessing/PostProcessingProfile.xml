@@ -1,0 +1,256 @@
+<Type Name="PostProcessingProfile" FullName="UnityEngine.PostProcessing.PostProcessingProfile">
+  <TypeSignature Language="C#" Value="public class PostProcessingProfile : UnityEngine.ScriptableObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PostProcessingProfile extends UnityEngine.ScriptableObject" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.ScriptableObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PostProcessingProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ambientOcclusion">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.AmbientOcclusionModel ambientOcclusion;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.AmbientOcclusionModel ambientOcclusion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.AmbientOcclusionModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="antialiasing">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.AntialiasingModel antialiasing;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.AntialiasingModel antialiasing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.AntialiasingModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bloom">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.BloomModel bloom;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.BloomModel bloom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BloomModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="chromaticAberration">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.ChromaticAberrationModel chromaticAberration;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.ChromaticAberrationModel chromaticAberration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ChromaticAberrationModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="colorGrading">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.ColorGradingModel colorGrading;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.ColorGradingModel colorGrading" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ColorGradingModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="debugViews">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.BuiltinDebugViewsModel debugViews;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.BuiltinDebugViewsModel debugViews" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="depthOfField">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.DepthOfFieldModel depthOfField;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.DepthOfFieldModel depthOfField" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.DepthOfFieldModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="dithering">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.DitheringModel dithering;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.DitheringModel dithering" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.DitheringModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="eyeAdaptation">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.EyeAdaptationModel eyeAdaptation;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.EyeAdaptationModel eyeAdaptation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.EyeAdaptationModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="fog">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.FogModel fog;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.FogModel fog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.FogModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="grain">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.GrainModel grain;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.GrainModel grain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.GrainModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="motionBlur">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.MotionBlurModel motionBlur;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.MotionBlurModel motionBlur" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.MotionBlurModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="screenSpaceReflection">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.ScreenSpaceReflectionModel screenSpaceReflection;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.ScreenSpaceReflectionModel screenSpaceReflection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ScreenSpaceReflectionModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="userLut">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.UserLutModel userLut;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.UserLutModel userLut" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.UserLutModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="vignette">
+      <MemberSignature Language="C#" Value="public UnityEngine.PostProcessing.VignetteModel vignette;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.PostProcessing.VignetteModel vignette" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.VignetteModel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

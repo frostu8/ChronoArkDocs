@@ -1,0 +1,101 @@
+<Type Name="SerializableAnimationCurve" FullName="GAP_ParticleSystemController.SerializableAnimationCurve">
+  <TypeSignature Language="C#" Value="public class SerializableAnimationCurve" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SerializableAnimationCurve extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SerializableAnimationCurve (UnityEngine.AnimationCurve animCurve);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class UnityEngine.AnimationCurve animCurve) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="animCurve" Type="UnityEngine.AnimationCurve" />
+      </Parameters>
+      <Docs>
+        <param name="animCurve">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAnimationCurve">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationCurve GetAnimationCurve ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class UnityEngine.AnimationCurve GetAnimationCurve() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCurve</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="keys">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableKeyFrames[] keys;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableKeyFrames[] keys" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableKeyFrames[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="postWrapMode">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableWrapMode postWrapMode;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableWrapMode postWrapMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableWrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="preWrapMode">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableWrapMode preWrapMode;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableWrapMode preWrapMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableWrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,138 @@
+<Type Name="Extended_Trailofmadness" FullName="Extended_Trailofmadness">
+  <TypeSignature Language="C#" Value="public class Extended_Trailofmadness : Skill_Extended" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Extended_Trailofmadness extends " />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Skill_Extended</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Extended_Trailofmadness ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Destroybuff">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator Destroybuff ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator Destroybuff() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedDes">
+      <MemberSignature Language="C#" Value="public override string ExtendedDes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ExtendedDes() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FixedUpdate">
+      <MemberSignature Language="C#" Value="public override void FixedUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void FixedUpdate() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mainbuff">
+      <MemberSignature Language="C#" Value="public B_Trailofmadness_Ally Mainbuff;" />
+      <MemberSignature Language="ILAsm" Value=".field public B_Trailofmadness_Ally Mainbuff" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>B_Trailofmadness_Ally</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public void Result (bool ally, int count);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Result(bool ally, int32 count) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ally" Type="System.Boolean" />
+        <Parameter Name="count" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ally">To be added.</param>
+        <param name="count">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillUseSingleAfter">
+      <MemberSignature Language="C#" Value="public override void SkillUseSingleAfter (Skill SkillD, System.Collections.Generic.List&lt;BattleChar&gt; Targets);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SkillUseSingleAfter(Skill SkillD, class System.Collections.Generic.List`1&lt;BattleChar&gt; Targets) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SkillD" Type="Skill" />
+        <Parameter Name="Targets" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="SkillD">To be added.</param>
+        <param name="Targets">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

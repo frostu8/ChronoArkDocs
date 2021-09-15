@@ -1,0 +1,107 @@
+<Type Name="PerStat" FullName="PerStat">
+  <TypeSignature Language="C#" Value="public struct PerStat" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit PerStat extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Damage">
+      <MemberSignature Language="C#" Value="public int Damage;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 Damage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Heal">
+      <MemberSignature Language="C#" Value="public int Heal;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 Heal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxHP">
+      <MemberSignature Language="C#" Value="public int MaxHP;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 MaxHP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Addition">
+      <MemberSignature Language="C#" Value="public static PerStat operator + (PerStat A, PerStat B);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname PerStat op_Addition(PerStat A, PerStat B) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>PerStat</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="A" Type="PerStat" />
+        <Parameter Name="B" Type="PerStat" />
+      </Parameters>
+      <Docs>
+        <param name="A">To be added.</param>
+        <param name="B">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Subtraction">
+      <MemberSignature Language="C#" Value="public static PerStat operator - (PerStat A, PerStat B);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname PerStat op_Subtraction(PerStat A, PerStat B) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>PerStat</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="A" Type="PerStat" />
+        <Parameter Name="B" Type="PerStat" />
+      </Parameters>
+      <Docs>
+        <param name="A">To be added.</param>
+        <param name="B">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

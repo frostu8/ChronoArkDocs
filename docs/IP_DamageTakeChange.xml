@@ -1,0 +1,43 @@
+<Type Name="IP_DamageTakeChange" FullName="IP_DamageTakeChange">
+  <TypeSignature Language="C#" Value="public interface IP_DamageTakeChange" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IP_DamageTakeChange" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DamageTakeChange">
+      <MemberSignature Language="C#" Value="public int DamageTakeChange (BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 DamageTakeChange(BattleChar User, int32 Dmg, bool Cri, bool NODEF, bool NOEFFECT) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="Dmg" Type="System.Int32" />
+        <Parameter Name="Cri" Type="System.Boolean" />
+        <Parameter Name="NODEF" Type="System.Boolean" />
+        <Parameter Name="NOEFFECT" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="User">To be added.</param>
+        <param name="Dmg">To be added.</param>
+        <param name="Cri">To be added.</param>
+        <param name="NODEF">To be added.</param>
+        <param name="NOEFFECT">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

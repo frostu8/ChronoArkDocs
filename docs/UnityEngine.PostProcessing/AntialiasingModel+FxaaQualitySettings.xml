@@ -1,0 +1,107 @@
+<Type Name="AntialiasingModel+FxaaQualitySettings" FullName="UnityEngine.PostProcessing.AntialiasingModel+FxaaQualitySettings">
+  <TypeSignature Language="C#" Value="public struct AntialiasingModel.FxaaQualitySettings" />
+  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi serializable sealed beforefieldinit AntialiasingModel/FxaaQualitySettings extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="edgeDetectionThreshold">
+      <MemberSignature Language="C#" Value="public float edgeDetectionThreshold;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 edgeDetectionThreshold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0.063, 0.333)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("The minimum amount of local contrast required to qualify a region as containing an edge.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="minimumRequiredLuminance">
+      <MemberSignature Language="C#" Value="public float minimumRequiredLuminance;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 minimumRequiredLuminance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0, 0.0833)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Local contrast adaptation value to disallow the algorithm from executing on the darker regions.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="presets">
+      <MemberSignature Language="C#" Value="public static UnityEngine.PostProcessing.AntialiasingModel.FxaaQualitySettings[] presets;" />
+      <MemberSignature Language="ILAsm" Value=".field public static valuetype UnityEngine.PostProcessing.AntialiasingModel/FxaaQualitySettings[] presets" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.AntialiasingModel+FxaaQualitySettings[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="subpixelAliasingRemovalAmount">
+      <MemberSignature Language="C#" Value="public float subpixelAliasingRemovalAmount;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 subpixelAliasingRemovalAmount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Range(0, 1)]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("The amount of desired sub-pixel aliasing removal. Effects the sharpeness of the output.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

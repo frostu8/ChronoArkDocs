@@ -1,0 +1,22 @@
+<Type Name="LOSEventSource+HandleTriggersDelegate" FullName="LOS.Event.LOSEventSource+HandleTriggersDelegate">
+  <TypeSignature Language="C#" Value="public delegate void LOSEventSource.HandleTriggersDelegate(List&lt;LOSEventTrigger&gt; triggers);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed LOSEventSource/HandleTriggersDelegate extends System.MulticastDelegate" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="triggers" Type="System.Collections.Generic.List&lt;LOS.Event.LOSEventTrigger&gt;" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="triggers">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

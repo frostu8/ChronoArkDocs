@@ -1,0 +1,47 @@
+<Type Name="ScreenSpaceReflectionModel+SSRReflectionBlendType" FullName="UnityEngine.PostProcessing.ScreenSpaceReflectionModel+SSRReflectionBlendType">
+  <TypeSignature Language="C#" Value="public enum ScreenSpaceReflectionModel.SSRReflectionBlendType" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed ScreenSpaceReflectionModel/SSRReflectionBlendType extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Additive">
+      <MemberSignature Language="C#" Value="Additive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.ScreenSpaceReflectionModel/SSRReflectionBlendType Additive = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ScreenSpaceReflectionModel+SSRReflectionBlendType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PhysicallyBased">
+      <MemberSignature Language="C#" Value="PhysicallyBased" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.ScreenSpaceReflectionModel/SSRReflectionBlendType PhysicallyBased = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.ScreenSpaceReflectionModel+SSRReflectionBlendType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

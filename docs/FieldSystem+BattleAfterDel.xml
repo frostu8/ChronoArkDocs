@@ -1,0 +1,19 @@
+<Type Name="FieldSystem+BattleAfterDel" FullName="FieldSystem+BattleAfterDel">
+  <TypeSignature Language="C#" Value="public delegate void FieldSystem.BattleAfterDel();" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed FieldSystem/BattleAfterDel extends System.MulticastDelegate" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters />
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

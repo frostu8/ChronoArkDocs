@@ -1,0 +1,500 @@
+<Type Name="MapTile" FullName="MapTile">
+  <TypeSignature Language="C#" Value="public class MapTile" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MapTile extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MapTile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public void Create (UnityEngine.GameObject Ob, UnityEngine.Transform Parent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Create(class UnityEngine.GameObject Ob, class UnityEngine.Transform Parent) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Ob" Type="UnityEngine.GameObject" />
+        <Parameter Name="Parent" Type="UnityEngine.Transform" />
+      </Parameters>
+      <Docs>
+        <param name="Ob">To be added.</param>
+        <param name="Parent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cube">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 Cube { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype UnityEngine.Vector3 Cube" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CubeToVec">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 CubeToVec (UnityEngine.Vector3 Cube);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype UnityEngine.Vector2 CubeToVec(valuetype UnityEngine.Vector3 Cube) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Cube" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="Cube">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CubeToVec">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 CubeToVec (float x, float y, float z);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype UnityEngine.Vector2 CubeToVec(float32 x, float32 y, float32 z) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single" />
+        <Parameter Name="y" Type="System.Single" />
+        <Parameter Name="z" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Distance">
+      <MemberSignature Language="C#" Value="public static int Distance (UnityEngine.Vector2 Start, UnityEngine.Vector2 Dest);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 Distance(valuetype UnityEngine.Vector2 Start, valuetype UnityEngine.Vector2 Dest) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="UnityEngine.Vector2" />
+        <Parameter Name="Dest" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="Start">To be added.</param>
+        <param name="Dest">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRange">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;UnityEngine.Vector2&gt; GetRange (UnityEngine.Vector3 CenterCube, int range);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector2&gt; GetRange(valuetype UnityEngine.Vector3 CenterCube, int32 range) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;UnityEngine.Vector2&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="CenterCube" Type="UnityEngine.Vector3" />
+        <Parameter Name="range" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="CenterCube">To be added.</param>
+        <param name="range">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HexTileComponent">
+      <MemberSignature Language="C#" Value="public HexTile HexTileComponent;" />
+      <MemberSignature Language="ILAsm" Value=".field public HexTile HexTileComponent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>HexTile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Info">
+      <MemberSignature Language="C#" Value="public TileInfo Info;" />
+      <MemberSignature Language="ILAsm" Value=".field public TileInfo Info" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TileInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public void Init (UnityEngine.Vector2 Pos, HexMap Map);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Init(valuetype UnityEngine.Vector2 Pos, HexMap Map) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Vector2" />
+        <Parameter Name="Map" Type="HexMap" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <param name="Map">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsoCheck">
+      <MemberSignature Language="C#" Value="public void IsoCheck (IsoMap Map, int x, int y);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void IsoCheck(IsoMap Map, int32 x, int32 y) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Map" Type="IsoMap" />
+        <Parameter Name="x" Type="System.Int32" />
+        <Parameter Name="y" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Map">To be added.</param>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapRange">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;UnityEngine.Vector2&gt; MapRange (UnityEngine.Vector2 VectorPos, int range, UnityEngine.Vector2 Size);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector2&gt; MapRange(valuetype UnityEngine.Vector2 VectorPos, int32 range, valuetype UnityEngine.Vector2 Size) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;UnityEngine.Vector2&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="VectorPos" Type="UnityEngine.Vector2" />
+        <Parameter Name="range" Type="System.Int32" />
+        <Parameter Name="Size" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="VectorPos">To be added.</param>
+        <param name="range">To be added.</param>
+        <param name="Size">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapRange">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;UnityEngine.Vector2&gt; MapRange (UnityEngine.Vector3 CenterCube, int range, UnityEngine.Vector2 Size);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector2&gt; MapRange(valuetype UnityEngine.Vector3 CenterCube, int32 range, valuetype UnityEngine.Vector2 Size) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;UnityEngine.Vector2&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="CenterCube" Type="UnityEngine.Vector3" />
+        <Parameter Name="range" Type="System.Int32" />
+        <Parameter Name="Size" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="CenterCube">To be added.</param>
+        <param name="range">To be added.</param>
+        <param name="Size">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MonsterEffect">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject MonsterEffect;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject MonsterEffect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyMap">
+      <MemberSignature Language="C#" Value="public HexMap MyMap;" />
+      <MemberSignature Language="ILAsm" Value=".field public HexMap MyMap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>HexMap</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyTiles">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;MapTile_Iso&gt; MyTiles;" />
+      <MemberSignature Language="ILAsm" Value=".field public class System.Collections.Generic.List`1&lt;MapTile_Iso&gt; MyTiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;MapTile_Iso&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Neighbor">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 Neighbor (UnityEngine.Vector2 Tile, Direction direction);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype UnityEngine.Vector2 Neighbor(valuetype UnityEngine.Vector2 Tile, Direction direction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Tile" Type="UnityEngine.Vector2" />
+        <Parameter Name="direction" Type="Direction" />
+      </Parameters>
+      <Docs>
+        <param name="Tile">To be added.</param>
+        <param name="direction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NeighborTile">
+      <MemberSignature Language="C#" Value="public MapTile NeighborTile (Direction direction);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance MapTile NeighborTile(Direction direction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>MapTile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="direction" Type="Direction" />
+      </Parameters>
+      <Docs>
+        <param name="direction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pos">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 Pos { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype UnityEngine.Vector2 Pos" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PosEnter">
+      <MemberSignature Language="C#" Value="public UnityEngine.Collider2D PosEnter;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Collider2D PosEnter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Collider2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveMapTileData">
+      <MemberSignature Language="C#" Value="public Data_MapTileData SaveMapTileData;" />
+      <MemberSignature Language="ILAsm" Value=".field public Data_MapTileData SaveMapTileData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Data_MapTileData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIsoTile">
+      <MemberSignature Language="C#" Value="public void SetIsoTile (IsoMap Map);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetIsoTile(IsoMap Map) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Map" Type="IsoMap" />
+      </Parameters>
+      <Docs>
+        <param name="Map">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TileEventObject">
+      <MemberSignature Language="C#" Value="public EventObject TileEventObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public EventObject TileEventObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>EventObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TileObject">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject TileObject;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject TileObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VecToCube">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 VecToCube (UnityEngine.Vector2 vec);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype UnityEngine.Vector3 VecToCube(valuetype UnityEngine.Vector2 vec) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vec" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="vec">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WallFinder">
+      <MemberSignature Language="C#" Value="public int WallFinder (UnityEngine.Vector2 Pos);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 WallFinder(valuetype UnityEngine.Vector2 Pos) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pos" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="Pos">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

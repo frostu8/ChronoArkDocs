@@ -1,0 +1,1539 @@
+<Type Name="BattleChar" FullName="BattleChar">
+  <TypeSignature Language="C#" Value="public class BattleChar : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BattleChar extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BattleChar ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Overload">
+      <MemberSignature Language="C#" Value="protected int _Overload;" />
+      <MemberSignature Language="ILAsm" Value=".field family int32 _Overload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCount">
+      <MemberSignature Language="C#" Value="public int ActionCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 ActionCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionNum">
+      <MemberSignature Language="C#" Value="public int ActionNum;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 ActionNum" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllyDeadCheck">
+      <MemberSignature Language="C#" Value="public void AllyDeadCheck ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AllyDeadCheck() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AwakeChar">
+      <MemberSignature Language="C#" Value="public void AwakeChar ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AwakeChar() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BarrierHP">
+      <MemberSignature Language="C#" Value="public int BarrierHP { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BarrierHP" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Barriers">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Buff&gt; Barriers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;Buff&gt; Barriers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Buff&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BattleBasicskillRefill">
+      <MemberSignature Language="C#" Value="public Skill BattleBasicskillRefill;" />
+      <MemberSignature Language="ILAsm" Value=".field public Skill BattleBasicskillRefill" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Skill</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BattleInfo">
+      <MemberSignature Language="C#" Value="public BattleSystem BattleInfo;" />
+      <MemberSignature Language="ILAsm" Value=".field public BattleSystem BattleInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleSystem</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BattleUpdate">
+      <MemberSignature Language="C#" Value="public virtual void BattleUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BattleUpdate() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Blur">
+      <MemberSignature Language="C#" Value="public void Blur ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Blur() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlurCancel">
+      <MemberSignature Language="C#" Value="public virtual void BlurCancel ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BlurCancel() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bluring">
+      <MemberSignature Language="C#" Value="public bool bluring;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool bluring" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuffAdd">
+      <MemberSignature Language="C#" Value="public Buff BuffAdd (string key, BattleChar UseState, bool hide = false, int PlusTagPer = 0, bool debuffnonuser = false, int RemainTime = -1, bool StringHide = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Buff BuffAdd(string key, BattleChar UseState, bool hide, int32 PlusTagPer, bool debuffnonuser, int32 RemainTime, bool StringHide) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Buff</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="UseState" Type="BattleChar" />
+        <Parameter Name="hide" Type="System.Boolean" />
+        <Parameter Name="PlusTagPer" Type="System.Int32" />
+        <Parameter Name="debuffnonuser" Type="System.Boolean" />
+        <Parameter Name="RemainTime" Type="System.Int32" />
+        <Parameter Name="StringHide" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="UseState">To be added.</param>
+        <param name="hide">To be added.</param>
+        <param name="PlusTagPer">To be added.</param>
+        <param name="debuffnonuser">To be added.</param>
+        <param name="RemainTime">To be added.</param>
+        <param name="StringHide">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuffCheck">
+      <MemberSignature Language="C#" Value="public LastBuffRsisCheck BuffCheck;" />
+      <MemberSignature Language="ILAsm" Value=".field public LastBuffRsisCheck BuffCheck" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>LastBuffRsisCheck</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuffDeleteCheck">
+      <MemberSignature Language="C#" Value="public void BuffDeleteCheck ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BuffDeleteCheck() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuffFind">
+      <MemberSignature Language="C#" Value="public bool BuffFind (string key, bool destroyOn = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool BuffFind(string key, bool destroyOn) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="destroyOn" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="destroyOn">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuffRemove">
+      <MemberSignature Language="C#" Value="public void BuffRemove (string key, bool ForceRemove = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BuffRemove(string key, bool ForceRemove) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="ForceRemove" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="ForceRemove">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuffReturn">
+      <MemberSignature Language="C#" Value="public Buff BuffReturn (string key, bool destroyOn = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance Buff BuffReturn(string key, bool destroyOn) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Buff</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="destroyOn" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="destroyOn">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Buffs">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Buff&gt; Buffs;" />
+      <MemberSignature Language="ILAsm" Value=".field public class System.Collections.Generic.List`1&lt;Buff&gt; Buffs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Buff&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuffScriptFind">
+      <MemberSignature Language="C#" Value="public bool BuffScriptFind (string key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool BuffScriptFind(string key) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculationResult">
+      <MemberSignature Language="C#" Value="public static int CalculationResult (float Stat, int skiilper, int baseStat);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 CalculationResult(float32 Stat, int32 skiilper, int32 baseStat) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Stat" Type="System.Single" />
+        <Parameter Name="skiilper" Type="System.Int32" />
+        <Parameter Name="baseStat" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Stat">To be added.</param>
+        <param name="skiilper">To be added.</param>
+        <param name="baseStat">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CharShake">
+      <MemberSignature Language="C#" Value="public virtual void CharShake ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CharShake() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChineHealing">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator ChineHealing (BattleChar User, float Hel, BattleChar.ChineHeal heal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator ChineHealing(BattleChar User, float32 Hel, BattleChar/ChineHeal heal) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="Hel" Type="System.Single" />
+        <Parameter Name="heal" Type="BattleChar+ChineHeal" />
+      </Parameters>
+      <Docs>
+        <param name="User">To be added.</param>
+        <param name="Hel">To be added.</param>
+        <param name="heal">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public virtual void Click ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Click() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Damage">
+      <MemberSignature Language="C#" Value="public virtual int Damage (BattleChar User, int Dmg, bool Cri, bool NODEF = false, bool NOEFFECT = false, int PlusPenetration = 0, bool IgnoreHealingPro = false, bool HealingPro = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Damage(BattleChar User, int32 Dmg, bool Cri, bool NODEF, bool NOEFFECT, int32 PlusPenetration, bool IgnoreHealingPro, bool HealingPro) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="Dmg" Type="System.Int32" />
+        <Parameter Name="Cri" Type="System.Boolean" />
+        <Parameter Name="NODEF" Type="System.Boolean" />
+        <Parameter Name="NOEFFECT" Type="System.Boolean" />
+        <Parameter Name="PlusPenetration" Type="System.Int32" />
+        <Parameter Name="IgnoreHealingPro" Type="System.Boolean" />
+        <Parameter Name="HealingPro" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="User">To be added.</param>
+        <param name="Dmg">To be added.</param>
+        <param name="Cri">To be added.</param>
+        <param name="NODEF">To be added.</param>
+        <param name="NOEFFECT">To be added.</param>
+        <param name="PlusPenetration">To be added.</param>
+        <param name="IgnoreHealingPro">To be added.</param>
+        <param name="HealingPro">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dead">
+      <MemberSignature Language="C#" Value="public virtual void Dead (bool notdeadeffect = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dead(bool notdeadeffect) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="notdeadeffect" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="notdeadeffect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DestroyObject">
+      <MemberSignature Language="C#" Value="public virtual void DestroyObject ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DestroyObject() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DodgeCheck">
+      <MemberSignature Language="C#" Value="public bool DodgeCheck (SkillParticle SP);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool DodgeCheck(SkillParticle SP) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SP" Type="SkillParticle" />
+      </Parameters>
+      <Docs>
+        <param name="SP">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dummy">
+      <MemberSignature Language="C#" Value="public bool Dummy;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Dummy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Effect">
+      <MemberSignature Language="C#" Value="public void Effect (SkillParticle SP, bool Dodge);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Effect(SkillParticle SP, bool Dodge) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SP" Type="SkillParticle" />
+        <Parameter Name="Dodge" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="SP">To be added.</param>
+        <param name="Dodge">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FixedUpdate">
+      <MemberSignature Language="C#" Value="public virtual void FixedUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void FixedUpdate() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBuffs">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Buff&gt; GetBuffs (BattleChar.GETBUFFTYPE bufftype, bool IsDisable, bool ishide = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.List`1&lt;Buff&gt; GetBuffs(BattleChar/GETBUFFTYPE bufftype, bool IsDisable, bool ishide) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Buff&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bufftype" Type="BattleChar+GETBUFFTYPE" />
+        <Parameter Name="IsDisable" Type="System.Boolean" />
+        <Parameter Name="ishide" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bufftype">To be added.</param>
+        <param name="IsDisable">To be added.</param>
+        <param name="ishide">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCri">
+      <MemberSignature Language="C#" Value="public bool GetCri ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool GetCri() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCri">
+      <MemberSignature Language="C#" Value="public bool GetCri (BattleChar Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool GetCri(BattleChar Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCri">
+      <MemberSignature Language="C#" Value="public bool GetCri (int Plus);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool GetCri(int32 Plus) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Plus" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Plus">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPos">
+      <MemberSignature Language="C#" Value="public virtual UnityEngine.Vector3 GetPos ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype UnityEngine.Vector3 GetPos() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStat">
+      <MemberSignature Language="C#" Value="public Stat GetStat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance Stat GetStat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Stat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTopPos">
+      <MemberSignature Language="C#" Value="public virtual UnityEngine.Vector3 GetTopPos ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype UnityEngine.Vector3 GetTopPos() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Heal">
+      <MemberSignature Language="C#" Value="public void Heal (BattleChar User, int Per, int Base, int CriPer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Heal(BattleChar User, int32 Per, int32 Base, int32 CriPer) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="Per" Type="System.Int32" />
+        <Parameter Name="Base" Type="System.Int32" />
+        <Parameter Name="CriPer" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="User">To be added.</param>
+        <param name="Per">To be added.</param>
+        <param name="Base">To be added.</param>
+        <param name="CriPer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Heal">
+      <MemberSignature Language="C#" Value="public virtual int Heal (BattleChar User, float Hel, bool Cri, bool Force = false, BattleChar.ChineHeal heal = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Heal(BattleChar User, float32 Hel, bool Cri, bool Force, BattleChar/ChineHeal heal) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="Hel" Type="System.Single" />
+        <Parameter Name="Cri" Type="System.Boolean" />
+        <Parameter Name="Force" Type="System.Boolean" />
+        <Parameter Name="heal" Type="BattleChar+ChineHeal" />
+      </Parameters>
+      <Docs>
+        <param name="User">To be added.</param>
+        <param name="Hel">To be added.</param>
+        <param name="Cri">To be added.</param>
+        <param name="Force">To be added.</param>
+        <param name="heal">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Heal">
+      <MemberSignature Language="C#" Value="public void Heal (BattleChar User, float REG, int Per, int Base, int CriPer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Heal(BattleChar User, float32 REG, int32 Per, int32 Base, int32 CriPer) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="REG" Type="System.Single" />
+        <Parameter Name="Per" Type="System.Int32" />
+        <Parameter Name="Base" Type="System.Int32" />
+        <Parameter Name="CriPer" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="User">To be added.</param>
+        <param name="REG">To be added.</param>
+        <param name="Per">To be added.</param>
+        <param name="Base">To be added.</param>
+        <param name="CriPer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HitPerNum">
+      <MemberSignature Language="C#" Value="public int HitPerNum (BattleChar User, Skill Skilldata);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 HitPerNum(BattleChar User, Skill Skilldata) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="Skilldata" Type="Skill" />
+      </Parameters>
+      <Docs>
+        <param name="User">To be added.</param>
+        <param name="Skilldata">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HP">
+      <MemberSignature Language="C#" Value="public int HP { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HP" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Info">
+      <MemberSignature Language="C#" Value="public Character Info;" />
+      <MemberSignature Language="ILAsm" Value=".field public Character Info" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Character</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IReturn&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;T&gt; IReturn&lt;T&gt; (Skill UseSkill = default) where T : class;" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.List`1&lt;!!T&gt; IReturn&lt;class T&gt;(Skill UseSkill) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="UseSkill" Type="Skill" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="UseSkill">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDead">
+      <MemberSignature Language="C#" Value="public bool IsDead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDead" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLucy">
+      <MemberSignature Language="C#" Value="public bool IsLucy;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool IsLucy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftMove">
+      <MemberSignature Language="C#" Value="public virtual void LeftMove ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LeftMove() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyTeam">
+      <MemberSignature Language="C#" Value="public BattleTeam MyTeam;" />
+      <MemberSignature Language="ILAsm" Value=".field public BattleTeam MyTeam" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleTeam</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewTurn">
+      <MemberSignature Language="C#" Value="public virtual void NewTurn ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewTurn() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NullCheck">
+      <MemberSignature Language="C#" Value="public bool NullCheck;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool NullCheck" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlyDamage">
+      <MemberSignature Language="C#" Value="public void OnlyDamage (int Dmg, bool Weak, bool IgnoreHealPro = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OnlyDamage(int32 Dmg, bool Weak, bool IgnoreHealPro) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Dmg" Type="System.Int32" />
+        <Parameter Name="Weak" Type="System.Boolean" />
+        <Parameter Name="IgnoreHealPro" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Dmg">To be added.</param>
+        <param name="Weak">To be added.</param>
+        <param name="IgnoreHealPro">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Overload">
+      <MemberSignature Language="C#" Value="public virtual int Overload { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Overload" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticleOut">
+      <MemberSignature Language="C#" Value="public virtual void ParticleOut (Skill skill, BattleChar Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ParticleOut(Skill skill, BattleChar Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+        <Parameter Name="Target" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticleOut">
+      <MemberSignature Language="C#" Value="public virtual void ParticleOut (Skill skill, System.Collections.Generic.List&lt;BattleChar&gt; Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ParticleOut(Skill skill, class System.Collections.Generic.List`1&lt;BattleChar&gt; Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+        <Parameter Name="Target" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticleOutEnd">
+      <MemberSignature Language="C#" Value="public void ParticleOutEnd (Skill skill, System.Collections.Generic.List&lt;BattleChar&gt; Target, UnityEngine.Vector3 Allhitpos);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ParticleOutEnd(Skill skill, class System.Collections.Generic.List`1&lt;BattleChar&gt; Target, valuetype UnityEngine.Vector3 Allhitpos) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+        <Parameter Name="Target" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+        <Parameter Name="Allhitpos" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Allhitpos">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PointerEnter">
+      <MemberSignature Language="C#" Value="public virtual void PointerEnter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PointerEnter() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recovery">
+      <MemberSignature Language="C#" Value="public int Recovery;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 Recovery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RightMove">
+      <MemberSignature Language="C#" Value="public virtual void RightMove ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RightMove() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelfEffect">
+      <MemberSignature Language="C#" Value="public void SelfEffect (Skill skill);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SelfEffect(Skill skill) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimpleTextOut">
+      <MemberSignature Language="C#" Value="public void SimpleTextOut (string Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SimpleTextOut(string Text) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Text">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillEffectBuffAdd">
+      <MemberSignature Language="C#" Value="public void SkillEffectBuffAdd (GameDataEditor.GDESkillEffectData SED, System.Collections.Generic.List&lt;BuffTag&gt; PlusBuffs, BattleChar User, Skill UseSkill);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SkillEffectBuffAdd(class GameDataEditor.GDESkillEffectData SED, class System.Collections.Generic.List`1&lt;BuffTag&gt; PlusBuffs, BattleChar User, Skill UseSkill) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SED" Type="GameDataEditor.GDESkillEffectData" />
+        <Parameter Name="PlusBuffs" Type="System.Collections.Generic.List&lt;BuffTag&gt;" />
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="UseSkill" Type="Skill" />
+      </Parameters>
+      <Docs>
+        <param name="SED">To be added.</param>
+        <param name="PlusBuffs">To be added.</param>
+        <param name="User">To be added.</param>
+        <param name="UseSkill">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillNameOutOrigin">
+      <MemberSignature Language="C#" Value="public static void SkillNameOutOrigin (BattleSystem Info, string Name, bool ally);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SkillNameOutOrigin(BattleSystem Info, string Name, bool ally) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Info" Type="BattleSystem" />
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="ally" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Info">To be added.</param>
+        <param name="Name">To be added.</param>
+        <param name="ally">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Skills">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Skill&gt; Skills;" />
+      <MemberSignature Language="ILAsm" Value=".field public class System.Collections.Generic.List`1&lt;Skill&gt; Skills" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Skill&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillUseDraw">
+      <MemberSignature Language="C#" Value="public bool SkillUseDraw;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool SkillUseDraw" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillUseEffect">
+      <MemberSignature Language="C#" Value="public void SkillUseEffect (Skill skill, System.Collections.Generic.List&lt;BattleChar&gt; Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SkillUseEffect(Skill skill, class System.Collections.Generic.List`1&lt;BattleChar&gt; Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+        <Parameter Name="Target" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillUseEnd">
+      <MemberSignature Language="C#" Value="public bool SkillUseEnd { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SkillUseEnd" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetLook">
+      <MemberSignature Language="C#" Value="public virtual void TargetLook ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TargetLook() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TickDamageReturn">
+      <MemberSignature Language="C#" Value="public BattleChar.TickInfo TickDamageReturn ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance BattleChar/TickInfo TickDamageReturn() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar+TickInfo</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TickUpdate">
+      <MemberSignature Language="C#" Value="public void TickUpdate (BattleChar.TickInfo tickinfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void TickUpdate(BattleChar/TickInfo tickinfo) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tickinfo" Type="BattleChar+TickInfo" />
+      </Parameters>
+      <Docs>
+        <param name="tickinfo">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TurnEnd">
+      <MemberSignature Language="C#" Value="public virtual void TurnEnd ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TurnEnd() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TurnFlag">
+      <MemberSignature Language="C#" Value="public bool TurnFlag;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool TurnFlag" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UI">
+      <MemberSignature Language="C#" Value="public UIComponent UI;" />
+      <MemberSignature Language="ILAsm" Value=".field public UIComponent UI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UIComponent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UIUpdate">
+      <MemberSignature Language="C#" Value="public virtual void UIUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UIUpdate() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSkill">
+      <MemberSignature Language="C#" Value="public virtual void UseSkill (Skill skill);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UseSkill(Skill skill) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSkill">
+      <MemberSignature Language="C#" Value="public virtual void UseSkill (Skill skill, BattleChar Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UseSkill(Skill skill, BattleChar Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+        <Parameter Name="Target" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSkill">
+      <MemberSignature Language="C#" Value="public virtual void UseSkill (Skill skill, System.Collections.Generic.List&lt;BattleChar&gt; Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UseSkill(Skill skill, class System.Collections.Generic.List`1&lt;BattleChar&gt; Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+        <Parameter Name="Target" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSkill">
+      <MemberSignature Language="C#" Value="public virtual void UseSkill (Skill skill, System.Collections.Generic.List&lt;Skill&gt; TargetSkill);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UseSkill(Skill skill, class System.Collections.Generic.List`1&lt;Skill&gt; TargetSkill) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+        <Parameter Name="TargetSkill" Type="System.Collections.Generic.List&lt;Skill&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <param name="TargetSkill">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSkillCast">
+      <MemberSignature Language="C#" Value="public void UseSkillCast (CastingSkill skill, System.Collections.Generic.List&lt;BattleChar&gt; Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UseSkillCast(CastingSkill skill, class System.Collections.Generic.List`1&lt;BattleChar&gt; Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="CastingSkill" />
+        <Parameter Name="Target" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

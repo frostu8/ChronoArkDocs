@@ -1,0 +1,77 @@
+<Type Name="MotionBlurComponent+ReconstructionFilter" FullName="UnityEngine.PostProcessing.MotionBlurComponent+ReconstructionFilter">
+  <TypeSignature Language="C#" Value="public class MotionBlurComponent.ReconstructionFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit MotionBlurComponent/ReconstructionFilter extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ReconstructionFilter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSupported">
+      <MemberSignature Language="C#" Value="public bool IsSupported ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsSupported() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessImage">
+      <MemberSignature Language="C#" Value="public void ProcessImage (UnityEngine.PostProcessing.PostProcessingContext context, UnityEngine.Rendering.CommandBuffer cb, ref UnityEngine.PostProcessing.MotionBlurModel.Settings settings, UnityEngine.Rendering.RenderTargetIdentifier source, UnityEngine.Rendering.RenderTargetIdentifier destination, UnityEngine.Material material);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ProcessImage(class UnityEngine.PostProcessing.PostProcessingContext context, class UnityEngine.Rendering.CommandBuffer cb, valuetype UnityEngine.PostProcessing.MotionBlurModel/Settings&amp; settings, valuetype UnityEngine.Rendering.RenderTargetIdentifier source, valuetype UnityEngine.Rendering.RenderTargetIdentifier destination, class UnityEngine.Material material) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="UnityEngine.PostProcessing.PostProcessingContext" />
+        <Parameter Name="cb" Type="UnityEngine.Rendering.CommandBuffer" />
+        <Parameter Name="settings" Type="UnityEngine.PostProcessing.MotionBlurModel+Settings" RefType="ref" />
+        <Parameter Name="source" Type="UnityEngine.Rendering.RenderTargetIdentifier" />
+        <Parameter Name="destination" Type="UnityEngine.Rendering.RenderTargetIdentifier" />
+        <Parameter Name="material" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="cb">To be added.</param>
+        <param name="settings">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="destination">To be added.</param>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,63 @@
+<Type Name="SkillBasestat" FullName="SkillBasestat">
+  <TypeSignature Language="C#" Value="public struct SkillBasestat" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit SkillBasestat extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Target_BaseDMG">
+      <MemberSignature Language="C#" Value="public int Target_BaseDMG;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 Target_BaseDMG" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Target_BaseHeal">
+      <MemberSignature Language="C#" Value="public int Target_BaseHeal;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 Target_BaseHeal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetForceHeal">
+      <MemberSignature Language="C#" Value="public bool TargetForceHeal;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool TargetForceHeal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

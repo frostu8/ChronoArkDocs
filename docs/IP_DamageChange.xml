@@ -1,0 +1,41 @@
+<Type Name="IP_DamageChange" FullName="IP_DamageChange">
+  <TypeSignature Language="C#" Value="public interface IP_DamageChange" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IP_DamageChange" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DamageChange">
+      <MemberSignature Language="C#" Value="public int DamageChange (Skill SkillD, BattleChar Target, int Damage, ref bool Cri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 DamageChange(Skill SkillD, BattleChar Target, int32 Damage, bool&amp; Cri) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SkillD" Type="Skill" />
+        <Parameter Name="Target" Type="BattleChar" />
+        <Parameter Name="Damage" Type="System.Int32" />
+        <Parameter Name="Cri" Type="System.Boolean" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="SkillD">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Damage">To be added.</param>
+        <param name="Cri">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

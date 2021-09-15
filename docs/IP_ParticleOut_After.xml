@@ -1,0 +1,37 @@
+<Type Name="IP_ParticleOut_After" FullName="IP_ParticleOut_After">
+  <TypeSignature Language="C#" Value="public interface IP_ParticleOut_After" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IP_ParticleOut_After" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ParticleOut_After">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator ParticleOut_After (Skill SkillD, System.Collections.Generic.List&lt;BattleChar&gt; Targets);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator ParticleOut_After(Skill SkillD, class System.Collections.Generic.List`1&lt;BattleChar&gt; Targets) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SkillD" Type="Skill" />
+        <Parameter Name="Targets" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="SkillD">To be added.</param>
+        <param name="Targets">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

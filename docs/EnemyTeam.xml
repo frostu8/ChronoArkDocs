@@ -1,0 +1,177 @@
+<Type Name="EnemyTeam" FullName="EnemyTeam">
+  <TypeSignature Language="C#" Value="public class EnemyTeam : BattleTeam" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EnemyTeam extends " />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>BattleTeam</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnemyTeam ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DummyChar">
+      <MemberSignature Language="C#" Value="public override BattleChar DummyChar { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance BattleChar DummyChar" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DummyCharEnemy">
+      <MemberSignature Language="C#" Value="public BattleEnemy DummyCharEnemy;" />
+      <MemberSignature Language="ILAsm" Value=".field public BattleEnemy DummyCharEnemy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleEnemy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="init">
+      <MemberSignature Language="C#" Value="public override void init (System.Collections.Generic.List&lt;BattleChar&gt; InputChars, bool Field = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void init(class System.Collections.Generic.List`1&lt;BattleChar&gt; InputChars, bool Field) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="InputChars" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+        <Parameter Name="Field" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="InputChars">To be added.</param>
+        <param name="Field">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInit">
+      <MemberSignature Language="C#" Value="public bool IsInit;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool IsInit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyTurn">
+      <MemberSignature Language="C#" Value="public override void MyTurn ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void MyTurn() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewTurn">
+      <MemberSignature Language="C#" Value="public override void NewTurn ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void NewTurn() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NowActionList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;BattleEnemy&gt; NowActionList;" />
+      <MemberSignature Language="ILAsm" Value=".field public class System.Collections.Generic.List`1&lt;BattleEnemy&gt; NowActionList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;BattleEnemy&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OneUpdate">
+      <MemberSignature Language="C#" Value="public override void OneUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OneUpdate() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateEnemyList">
+      <MemberSignature Language="C#" Value="public void UpdateEnemyList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateEnemyList() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

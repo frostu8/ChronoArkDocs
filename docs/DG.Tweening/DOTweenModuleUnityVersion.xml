@@ -1,0 +1,256 @@
+<Type Name="DOTweenModuleUnityVersion" FullName="DG.Tweening.DOTweenModuleUnityVersion">
+  <TypeSignature Language="C#" Value="public static class DOTweenModuleUnityVersion" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DOTweenModuleUnityVersion extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DOGradientColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Sequence DOGradientColor (this UnityEngine.Material target, UnityEngine.Gradient gradient, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Sequence DOGradientColor(class UnityEngine.Material target, class UnityEngine.Gradient gradient, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Sequence</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Material" RefType="this" />
+        <Parameter Name="gradient" Type="UnityEngine.Gradient" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="gradient">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOGradientColor">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Sequence DOGradientColor (this UnityEngine.Material target, UnityEngine.Gradient gradient, string property, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Sequence DOGradientColor(class UnityEngine.Material target, class UnityEngine.Gradient gradient, string property, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Sequence</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Material" RefType="this" />
+        <Parameter Name="gradient" Type="UnityEngine.Gradient" />
+        <Parameter Name="property" Type="System.String" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="gradient">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOOffset">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOOffset (this UnityEngine.Material target, UnityEngine.Vector2 endValue, int propertyID, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOOffset(class UnityEngine.Material target, valuetype UnityEngine.Vector2 endValue, int32 propertyID, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Material" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="propertyID" Type="System.Int32" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="propertyID">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOTiling">
+      <MemberSignature Language="C#" Value="public static DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt; DOTiling (this UnityEngine.Material target, UnityEngine.Vector2 endValue, int propertyID, float duration);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DG.Tweening.Core.TweenerCore`3&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Vector2, valuetype DG.Tweening.Plugins.Options.VectorOptions&gt; DOTiling(class UnityEngine.Material target, valuetype UnityEngine.Vector2 endValue, int32 propertyID, float32 duration) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>DG.Tweening.Core.TweenerCore&lt;UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Material" RefType="this" />
+        <Parameter Name="endValue" Type="UnityEngine.Vector2" />
+        <Parameter Name="propertyID" Type="System.Int32" />
+        <Parameter Name="duration" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="endValue">To be added.</param>
+        <param name="propertyID">To be added.</param>
+        <param name="duration">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForCompletion">
+      <MemberSignature Language="C#" Value="public static UnityEngine.CustomYieldInstruction WaitForCompletion (this DG.Tweening.Tween t, bool returnCustomYieldInstruction);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.CustomYieldInstruction WaitForCompletion(class DG.Tweening.Tween t, bool returnCustomYieldInstruction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CustomYieldInstruction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="DG.Tweening.Tween" RefType="this" />
+        <Parameter Name="returnCustomYieldInstruction" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="returnCustomYieldInstruction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForElapsedLoops">
+      <MemberSignature Language="C#" Value="public static UnityEngine.CustomYieldInstruction WaitForElapsedLoops (this DG.Tweening.Tween t, int elapsedLoops, bool returnCustomYieldInstruction);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.CustomYieldInstruction WaitForElapsedLoops(class DG.Tweening.Tween t, int32 elapsedLoops, bool returnCustomYieldInstruction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CustomYieldInstruction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="DG.Tweening.Tween" RefType="this" />
+        <Parameter Name="elapsedLoops" Type="System.Int32" />
+        <Parameter Name="returnCustomYieldInstruction" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="elapsedLoops">To be added.</param>
+        <param name="returnCustomYieldInstruction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForKill">
+      <MemberSignature Language="C#" Value="public static UnityEngine.CustomYieldInstruction WaitForKill (this DG.Tweening.Tween t, bool returnCustomYieldInstruction);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.CustomYieldInstruction WaitForKill(class DG.Tweening.Tween t, bool returnCustomYieldInstruction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CustomYieldInstruction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="DG.Tweening.Tween" RefType="this" />
+        <Parameter Name="returnCustomYieldInstruction" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="returnCustomYieldInstruction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForPosition">
+      <MemberSignature Language="C#" Value="public static UnityEngine.CustomYieldInstruction WaitForPosition (this DG.Tweening.Tween t, float position, bool returnCustomYieldInstruction);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.CustomYieldInstruction WaitForPosition(class DG.Tweening.Tween t, float32 position, bool returnCustomYieldInstruction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CustomYieldInstruction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="DG.Tweening.Tween" RefType="this" />
+        <Parameter Name="position" Type="System.Single" />
+        <Parameter Name="returnCustomYieldInstruction" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="returnCustomYieldInstruction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForRewind">
+      <MemberSignature Language="C#" Value="public static UnityEngine.CustomYieldInstruction WaitForRewind (this DG.Tweening.Tween t, bool returnCustomYieldInstruction);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.CustomYieldInstruction WaitForRewind(class DG.Tweening.Tween t, bool returnCustomYieldInstruction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CustomYieldInstruction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="DG.Tweening.Tween" RefType="this" />
+        <Parameter Name="returnCustomYieldInstruction" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="returnCustomYieldInstruction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForStart">
+      <MemberSignature Language="C#" Value="public static UnityEngine.CustomYieldInstruction WaitForStart (this DG.Tweening.Tween t, bool returnCustomYieldInstruction);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.CustomYieldInstruction WaitForStart(class DG.Tweening.Tween t, bool returnCustomYieldInstruction) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CustomYieldInstruction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="DG.Tweening.Tween" RefType="this" />
+        <Parameter Name="returnCustomYieldInstruction" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="returnCustomYieldInstruction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

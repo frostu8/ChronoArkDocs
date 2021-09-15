@@ -1,0 +1,24 @@
+<Type Name="GoogleTranslation+fnOnTranslationReady" FullName="I2.Loc.GoogleTranslation+fnOnTranslationReady">
+  <TypeSignature Language="C#" Value="public delegate void GoogleTranslation.fnOnTranslationReady(Dictionary&lt;string,TranslationQuery&gt; dict, string error);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed GoogleTranslation/fnOnTranslationReady extends System.MulticastDelegate" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="dict" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+    <Parameter Name="error" Type="System.String" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="dict">To be added.</param>
+    <param name="error">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,146 @@
+<Type Name="P_Trisha" FullName="P_Trisha">
+  <TypeSignature Language="C#" Value="public class P_Trisha : Passive_Char, IP_SkillUseHand_Team" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit P_Trisha extends  implements IP_SkillUseHand_Team" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Passive_Char</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>IP_SkillUseHand_Team</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public P_Trisha ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public override void Init ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Init() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsShadow">
+      <MemberSignature Language="C#" Value="public bool IsShadow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsShadow" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SKillUseHand_Team">
+      <MemberSignature Language="C#" Value="public void SKillUseHand_Team (Skill skill);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SKillUseHand_Team(Skill skill) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:IP_SkillUseHand_Team.SKillUseHand_Team(Skill)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrishaPassive">
+      <MemberSignature Language="C#" Value="public static void TrishaPassive (BattleChar Trisha);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TrishaPassive(BattleChar Trisha) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Trisha" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="Trisha">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrishaPassive">
+      <MemberSignature Language="C#" Value="public void TrishaPassive (Skill skill);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void TrishaPassive(Skill skill) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skill" Type="Skill" />
+      </Parameters>
+      <Docs>
+        <param name="skill">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrishaPassiveOn">
+      <MemberSignature Language="C#" Value="public static void TrishaPassiveOn (BattleChar Trisha);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TrishaPassiveOn(BattleChar Trisha) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Trisha" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="Trisha">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

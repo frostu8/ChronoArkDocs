@@ -1,0 +1,1154 @@
+<Type Name="ToGDEDictExtensions" FullName="GameDataEditor.ToGDEDictExtensions">
+  <TypeSignature Language="C#" Value="public static class ToGDEDictExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ToGDEDictExtensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ToDictValue">
+      <MemberSignature Language="C#" Value="public static object ToDictValue (this bool variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ToDictValue(bool variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Boolean" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDictValue">
+      <MemberSignature Language="C#" Value="public static object ToDictValue (this int variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ToDictValue(int32 variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Int32" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDictValue">
+      <MemberSignature Language="C#" Value="public static object ToDictValue (this float variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ToDictValue(float32 variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Single" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDictValue">
+      <MemberSignature Language="C#" Value="public static object ToDictValue (this string variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ToDictValue(string variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.String" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDictValue">
+      <MemberSignature Language="C#" Value="public static object ToDictValue (this UnityEngine.Color variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ToDictValue(valuetype UnityEngine.Color variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Color" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDictValue">
+      <MemberSignature Language="C#" Value="public static object ToDictValue (this UnityEngine.Vector2 variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ToDictValue(valuetype UnityEngine.Vector2 variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Vector2" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDictValue">
+      <MemberSignature Language="C#" Value="public static object ToDictValue (this UnityEngine.Vector3 variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ToDictValue(valuetype UnityEngine.Vector3 variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Vector3" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDictValue">
+      <MemberSignature Language="C#" Value="public static object ToDictValue (this UnityEngine.Vector4 variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ToDictValue(valuetype UnityEngine.Vector4 variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Vector4" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDictValue&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static object ToDictValue&lt;T&gt; (this T variable) where T : GameDataEditor.IGDEData;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ToDictValue&lt;(class GameDataEditor.IGDEData) T&gt;(!!T variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>GameDataEditor.IGDEData</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="T" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this bool variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(bool variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Boolean" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;bool&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;bool&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Boolean&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;bool&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;bool&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;System.Boolean&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;int&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;int32&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;System.Int32&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;float&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;float32&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;System.Single&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;string&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;string&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.AudioClip&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;class UnityEngine.AudioClip&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.AudioClip&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Color&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Color&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Color&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.GameObject&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;class UnityEngine.GameObject&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.GameObject&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Material&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;class UnityEngine.Material&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Material&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Sprite&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;class UnityEngine.Sprite&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Sprite&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Texture2D&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;class UnityEngine.Texture2D&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Texture2D&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Vector2&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector2&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Vector2&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Vector3&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector3&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Vector3&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Vector4&gt;&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector4&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;UnityEngine.Vector4&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;int&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;int32&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Int32&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;float&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;float32&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Single&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;string&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;string&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.String&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;UnityEngine.AudioClip&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class UnityEngine.AudioClip&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;UnityEngine.AudioClip&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;UnityEngine.Color&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Color&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;UnityEngine.Color&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;UnityEngine.GameObject&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class UnityEngine.GameObject&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;UnityEngine.GameObject&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;UnityEngine.Material&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class UnityEngine.Material&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;UnityEngine.Material&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;UnityEngine.Sprite&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class UnityEngine.Sprite&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;UnityEngine.Sprite&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;UnityEngine.Texture2D&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;class UnityEngine.Texture2D&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;UnityEngine.Texture2D&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;UnityEngine.Vector2&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector2&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;UnityEngine.Vector2&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;UnityEngine.Vector3&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector3&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;UnityEngine.Vector3&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this System.Collections.Generic.List&lt;UnityEngine.Vector4&gt; variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector4&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;UnityEngine.Vector4&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this int variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(int32 variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Int32" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this float variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(float32 variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Single" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this string variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(string variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.String" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this UnityEngine.AudioClip variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class UnityEngine.AudioClip variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.AudioClip" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this UnityEngine.Color variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(valuetype UnityEngine.Color variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Color" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this UnityEngine.GameObject variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class UnityEngine.GameObject variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.GameObject" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this UnityEngine.Material variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class UnityEngine.Material variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Material" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this UnityEngine.Sprite variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class UnityEngine.Sprite variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Sprite" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this UnityEngine.Texture2D variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(class UnityEngine.Texture2D variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Texture2D" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this UnityEngine.Vector2 variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(valuetype UnityEngine.Vector2 variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Vector2" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this UnityEngine.Vector3 variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(valuetype UnityEngine.Vector3 variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Vector3" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict (this UnityEngine.Vector4 variable, string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict(valuetype UnityEngine.Vector4 variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="UnityEngine.Vector4" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict&lt;T&gt; (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;T&gt;&gt; variable, string fieldName) where T : GameDataEditor.IGDEData;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict&lt;(class GameDataEditor.IGDEData) T&gt;(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;!!T&gt;&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>GameDataEditor.IGDEData</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;T&gt;&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable, string fieldName) where T : GameDataEditor.IGDEData;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict&lt;(class GameDataEditor.IGDEData) T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>GameDataEditor.IGDEData</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToGDEDict&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; ToGDEDict&lt;T&gt; (this T variable, string fieldName) where T : GameDataEditor.IGDEData;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; ToGDEDict&lt;(class GameDataEditor.IGDEData) T&gt;(!!T variable, string fieldName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>GameDataEditor.IGDEData</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="T" RefType="this" />
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

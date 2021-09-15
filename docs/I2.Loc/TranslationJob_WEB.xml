@@ -1,0 +1,89 @@
+<Type Name="TranslationJob_WEB" FullName="I2.Loc.TranslationJob_WEB">
+  <TypeSignature Language="C#" Value="public class TranslationJob_WEB : I2.Loc.TranslationJob_WWW" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TranslationJob_WEB extends I2.Loc.TranslationJob_WWW" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>I2.Loc.TranslationJob_WWW</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TranslationJob_WEB (System.Collections.Generic.Dictionary&lt;string,I2.Loc.TranslationQuery&gt; requests, I2.Loc.GoogleTranslation.fnOnTranslationReady OnTranslationReady);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.Dictionary`2&lt;string, valuetype I2.Loc.TranslationQuery&gt; requests, class I2.Loc.GoogleTranslation/fnOnTranslationReady OnTranslationReady) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="requests" Type="System.Collections.Generic.Dictionary&lt;System.String,I2.Loc.TranslationQuery&gt;" />
+        <Parameter Name="OnTranslationReady" Type="I2.Loc.GoogleTranslation+fnOnTranslationReady" />
+      </Parameters>
+      <Docs>
+        <param name="requests">To be added.</param>
+        <param name="OnTranslationReady">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetState">
+      <MemberSignature Language="C#" Value="public override I2.Loc.TranslationJob.eJobState GetState ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype I2.Loc.TranslationJob/eJobState GetState() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.TranslationJob+eJobState</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="mErrorMessage">
+      <MemberSignature Language="C#" Value="public string mErrorMessage;" />
+      <MemberSignature Language="ILAsm" Value=".field public string mErrorMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessResult">
+      <MemberSignature Language="C#" Value="public void ProcessResult (byte[] bytes, string errorMsg);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ProcessResult(unsigned int8[] bytes, string errorMsg) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bytes" Type="System.Byte[]" />
+        <Parameter Name="errorMsg" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bytes">To be added.</param>
+        <param name="errorMsg">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

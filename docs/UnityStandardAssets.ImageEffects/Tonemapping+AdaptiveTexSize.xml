@@ -1,0 +1,122 @@
+<Type Name="Tonemapping+AdaptiveTexSize" FullName="UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize">
+  <TypeSignature Language="C#" Value="public enum Tonemapping.AdaptiveTexSize" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed Tonemapping/AdaptiveTexSize extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Square1024">
+      <MemberSignature Language="C#" Value="Square1024" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.Tonemapping/AdaptiveTexSize Square1024 = int32(1024)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Square128">
+      <MemberSignature Language="C#" Value="Square128" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.Tonemapping/AdaptiveTexSize Square128 = int32(128)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Square16">
+      <MemberSignature Language="C#" Value="Square16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.Tonemapping/AdaptiveTexSize Square16 = int32(16)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Square256">
+      <MemberSignature Language="C#" Value="Square256" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.Tonemapping/AdaptiveTexSize Square256 = int32(256)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Square32">
+      <MemberSignature Language="C#" Value="Square32" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.Tonemapping/AdaptiveTexSize Square32 = int32(32)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Square512">
+      <MemberSignature Language="C#" Value="Square512" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.Tonemapping/AdaptiveTexSize Square512 = int32(512)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Square64">
+      <MemberSignature Language="C#" Value="Square64" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.Tonemapping/AdaptiveTexSize Square64 = int32(64)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,867 @@
+<Type Name="LOSLightBase" FullName="LOS.LOSLightBase">
+  <TypeSignature Language="C#" Value="public abstract class LOSLightBase : LOS.LOSObjectBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit LOSLightBase extends LOS.LOSObjectBase" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>LOS.LOSObjectBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected LOSLightBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_endAngle">
+      <MemberSignature Language="C#" Value="protected float _endAngle;" />
+      <MemberSignature Language="ILAsm" Value=".field family float32 _endAngle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_losCamera">
+      <MemberSignature Language="C#" Value="protected LOS.LOSCamera _losCamera;" />
+      <MemberSignature Language="ILAsm" Value=".field family class LOS.LOSCamera _losCamera" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>LOS.LOSCamera</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_mesh">
+      <MemberSignature Language="C#" Value="protected UnityEngine.Mesh _mesh;" />
+      <MemberSignature Language="ILAsm" Value=".field family class UnityEngine.Mesh _mesh" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Mesh</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_previousColor">
+      <MemberSignature Language="C#" Value="protected UnityEngine.Color _previousColor;" />
+      <MemberSignature Language="ILAsm" Value=".field family valuetype UnityEngine.Color _previousColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_previousDegreeStep">
+      <MemberSignature Language="C#" Value="protected float _previousDegreeStep;" />
+      <MemberSignature Language="ILAsm" Value=".field family float32 _previousDegreeStep" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_previousFaceAngle">
+      <MemberSignature Language="C#" Value="protected float _previousFaceAngle;" />
+      <MemberSignature Language="ILAsm" Value=".field family float32 _previousFaceAngle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_previousInvertMode">
+      <MemberSignature Language="C#" Value="protected bool _previousInvertMode;" />
+      <MemberSignature Language="ILAsm" Value=".field family bool _previousInvertMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_previousLightAngle">
+      <MemberSignature Language="C#" Value="protected float _previousLightAngle;" />
+      <MemberSignature Language="ILAsm" Value=".field family float32 _previousLightAngle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_previousObstacleLayer">
+      <MemberSignature Language="C#" Value="protected UnityEngine.LayerMask _previousObstacleLayer;" />
+      <MemberSignature Language="ILAsm" Value=".field family valuetype UnityEngine.LayerMask _previousObstacleLayer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LayerMask</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_previousOrderInLayer">
+      <MemberSignature Language="C#" Value="protected int _previousOrderInLayer;" />
+      <MemberSignature Language="ILAsm" Value=".field family int32 _previousOrderInLayer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_previousSortingLayer">
+      <MemberSignature Language="C#" Value="protected int _previousSortingLayer;" />
+      <MemberSignature Language="ILAsm" Value=".field family int32 _previousSortingLayer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_raycastDistance">
+      <MemberSignature Language="C#" Value="protected float _raycastDistance;" />
+      <MemberSignature Language="ILAsm" Value=".field family float32 _raycastDistance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_startAngle">
+      <MemberSignature Language="C#" Value="protected float _startAngle;" />
+      <MemberSignature Language="ILAsm" Value=".field family float32 _startAngle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddNewTriangle">
+      <MemberSignature Language="C#" Value="protected void AddNewTriangle (System.Collections.Generic.List&lt;int&gt; triangles, int v0, int v1, int v2);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void AddNewTriangle(class System.Collections.Generic.List`1&lt;int32&gt; triangles, int32 v0, int32 v1, int32 v2) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="triangles" Type="System.Collections.Generic.List&lt;System.Int32&gt;" />
+        <Parameter Name="v0" Type="System.Int32" />
+        <Parameter Name="v1" Type="System.Int32" />
+        <Parameter Name="v2" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="triangles">To be added.</param>
+        <param name="v0">To be added.</param>
+        <param name="v1">To be added.</param>
+        <param name="v2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddNewTrianglesBetweenPoints2Corners">
+      <MemberSignature Language="C#" Value="protected void AddNewTrianglesBetweenPoints2Corners (System.Collections.Generic.List&lt;int&gt; triangles, System.Collections.Generic.List&lt;UnityEngine.Vector3&gt; vertices, int pointAIndex, int pointBIndex, bool give4CornersWhenAEqualsB = false);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void AddNewTrianglesBetweenPoints2Corners(class System.Collections.Generic.List`1&lt;int32&gt; triangles, class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector3&gt; vertices, int32 pointAIndex, int32 pointBIndex, bool give4CornersWhenAEqualsB) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="triangles" Type="System.Collections.Generic.List&lt;System.Int32&gt;" />
+        <Parameter Name="vertices" Type="System.Collections.Generic.List&lt;UnityEngine.Vector3&gt;" />
+        <Parameter Name="pointAIndex" Type="System.Int32" />
+        <Parameter Name="pointBIndex" Type="System.Int32" />
+        <Parameter Name="give4CornersWhenAEqualsB" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="triangles">To be added.</param>
+        <param name="vertices">To be added.</param>
+        <param name="pointAIndex">To be added.</param>
+        <param name="pointBIndex">To be added.</param>
+        <param name="give4CornersWhenAEqualsB">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddNewTrianglesBetweenPoints4Corners">
+      <MemberSignature Language="C#" Value="protected void AddNewTrianglesBetweenPoints4Corners (System.Collections.Generic.List&lt;int&gt; triangles, System.Collections.Generic.List&lt;UnityEngine.Vector3&gt; vertices, int pointAIndex, int pointBIndex, int centerIndex, bool give4CornersWhenAEqualB = false);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void AddNewTrianglesBetweenPoints4Corners(class System.Collections.Generic.List`1&lt;int32&gt; triangles, class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector3&gt; vertices, int32 pointAIndex, int32 pointBIndex, int32 centerIndex, bool give4CornersWhenAEqualB) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="triangles" Type="System.Collections.Generic.List&lt;System.Int32&gt;" />
+        <Parameter Name="vertices" Type="System.Collections.Generic.List&lt;UnityEngine.Vector3&gt;" />
+        <Parameter Name="pointAIndex" Type="System.Int32" />
+        <Parameter Name="pointBIndex" Type="System.Int32" />
+        <Parameter Name="centerIndex" Type="System.Int32" />
+        <Parameter Name="give4CornersWhenAEqualB" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="triangles">To be added.</param>
+        <param name="vertices">To be added.</param>
+        <param name="pointAIndex">To be added.</param>
+        <param name="pointBIndex">To be added.</param>
+        <param name="centerIndex">To be added.</param>
+        <param name="give4CornersWhenAEqualB">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Awake">
+      <MemberSignature Language="C#" Value="protected override void Awake ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Awake() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckDegreeWithinCone">
+      <MemberSignature Language="C#" Value="public bool CheckDegreeWithinCone (float degree);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool CheckDegreeWithinCone(float32 degree) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="degree" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="degree">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckDirty">
+      <MemberSignature Language="C#" Value="public override bool CheckDirty ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool CheckDirty() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckRaycastHit">
+      <MemberSignature Language="C#" Value="protected bool CheckRaycastHit (LOS.LOSLightBase.LOSRaycastHit hit, float distance);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool CheckRaycastHit(valuetype LOS.LOSLightBase/LOSRaycastHit hit, float32 distance) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hit" Type="LOS.LOSLightBase+LOSRaycastHit" />
+        <Parameter Name="distance" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="hit">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="color">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color color;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.Color color" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="coneAngle">
+      <MemberSignature Language="C#" Value="public float coneAngle;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 coneAngle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("The angle of the light cone. 0 means every direction.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DebugDraw">
+      <MemberSignature Language="C#" Value="protected void DebugDraw (System.Collections.Generic.List&lt;UnityEngine.Vector3&gt; meshVertices, System.Collections.Generic.List&lt;int&gt; triangles, UnityEngine.Color color, float time);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void DebugDraw(class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector3&gt; meshVertices, class System.Collections.Generic.List`1&lt;int32&gt; triangles, valuetype UnityEngine.Color color, float32 time) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="meshVertices" Type="System.Collections.Generic.List&lt;UnityEngine.Vector3&gt;" />
+        <Parameter Name="triangles" Type="System.Collections.Generic.List&lt;System.Int32&gt;" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="time" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="meshVertices">To be added.</param>
+        <param name="triangles">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="time">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="degreeStep">
+      <MemberSignature Language="C#" Value="protected float degreeStep;" />
+      <MemberSignature Language="ILAsm" Value=".field family float32 degreeStep" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("The precision of the light collision test. Measured in degrees.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeployMesh">
+      <MemberSignature Language="C#" Value="protected void DeployMesh (System.Collections.Generic.List&lt;UnityEngine.Vector3&gt; vertices, System.Collections.Generic.List&lt;int&gt; triangles);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void DeployMesh(class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector3&gt; vertices, class System.Collections.Generic.List`1&lt;int32&gt; triangles) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vertices" Type="System.Collections.Generic.List&lt;UnityEngine.Vector3&gt;" />
+        <Parameter Name="triangles" Type="System.Collections.Generic.List&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="vertices">To be added.</param>
+        <param name="triangles">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Draw">
+      <MemberSignature Language="C#" Value="public bool Draw;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Draw" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="faceAngle">
+      <MemberSignature Language="C#" Value="public float faceAngle;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 faceAngle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("The direction that the light is facing. Measured in degrees, counting from direction (1, 0)")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardDraw">
+      <MemberSignature Language="C#" Value="protected virtual void ForwardDraw ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void ForwardDraw() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCorrectCornerIndex">
+      <MemberSignature Language="C#" Value="protected int GetCorrectCornerIndex (System.Collections.Generic.List&lt;UnityEngine.Vector3&gt; vertices, UnityEngine.Vector3 corner, int cornersStartIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance int32 GetCorrectCornerIndex(class System.Collections.Generic.List`1&lt;valuetype UnityEngine.Vector3&gt; vertices, valuetype UnityEngine.Vector3 corner, int32 cornersStartIndex) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vertices" Type="System.Collections.Generic.List&lt;UnityEngine.Vector3&gt;" />
+        <Parameter Name="corner" Type="UnityEngine.Vector3" />
+        <Parameter Name="cornersStartIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="vertices">To be added.</param>
+        <param name="corner">To be added.</param>
+        <param name="cornersStartIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMaxLightLength">
+      <MemberSignature Language="C#" Value="protected virtual float GetMaxLightLength ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance float32 GetMaxLightLength() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMinRaycastDistance">
+      <MemberSignature Language="C#" Value="protected float GetMinRaycastDistance ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance float32 GetMinRaycastDistance() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvertDraw">
+      <MemberSignature Language="C#" Value="protected virtual void InvertDraw ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void InvertDraw() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="invertMode">
+      <MemberSignature Language="C#" Value="public bool invertMode;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool invertMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("Draws the light in invert mode or not.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LOSRaycast">
+      <MemberSignature Language="C#" Value="protected bool LOSRaycast (UnityEngine.Vector3 direction, out LOS.LOSLightBase.LOSRaycastHit hit, float distance);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance bool LOSRaycast(valuetype UnityEngine.Vector3 direction, [out] valuetype LOS.LOSLightBase/LOSRaycastHit&amp; hit, float32 distance) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="direction" Type="UnityEngine.Vector3" />
+        <Parameter Name="hit" Type="LOS.LOSLightBase+LOSRaycastHit" RefType="out" />
+        <Parameter Name="distance" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="direction">To be added.</param>
+        <param name="hit">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="material">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material material;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Material material" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="obstacleLayer">
+      <MemberSignature Language="C#" Value="public UnityEngine.LayerMask obstacleLayer;" />
+      <MemberSignature Language="ILAsm" Value=".field public valuetype UnityEngine.LayerMask obstacleLayer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[UnityEngine.Tooltip("The layers that the light will interact with.")]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LayerMask</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDisable">
+      <MemberSignature Language="C#" Value="protected virtual void OnDisable ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDisable() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnEnable">
+      <MemberSignature Language="C#" Value="protected virtual void OnEnable ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnEnable() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="orderInLayer">
+      <MemberSignature Language="C#" Value="public int orderInLayer;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 orderInLayer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="sortingLayer">
+      <MemberSignature Language="C#" Value="public int sortingLayer;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 sortingLayer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToggleOnOff">
+      <MemberSignature Language="C#" Value="public void ToggleOnOff (bool on);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ToggleOnOff(bool on) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="on" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="on">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryDraw">
+      <MemberSignature Language="C#" Value="public void TryDraw ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void TryDraw() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateColor">
+      <MemberSignature Language="C#" Value="protected void UpdateColor ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void UpdateColor() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdatePreviousInfo">
+      <MemberSignature Language="C#" Value="public override void UpdatePreviousInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void UpdatePreviousInfo() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateSortingLayer">
+      <MemberSignature Language="C#" Value="protected void UpdateSortingLayer ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void UpdateSortingLayer() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateSortingOrder">
+      <MemberSignature Language="C#" Value="protected void UpdateSortingOrder ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void UpdateSortingOrder() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateUVs">
+      <MemberSignature Language="C#" Value="protected void UpdateUVs (UnityEngine.Vector3[] vertices);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void UpdateUVs(valuetype UnityEngine.Vector3[] vertices) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vertices" Type="UnityEngine.Vector3[]" />
+      </Parameters>
+      <Docs>
+        <param name="vertices">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

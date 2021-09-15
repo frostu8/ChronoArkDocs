@@ -1,0 +1,19 @@
+<Type Name="LocalizationManager+OnLocalizeCallback" FullName="I2.Loc.LocalizationManager+OnLocalizeCallback">
+  <TypeSignature Language="C#" Value="public delegate void LocalizationManager.OnLocalizeCallback();" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed LocalizationManager/OnLocalizeCallback extends System.MulticastDelegate" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters />
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

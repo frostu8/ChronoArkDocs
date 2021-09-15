@@ -1,0 +1,35 @@
+<Type Name="IP_TargetAI" FullName="IP_TargetAI">
+  <TypeSignature Language="C#" Value="public interface IP_TargetAI" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IP_TargetAI" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="TargetAI">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;BattleChar&gt; TargetAI (BattleEnemy MyBchar);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;BattleChar&gt; TargetAI(BattleEnemy MyBchar) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;BattleChar&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MyBchar" Type="BattleEnemy" />
+      </Parameters>
+      <Docs>
+        <param name="MyBchar">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

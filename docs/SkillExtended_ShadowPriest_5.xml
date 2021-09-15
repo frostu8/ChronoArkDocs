@@ -1,0 +1,123 @@
+<Type Name="SkillExtended_ShadowPriest_5" FullName="SkillExtended_ShadowPriest_5">
+  <TypeSignature Language="C#" Value="public class SkillExtended_ShadowPriest_5 : Skill_Extended, IP_DamageTake, IP_TurnEnd" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SkillExtended_ShadowPriest_5 extends  implements IP_DamageTake, IP_TurnEnd" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Skill_Extended</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>IP_DamageTake</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>IP_TurnEnd</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SkillExtended_ShadowPriest_5 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DamageTake">
+      <MemberSignature Language="C#" Value="public void DamageTake (BattleChar User, int Dmg, bool Cri, ref bool resist, bool NODEF = false, bool NOEFFECT = false, BattleChar Target = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DamageTake(BattleChar User, int32 Dmg, bool Cri, bool&amp; resist, bool NODEF, bool NOEFFECT, BattleChar Target) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:IP_DamageTake.DamageTake(BattleChar,System.Int32,System.Boolean,System.Boolean@,System.Boolean,System.Boolean,BattleChar)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="User" Type="BattleChar" />
+        <Parameter Name="Dmg" Type="System.Int32" />
+        <Parameter Name="Cri" Type="System.Boolean" />
+        <Parameter Name="resist" Type="System.Boolean" RefType="ref" />
+        <Parameter Name="NODEF" Type="System.Boolean" />
+        <Parameter Name="NOEFFECT" Type="System.Boolean" />
+        <Parameter Name="Target" Type="BattleChar" />
+      </Parameters>
+      <Docs>
+        <param name="User">To be added.</param>
+        <param name="Dmg">To be added.</param>
+        <param name="Cri">To be added.</param>
+        <param name="resist">To be added.</param>
+        <param name="NODEF">To be added.</param>
+        <param name="NOEFFECT">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flag">
+      <MemberSignature Language="C#" Value="public bool Flag;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Flag" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Terms">
+      <MemberSignature Language="C#" Value="public override bool Terms ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Terms() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TurnEnd">
+      <MemberSignature Language="C#" Value="public void TurnEnd ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TurnEnd() cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:IP_TurnEnd.TurnEnd</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,93 @@
+<Type Name="MouseUtils" FullName="MouseUtils">
+  <TypeSignature Language="C#" Value="public static class MouseUtils" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MouseUtils extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetSystemMousePos">
+      <MemberSignature Language="C#" Value="public static Point GetSystemMousePos ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig Point GetSystemMousePos() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Point</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetRelativeMousePosConstrained">
+      <MemberSignature Language="C#" Value="public static void SetRelativeMousePosConstrained (Point mousePosition);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetRelativeMousePosConstrained(Point mousePosition) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mousePosition" Type="Point" />
+      </Parameters>
+      <Docs>
+        <param name="mousePosition">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetRelativeMousePosUnconstrained">
+      <MemberSignature Language="C#" Value="public static System.Collections.IEnumerator SetRelativeMousePosUnconstrained (Point mousePosition);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IEnumerator SetRelativeMousePosUnconstrained(Point mousePosition) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mousePosition" Type="Point" />
+      </Parameters>
+      <Docs>
+        <param name="mousePosition">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSystemMousePos">
+      <MemberSignature Language="C#" Value="public static void SetSystemMousePos (Point mousePosition);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetSystemMousePos(Point mousePosition) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mousePosition" Type="Point" />
+      </Parameters>
+      <Docs>
+        <param name="mousePosition">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

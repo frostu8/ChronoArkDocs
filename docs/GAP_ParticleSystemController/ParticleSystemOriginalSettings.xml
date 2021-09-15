@@ -1,0 +1,351 @@
+<Type Name="ParticleSystemOriginalSettings" FullName="GAP_ParticleSystemController.ParticleSystemOriginalSettings">
+  <TypeSignature Language="C#" Value="public class ParticleSystemOriginalSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ParticleSystemOriginalSettings extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ParticleSystemOriginalSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_active">
+      <MemberSignature Language="C#" Value="public bool _active;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool _active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_colorOverLifetimeC">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxGradient _colorOverLifetimeC;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxGradient _colorOverLifetimeC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxGradient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_duration">
+      <MemberSignature Language="C#" Value="public float _duration;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 _duration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_localPosition">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableVector3 _localPosition;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableVector3 _localPosition" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableVector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_loop">
+      <MemberSignature Language="C#" Value="public bool _loop;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool _loop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_prewarm">
+      <MemberSignature Language="C#" Value="public bool _prewarm;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool _prewarm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_shapeRadius">
+      <MemberSignature Language="C#" Value="public float _shapeRadius;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 _shapeRadius" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_startColor">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxGradient _startColor;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxGradient _startColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxGradient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_startDelay">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _startDelay;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _startDelay" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_startLifetime">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _startLifetime;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _startLifetime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_startSize">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _startSize;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _startSize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_startSizeX">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _startSizeX;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _startSizeX" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_startSizeY">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _startSizeY;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _startSizeY" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_startSizeZ">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _startSizeZ;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _startSizeZ" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_startSpeed">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _startSpeed;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _startSpeed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_trailGradient">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableGradient _trailGradient;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableGradient _trailGradient" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableGradient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_trailTime">
+      <MemberSignature Language="C#" Value="public float _trailTime;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 _trailTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_trailWidthMultiplier">
+      <MemberSignature Language="C#" Value="public float _trailWidthMultiplier;" />
+      <MemberSignature Language="ILAsm" Value=".field public float32 _trailWidthMultiplier" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_velocityOverLifetimeX">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _velocityOverLifetimeX;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _velocityOverLifetimeX" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_velocityOverLifetimeY">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _velocityOverLifetimeY;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _velocityOverLifetimeY" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_velocityOverLifetimeZ">
+      <MemberSignature Language="C#" Value="public GAP_ParticleSystemController.SerializableMinMaxCurve _velocityOverLifetimeZ;" />
+      <MemberSignature Language="ILAsm" Value=".field public class GAP_ParticleSystemController.SerializableMinMaxCurve _velocityOverLifetimeZ" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>GAP_ParticleSystemController.SerializableMinMaxCurve</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

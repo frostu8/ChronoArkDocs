@@ -1,0 +1,33 @@
+<Type Name="ScriptTerms+CharText_Hein_Skill" FullName="I2.Loc.ScriptTerms+CharText_Hein_Skill">
+  <TypeSignature Language="C#" Value="public static class ScriptTerms.CharText_Hein_Skill" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract sealed beforefieldinit ScriptTerms/CharText_Hein_Skill extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Hein_6">
+      <MemberSignature Language="C#" Value="public const string Hein_6;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Hein_6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,260 @@
+<Type Name="MapChange" FullName="MapChange">
+  <TypeSignature Language="C#" Value="public class MapChange : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MapChange extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MapChange ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollMove">
+      <MemberSignature Language="C#" Value="public bool CollMove;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool CollMove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindTransformMap">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Transform FindTransformMap (UnityEngine.Transform Tr);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class UnityEngine.Transform FindTransformMap(class UnityEngine.Transform Tr) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Tr" Type="UnityEngine.Transform" />
+      </Parameters>
+      <Docs>
+        <param name="Tr">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoMap">
+      <MemberSignature Language="C#" Value="public void GoMap ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GoMap() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoMap">
+      <MemberSignature Language="C#" Value="public void GoMap (bool Nosound = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GoMap(bool Nosound) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Nosound" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Nosound">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoMapBlack">
+      <MemberSignature Language="C#" Value="public void GoMapBlack (float Speed = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GoMapBlack(float32 Speed) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Speed" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Speed">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoMapStatic">
+      <MemberSignature Language="C#" Value="public static void GoMapStatic (UnityEngine.Transform TargetPos, bool Nosound = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void GoMapStatic(class UnityEngine.Transform TargetPos, bool Nosound) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TargetPos" Type="UnityEngine.Transform" />
+        <Parameter Name="Nosound" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="TargetPos">To be added.</param>
+        <param name="Nosound">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoMapWhite">
+      <MemberSignature Language="C#" Value="public void GoMapWhite (float Speed = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GoMapWhite(float32 Speed) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Speed" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Speed">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapFadeBlack">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator MapFadeBlack (float Speed);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator MapFadeBlack(float32 Speed) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Speed" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Speed">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapFadeWhite">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator MapFadeWhite (float Speed);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator MapFadeWhite(float32 Speed) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Speed" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Speed">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapPrefab">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject MapPrefab;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.GameObject MapPrefab" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapPrefab_TrName">
+      <MemberSignature Language="C#" Value="public string MapPrefab_TrName;" />
+      <MemberSignature Language="ILAsm" Value=".field public string MapPrefab_TrName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetParentMap">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform SetParentMap;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform SetParentMap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetPos">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform TargetPos;" />
+      <MemberSignature Language="ILAsm" Value=".field public class UnityEngine.Transform TargetPos" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

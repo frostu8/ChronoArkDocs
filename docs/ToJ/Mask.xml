@@ -1,0 +1,321 @@
+<Type Name="Mask" FullName="ToJ.Mask">
+  <TypeSignature Language="C#" Value="public class Mask : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Mask extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.AddComponentMenu("Alpha Mask")]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[UnityEngine.ExecuteInEditMode]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Mask ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyMaskToChildren">
+      <MemberSignature Language="C#" Value="public void ApplyMaskToChildren ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ApplyMaskToChildren() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeMaskTexture">
+      <MemberSignature Language="C#" Value="public void ChangeMaskTexture (UnityEngine.Texture texture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ChangeMaskTexture(class UnityEngine.Texture texture) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="texture" Type="UnityEngine.Texture" />
+      </Parameters>
+      <Docs>
+        <param name="texture">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="clampAlphaHorizontally">
+      <MemberSignature Language="C#" Value="public bool clampAlphaHorizontally { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool clampAlphaHorizontally" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="clampAlphaVertically">
+      <MemberSignature Language="C#" Value="public bool clampAlphaVertically { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool clampAlphaVertically" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="clampingBorder">
+      <MemberSignature Language="C#" Value="public float clampingBorder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 clampingBorder" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DuplicateMaskedMaterials">
+      <MemberSignature Language="C#" Value="public void DuplicateMaskedMaterials ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DuplicateMaskedMaterials() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="invertAxis">
+      <MemberSignature Language="C#" Value="public bool invertAxis { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool invertAxis" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isMaskingEnabled">
+      <MemberSignature Language="C#" Value="public bool isMaskingEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool isMaskingEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="maskMappingWorldAxis">
+      <MemberSignature Language="C#" Value="public ToJ.Mask.MappingAxis maskMappingWorldAxis { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ToJ.Mask/MappingAxis maskMappingWorldAxis" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ToJ.Mask+MappingAxis</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMaskBoolValueInMaterial">
+      <MemberSignature Language="C#" Value="public void SetMaskBoolValueInMaterial (string variable, bool value, UnityEngine.Material material);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetMaskBoolValueInMaterial(string variable, bool value, class UnityEngine.Material material) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variable" Type="System.String" />
+        <Parameter Name="value" Type="System.Boolean" />
+        <Parameter Name="material" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="variable">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMaskMappingAxisInMaterial">
+      <MemberSignature Language="C#" Value="public void SetMaskMappingAxisInMaterial (ToJ.Mask.MappingAxis mappingAxis, UnityEngine.Material material);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetMaskMappingAxisInMaterial(valuetype ToJ.Mask/MappingAxis mappingAxis, class UnityEngine.Material material) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mappingAxis" Type="ToJ.Mask+MappingAxis" />
+        <Parameter Name="material" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="mappingAxis">To be added.</param>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMaskRendererActive">
+      <MemberSignature Language="C#" Value="public void SetMaskRendererActive (bool value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetMaskRendererActive(bool value) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMaskTextureInMaterial">
+      <MemberSignature Language="C#" Value="public void SetMaskTextureInMaterial (UnityEngine.Texture texture, UnityEngine.Material material);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetMaskTextureInMaterial(class UnityEngine.Texture texture, class UnityEngine.Material material) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="texture" Type="UnityEngine.Texture" />
+        <Parameter Name="material" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="texture">To be added.</param>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMaskTextureInMaterials">
+      <MemberSignature Language="C#" Value="public void SetMaskTextureInMaterials (UnityEngine.Texture texture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetMaskTextureInMaterials(class UnityEngine.Texture texture) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="texture" Type="UnityEngine.Texture" />
+      </Parameters>
+      <Docs>
+        <param name="texture">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="useMaskAlphaChannel">
+      <MemberSignature Language="C#" Value="public bool useMaskAlphaChannel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool useMaskAlphaChannel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

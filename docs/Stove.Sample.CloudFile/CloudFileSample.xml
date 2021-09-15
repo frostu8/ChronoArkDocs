@@ -1,0 +1,357 @@
+<Type Name="CloudFileSample" FullName="Stove.Sample.CloudFile.CloudFileSample">
+  <TypeSignature Language="C#" Value="public class CloudFileSample : UnityEngine.MonoBehaviour" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CloudFileSample extends UnityEngine.MonoBehaviour" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.MonoBehaviour</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudFileSample ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BulkCreate">
+      <MemberSignature Language="C#" Value="public void BulkCreate (string servicetype, string serviceid, string usertype, string userid, string category, string[] filepaths, bool overwrite, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BulkCreate(string servicetype, string serviceid, string usertype, string userid, string category, string[] filepaths, bool overwrite, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="servicetype" Type="System.String" />
+        <Parameter Name="serviceid" Type="System.String" />
+        <Parameter Name="usertype" Type="System.String" />
+        <Parameter Name="userid" Type="System.String" />
+        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="filepaths" Type="System.String[]" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="servicetype">To be added.</param>
+        <param name="serviceid">To be added.</param>
+        <param name="usertype">To be added.</param>
+        <param name="userid">To be added.</param>
+        <param name="category">To be added.</param>
+        <param name="filepaths">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BulkCreateAsync">
+      <MemberSignature Language="C#" Value="public void BulkCreateAsync (string servicetype, string serviceid, string usertype, string userid, string category, string[] filepaths, bool overwrite, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BulkCreateAsync(string servicetype, string serviceid, string usertype, string userid, string category, string[] filepaths, bool overwrite, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="servicetype" Type="System.String" />
+        <Parameter Name="serviceid" Type="System.String" />
+        <Parameter Name="usertype" Type="System.String" />
+        <Parameter Name="userid" Type="System.String" />
+        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="filepaths" Type="System.String[]" />
+        <Parameter Name="overwrite" Type="System.Boolean" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="servicetype">To be added.</param>
+        <param name="serviceid">To be added.</param>
+        <param name="usertype">To be added.</param>
+        <param name="userid">To be added.</param>
+        <param name="category">To be added.</param>
+        <param name="filepaths">To be added.</param>
+        <param name="overwrite">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (string serviceType, string serviceId, string userType, string userId, string fileId, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(string serviceType, string serviceId, string userType, string userId, string fileId, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceType" Type="System.String" />
+        <Parameter Name="serviceId" Type="System.String" />
+        <Parameter Name="userType" Type="System.String" />
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="fileId" Type="System.String" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="serviceType">To be added.</param>
+        <param name="serviceId">To be added.</param>
+        <param name="userType">To be added.</param>
+        <param name="userId">To be added.</param>
+        <param name="fileId">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public void DeleteAsync (string serviceType, string serviceId, string userType, string userId, string fileId, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteAsync(string serviceType, string serviceId, string userType, string userId, string fileId, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceType" Type="System.String" />
+        <Parameter Name="serviceId" Type="System.String" />
+        <Parameter Name="userType" Type="System.String" />
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="fileId" Type="System.String" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="serviceType">To be added.</param>
+        <param name="serviceId">To be added.</param>
+        <param name="userType">To be added.</param>
+        <param name="userId">To be added.</param>
+        <param name="fileId">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Download">
+      <MemberSignature Language="C#" Value="public void Download (string serviceType, string serviceId, string userType, string userId, string fileId, string fileFullPath, string fileCheckSum, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Download(string serviceType, string serviceId, string userType, string userId, string fileId, string fileFullPath, string fileCheckSum, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceType" Type="System.String" />
+        <Parameter Name="serviceId" Type="System.String" />
+        <Parameter Name="userType" Type="System.String" />
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="fileId" Type="System.String" />
+        <Parameter Name="fileFullPath" Type="System.String" />
+        <Parameter Name="fileCheckSum" Type="System.String" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="serviceType">To be added.</param>
+        <param name="serviceId">To be added.</param>
+        <param name="userType">To be added.</param>
+        <param name="userId">To be added.</param>
+        <param name="fileId">To be added.</param>
+        <param name="fileFullPath">To be added.</param>
+        <param name="fileCheckSum">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DownloadAsync">
+      <MemberSignature Language="C#" Value="public void DownloadAsync (string serviceType, string serviceId, string userType, string userId, string fileId, string fileFullPath, string fileCheckSum, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DownloadAsync(string serviceType, string serviceId, string userType, string userId, string fileId, string fileFullPath, string fileCheckSum, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceType" Type="System.String" />
+        <Parameter Name="serviceId" Type="System.String" />
+        <Parameter Name="userType" Type="System.String" />
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="fileId" Type="System.String" />
+        <Parameter Name="fileFullPath" Type="System.String" />
+        <Parameter Name="fileCheckSum" Type="System.String" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="serviceType">To be added.</param>
+        <param name="serviceId">To be added.</param>
+        <param name="userType">To be added.</param>
+        <param name="userId">To be added.</param>
+        <param name="fileId">To be added.</param>
+        <param name="fileFullPath">To be added.</param>
+        <param name="fileCheckSum">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="public void Read (string serviceType, string serviceId, string userType, string userId, string fileId, string partialFields, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Read(string serviceType, string serviceId, string userType, string userId, string fileId, string partialFields, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceType" Type="System.String" />
+        <Parameter Name="serviceId" Type="System.String" />
+        <Parameter Name="userType" Type="System.String" />
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="fileId" Type="System.String" />
+        <Parameter Name="partialFields" Type="System.String" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="serviceType">To be added.</param>
+        <param name="serviceId">To be added.</param>
+        <param name="userType">To be added.</param>
+        <param name="userId">To be added.</param>
+        <param name="fileId">To be added.</param>
+        <param name="partialFields">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadArray">
+      <MemberSignature Language="C#" Value="public void ReadArray (string serviceType, string serviceId, string userType, string userId, int pageSize, string lastCreatedDate, string category, string sortOrder, string partialFields, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReadArray(string serviceType, string serviceId, string userType, string userId, int32 pageSize, string lastCreatedDate, string category, string sortOrder, string partialFields, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceType" Type="System.String" />
+        <Parameter Name="serviceId" Type="System.String" />
+        <Parameter Name="userType" Type="System.String" />
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="lastCreatedDate" Type="System.String" />
+        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="sortOrder" Type="System.String" />
+        <Parameter Name="partialFields" Type="System.String" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="serviceType">To be added.</param>
+        <param name="serviceId">To be added.</param>
+        <param name="userType">To be added.</param>
+        <param name="userId">To be added.</param>
+        <param name="pageSize">To be added.</param>
+        <param name="lastCreatedDate">To be added.</param>
+        <param name="category">To be added.</param>
+        <param name="sortOrder">To be added.</param>
+        <param name="partialFields">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadArrayAsync">
+      <MemberSignature Language="C#" Value="public void ReadArrayAsync (string serviceType, string serviceId, string userType, string userId, int pageSize, string lastCreatedDate, string category, string sortOrder, string partialFields, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReadArrayAsync(string serviceType, string serviceId, string userType, string userId, int32 pageSize, string lastCreatedDate, string category, string sortOrder, string partialFields, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceType" Type="System.String" />
+        <Parameter Name="serviceId" Type="System.String" />
+        <Parameter Name="userType" Type="System.String" />
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="lastCreatedDate" Type="System.String" />
+        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="sortOrder" Type="System.String" />
+        <Parameter Name="partialFields" Type="System.String" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="serviceType">To be added.</param>
+        <param name="serviceId">To be added.</param>
+        <param name="userType">To be added.</param>
+        <param name="userId">To be added.</param>
+        <param name="pageSize">To be added.</param>
+        <param name="lastCreatedDate">To be added.</param>
+        <param name="category">To be added.</param>
+        <param name="sortOrder">To be added.</param>
+        <param name="partialFields">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadAsync">
+      <MemberSignature Language="C#" Value="public void ReadAsync (string serviceType, string serviceId, string userType, string userId, string fileId, string partialFields, int callId = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReadAsync(string serviceType, string serviceId, string userType, string userId, string fileId, string partialFields, int32 callId) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceType" Type="System.String" />
+        <Parameter Name="serviceId" Type="System.String" />
+        <Parameter Name="userType" Type="System.String" />
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="fileId" Type="System.String" />
+        <Parameter Name="partialFields" Type="System.String" />
+        <Parameter Name="callId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="serviceType">To be added.</param>
+        <param name="serviceId">To be added.</param>
+        <param name="userType">To be added.</param>
+        <param name="userId">To be added.</param>
+        <param name="fileId">To be added.</param>
+        <param name="partialFields">To be added.</param>
+        <param name="callId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

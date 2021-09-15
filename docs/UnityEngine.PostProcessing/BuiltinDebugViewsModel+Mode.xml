@@ -1,0 +1,167 @@
+<Type Name="BuiltinDebugViewsModel+Mode" FullName="UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode">
+  <TypeSignature Language="C#" Value="public enum BuiltinDebugViewsModel.Mode" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BuiltinDebugViewsModel/Mode extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AmbientOcclusion">
+      <MemberSignature Language="C#" Value="AmbientOcclusion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode AmbientOcclusion = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Depth">
+      <MemberSignature Language="C#" Value="Depth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode Depth = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EyeAdaptation">
+      <MemberSignature Language="C#" Value="EyeAdaptation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode EyeAdaptation = int32(5)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FocusPlane">
+      <MemberSignature Language="C#" Value="FocusPlane" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode FocusPlane = int32(6)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LogLut">
+      <MemberSignature Language="C#" Value="LogLut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode LogLut = int32(8)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MotionVectors">
+      <MemberSignature Language="C#" Value="MotionVectors" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode MotionVectors = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode None = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Normals">
+      <MemberSignature Language="C#" Value="Normals" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode Normals = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PreGradingLog">
+      <MemberSignature Language="C#" Value="PreGradingLog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode PreGradingLog = int32(7)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserLut">
+      <MemberSignature Language="C#" Value="UserLut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.BuiltinDebugViewsModel/Mode UserLut = int32(9)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.BuiltinDebugViewsModel+Mode</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

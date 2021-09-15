@@ -1,0 +1,142 @@
+<Type Name="SpecializationManager" FullName="I2.Loc.SpecializationManager">
+  <TypeSignature Language="C#" Value="public class SpecializationManager : I2.Loc.BaseSpecializationManager" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SpecializationManager extends I2.Loc.BaseSpecializationManager" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>I2.Loc.BaseSpecializationManager</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AppendSpecializations">
+      <MemberSignature Language="C#" Value="public static void AppendSpecializations (string text, System.Collections.Generic.List&lt;string&gt; list = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AppendSpecializations(string text, class System.Collections.Generic.List`1&lt;string&gt; list) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="list" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="list">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSpecializations">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,string&gt; GetSpecializations (string text, System.Collections.Generic.Dictionary&lt;string,string&gt; buffer = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, string&gt; GetSpecializations(string text, class System.Collections.Generic.Dictionary`2&lt;string, string&gt; buffer) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="buffer" Type="System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSpecializedText">
+      <MemberSignature Language="C#" Value="public static string GetSpecializedText (string text, string specialization = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetSpecializedText(string text, string specialization) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="specialization" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="specialization">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSpecializedText">
+      <MemberSignature Language="C#" Value="public static string SetSpecializedText (System.Collections.Generic.Dictionary&lt;string,string&gt; specializations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SetSpecializedText(class System.Collections.Generic.Dictionary`2&lt;string, string&gt; specializations) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="specializations" Type="System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="specializations">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSpecializedText">
+      <MemberSignature Language="C#" Value="public static string SetSpecializedText (string text, string newText, string specialization);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SetSpecializedText(string text, string newText, string specialization) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="newText" Type="System.String" />
+        <Parameter Name="specialization" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="newText">To be added.</param>
+        <param name="specialization">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Singleton">
+      <MemberSignature Language="C#" Value="public static I2.Loc.SpecializationManager Singleton;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class I2.Loc.SpecializationManager Singleton" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.SpecializationManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

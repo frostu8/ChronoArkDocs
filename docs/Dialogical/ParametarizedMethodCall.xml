@@ -1,0 +1,100 @@
+<Type Name="ParametarizedMethodCall" FullName="Dialogical.ParametarizedMethodCall">
+  <TypeSignature Language="C#" Value="public struct ParametarizedMethodCall" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ParametarizedMethodCall extends System.ValueType" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="hasParameters">
+      <MemberSignature Language="C#" Value="public bool hasParameters;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool hasParameters" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="hasSOParameterSet">
+      <MemberSignature Language="C#" Value="public bool hasSOParameterSet;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool hasSOParameterSet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="methodName">
+      <MemberSignature Language="C#" Value="public string methodName;" />
+      <MemberSignature Language="ILAsm" Value=".field public string methodName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="parameters">
+      <MemberSignature Language="C#" Value="public string[] parameters;" />
+      <MemberSignature Language="ILAsm" Value=".field public string[] parameters" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryInitialize">
+      <MemberSignature Language="C#" Value="public bool TryInitialize (string methodWithParam, bool hasSOParameterSet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryInitialize(string methodWithParam, bool hasSOParameterSet) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodWithParam" Type="System.String" />
+        <Parameter Name="hasSOParameterSet" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="methodWithParam">To be added.</param>
+        <param name="hasSOParameterSet">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

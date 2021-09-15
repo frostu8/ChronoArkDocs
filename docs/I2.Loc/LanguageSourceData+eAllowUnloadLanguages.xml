@@ -1,0 +1,62 @@
+<Type Name="LanguageSourceData+eAllowUnloadLanguages" FullName="I2.Loc.LanguageSourceData+eAllowUnloadLanguages">
+  <TypeSignature Language="C#" Value="public enum LanguageSourceData.eAllowUnloadLanguages" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed LanguageSourceData/eAllowUnloadLanguages extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EditorAndDevice">
+      <MemberSignature Language="C#" Value="EditorAndDevice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eAllowUnloadLanguages EditorAndDevice = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eAllowUnloadLanguages</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Never">
+      <MemberSignature Language="C#" Value="Never" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eAllowUnloadLanguages Never = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eAllowUnloadLanguages</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlyInDevice">
+      <MemberSignature Language="C#" Value="OnlyInDevice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype I2.Loc.LanguageSourceData/eAllowUnloadLanguages OnlyInDevice = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>I2.Loc.LanguageSourceData+eAllowUnloadLanguages</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

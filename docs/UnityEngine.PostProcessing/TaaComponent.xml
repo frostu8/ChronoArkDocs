@@ -1,0 +1,155 @@
+<Type Name="TaaComponent" FullName="UnityEngine.PostProcessing.TaaComponent">
+  <TypeSignature Language="C#" Value="public sealed class TaaComponent : UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt;UnityEngine.PostProcessing.AntialiasingModel&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TaaComponent extends UnityEngine.PostProcessing.PostProcessingComponentRenderTexture`1&lt;class UnityEngine.PostProcessing.AntialiasingModel&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt;UnityEngine.PostProcessing.AntialiasingModel&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">UnityEngine.PostProcessing.AntialiasingModel</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaaComponent ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="active">
+      <MemberSignature Language="C#" Value="public override bool active { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool active" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCameraFlags">
+      <MemberSignature Language="C#" Value="public override UnityEngine.DepthTextureMode GetCameraFlags ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype UnityEngine.DepthTextureMode GetCameraFlags() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DepthTextureMode</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="jitterVector">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 jitterVector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype UnityEngine.Vector2 jitterVector" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDisable">
+      <MemberSignature Language="C#" Value="public override void OnDisable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void OnDisable() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Render">
+      <MemberSignature Language="C#" Value="public void Render (UnityEngine.RenderTexture source, UnityEngine.RenderTexture destination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Render(class UnityEngine.RenderTexture source, class UnityEngine.RenderTexture destination) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.RenderTexture" />
+        <Parameter Name="destination" Type="UnityEngine.RenderTexture" />
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="destination">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetHistory">
+      <MemberSignature Language="C#" Value="public void ResetHistory ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ResetHistory() cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProjectionMatrix">
+      <MemberSignature Language="C#" Value="public void SetProjectionMatrix (Func&lt;UnityEngine.Vector2,UnityEngine.Matrix4x4&gt; jitteredFunc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetProjectionMatrix(class System.Func`2&lt;valuetype UnityEngine.Vector2, valuetype UnityEngine.Matrix4x4&gt; jitteredFunc) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jitteredFunc" Type="System.Func&lt;UnityEngine.Vector2,UnityEngine.Matrix4x4&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="jitteredFunc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

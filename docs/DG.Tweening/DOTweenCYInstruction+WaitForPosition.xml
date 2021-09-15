@@ -1,0 +1,52 @@
+<Type Name="DOTweenCYInstruction+WaitForPosition" FullName="DG.Tweening.DOTweenCYInstruction+WaitForPosition">
+  <TypeSignature Language="C#" Value="public class DOTweenCYInstruction.WaitForPosition : UnityEngine.CustomYieldInstruction" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit DOTweenCYInstruction/WaitForPosition extends UnityEngine.CustomYieldInstruction" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.CustomYieldInstruction</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WaitForPosition (DG.Tweening.Tween tween, float position);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class DG.Tweening.Tween tween, float32 position) cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="tween" Type="DG.Tweening.Tween" />
+        <Parameter Name="position" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="tween">To be added.</param>
+        <param name="position">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="keepWaiting">
+      <MemberSignature Language="C#" Value="public override bool keepWaiting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool keepWaiting" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

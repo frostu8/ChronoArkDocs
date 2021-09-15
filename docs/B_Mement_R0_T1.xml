@@ -1,0 +1,81 @@
+<Type Name="B_Mement_R0_T1" FullName="B_Mement_R0_T1">
+  <TypeSignature Language="C#" Value="public class B_Mement_R0_T1 : Buff, IP_SkillUse_User" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit B_Mement_R0_T1 extends  implements IP_SkillUse_User" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Buff</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>IP_SkillUse_User</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public B_Mement_R0_T1 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delay">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator Delay (Skill SkillD, System.Collections.Generic.List&lt;BattleChar&gt; Targets);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.IEnumerator Delay(Skill SkillD, class System.Collections.Generic.List`1&lt;BattleChar&gt; Targets) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SkillD" Type="Skill" />
+        <Parameter Name="Targets" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="SkillD">To be added.</param>
+        <param name="Targets">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkillUse">
+      <MemberSignature Language="C#" Value="public void SkillUse (Skill SkillD, System.Collections.Generic.List&lt;BattleChar&gt; Targets);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SkillUse(Skill SkillD, class System.Collections.Generic.List`1&lt;BattleChar&gt; Targets) cil managed" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:IP_SkillUse_User.SkillUse(Skill,System.Collections.Generic.List{BattleChar})</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SkillD" Type="Skill" />
+        <Parameter Name="Targets" Type="System.Collections.Generic.List&lt;BattleChar&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="SkillD">To be added.</param>
+        <param name="Targets">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,373 @@
+<Type Name="ListExtensions" FullName="GameDataEditor.ListExtensions">
+  <TypeSignature Language="C#" Value="public static class ListExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ListExtensions extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllIndexesOf&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;int&gt; AllIndexesOf&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable, T searchValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;int32&gt; AllIndexesOf&lt;T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable, !!T searchValue) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+        <Parameter Name="searchValue" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <param name="searchValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeepCopy&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;T&gt; DeepCopy&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;!!T&gt; DeepCopy&lt;T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeepCopyMethodInfo">
+      <MemberSignature Language="C#" Value="public static System.Reflection.MethodInfo DeepCopyMethodInfo;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class System.Reflection.MethodInfo DeepCopyMethodInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Reflection.MethodInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dequeue&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T Dequeue&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T Dequeue&lt;T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enqueue&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static void Enqueue&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable, T Input);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Enqueue&lt;T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable, !!T Input) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+        <Parameter Name="Input" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <param name="Input">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyList&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;object&gt;&gt; GetKeyList&lt;T&gt; (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;T&gt;&gt; variable) where T : GameDataEditor.IGDEData;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;object&gt;&gt; GetKeyList&lt;(class GameDataEditor.IGDEData) T&gt;(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;!!T&gt;&gt; variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;System.Object&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>GameDataEditor.IGDEData</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;T&gt;&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyList&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;object&gt; GetKeyList&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable) where T : GameDataEditor.IGDEData;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;object&gt; GetKeyList&lt;(class GameDataEditor.IGDEData) T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>GameDataEditor.IGDEData</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPath&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static object GetPath&lt;T&gt; (this T variable) where T : UnityEngine.Object;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetPath&lt;(class UnityEngine.Object) T&gt;(!!T variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Object</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="T" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPathList&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;object&gt;&gt; GetPathList&lt;T&gt; (this System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;T&gt;&gt; variable) where T : UnityEngine.Object;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;object&gt;&gt; GetPathList&lt;(class UnityEngine.Object) T&gt;(class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;!!T&gt;&gt; variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;System.Object&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Object</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;T&gt;&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPathList&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;object&gt; GetPathList&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable) where T : UnityEngine.Object;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;object&gt; GetPathList&lt;(class UnityEngine.Object) T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Object</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertRandom&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static void InsertRandom&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable, T Input);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void InsertRandom&lt;T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable, !!T Input) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+        <Parameter Name="Input" Type="T" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <param name="Input">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValidIndex&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static bool IsValidIndex&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable, int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsValidIndex&lt;T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable, int32 index) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Random&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T Random&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T Random&lt;T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Random&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;T&gt; Random&lt;T&gt; (this System.Collections.Generic.List&lt;T&gt; variable, int Num);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;!!T&gt; Random&lt;T&gt;(class System.Collections.Generic.List`1&lt;!!T&gt; variable, int32 Num) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="variable" Type="System.Collections.Generic.List&lt;T&gt;" RefType="this" />
+        <Parameter Name="Num" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="variable">To be added.</param>
+        <param name="Num">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

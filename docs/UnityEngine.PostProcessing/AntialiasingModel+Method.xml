@@ -1,0 +1,47 @@
+<Type Name="AntialiasingModel+Method" FullName="UnityEngine.PostProcessing.AntialiasingModel+Method">
+  <TypeSignature Language="C#" Value="public enum AntialiasingModel.Method" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed AntialiasingModel/Method extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Fxaa">
+      <MemberSignature Language="C#" Value="Fxaa" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.AntialiasingModel/Method Fxaa = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.AntialiasingModel+Method</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Taa">
+      <MemberSignature Language="C#" Value="Taa" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityEngine.PostProcessing.AntialiasingModel/Method Taa = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PostProcessing.AntialiasingModel+Method</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

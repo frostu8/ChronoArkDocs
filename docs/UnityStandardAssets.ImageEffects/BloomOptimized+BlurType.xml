@@ -1,0 +1,47 @@
+<Type Name="BloomOptimized+BlurType" FullName="UnityStandardAssets.ImageEffects.BloomOptimized+BlurType">
+  <TypeSignature Language="C#" Value="public enum BloomOptimized.BlurType" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BloomOptimized/BlurType extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Sgx">
+      <MemberSignature Language="C#" Value="Sgx" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.BloomOptimized/BlurType Sgx = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.BloomOptimized+BlurType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="Standard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype UnityStandardAssets.ImageEffects.BloomOptimized/BlurType Standard = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityStandardAssets.ImageEffects.BloomOptimized+BlurType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,107 @@
+<Type Name="BattleChar+GETBUFFTYPE" FullName="BattleChar+GETBUFFTYPE">
+  <TypeSignature Language="C#" Value="public enum BattleChar.GETBUFFTYPE" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BattleChar/GETBUFFTYPE extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ALL">
+      <MemberSignature Language="C#" Value="ALL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal BattleChar/GETBUFFTYPE ALL = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar+GETBUFFTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ALLDEBUFF">
+      <MemberSignature Language="C#" Value="ALLDEBUFF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal BattleChar/GETBUFFTYPE ALLDEBUFF = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar+GETBUFFTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BUFF">
+      <MemberSignature Language="C#" Value="BUFF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal BattleChar/GETBUFFTYPE BUFF = int32(1)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar+GETBUFFTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CC">
+      <MemberSignature Language="C#" Value="CC" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal BattleChar/GETBUFFTYPE CC = int32(4)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar+GETBUFFTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DEBUFF">
+      <MemberSignature Language="C#" Value="DEBUFF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal BattleChar/GETBUFFTYPE DEBUFF = int32(5)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar+GETBUFFTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DOT">
+      <MemberSignature Language="C#" Value="DOT" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal BattleChar/GETBUFFTYPE DOT = int32(3)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>BattleChar+GETBUFFTYPE</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
