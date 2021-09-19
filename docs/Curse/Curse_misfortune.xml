@@ -11,7 +11,8 @@
   <Interfaces />
   <Docs>
     <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <remarks>Ingame name: Misfortune
+Greatly reduces evade and critical hit chance</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
