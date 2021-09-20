@@ -11,7 +11,8 @@
   <Interfaces />
   <Docs>
     <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <remarks>Ingame name: Heal Denial
+Healing received halved</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">

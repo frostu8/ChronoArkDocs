@@ -15,7 +15,8 @@
   </Interfaces>
   <Docs>
     <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <remarks>Ingame name: Lethargy
+Instantly faint when Health reaches 0</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
